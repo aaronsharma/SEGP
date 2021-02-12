@@ -1,10 +1,17 @@
-**list of possible ideas for Software Engineering Project**
+******************************************************************************
+**                                                                          **
+**         list of possible ideas for Software Engineering Project          **
+**                                                                          **
+******************************************************************************
+
 
 Anyone should be able to add an idea down here, so we have a list of ideas
 that we can discuss and choose from - all git time-stamped.
 
-***CAUTION.  LAST YEAR THEY KEPT ADDING NEW REQUIREMENTS TO THE BRIEF AS THEY
-   WENT ALONG, SO BE READY FOR THAT***
+CAUTION.  LAST YEAR THEY KEPT ADDING NEW REQUIREMENTS TO THE BRIEF AS THEY
+WENT ALONG, SO BE READY FOR THAT
+
+*****************************************************************************
 
 BRIEF:	Your central task as a team is to build a fully functioning single
         page application page...  based around the concept of "serious play."
@@ -12,6 +19,7 @@ BRIEF:	Your central task as a team is to build a fully functioning single
         serious issue.
         examples of single page apps at onepagelove.com
 
+****************************************************************************
 
 ISSUE/IDEA:
 
