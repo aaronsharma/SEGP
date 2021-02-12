@@ -1,0 +1,32 @@
+******************************************************************************
+**                                                                          **
+**         list of possible ideas for Software Engineering Project          **
+**                                                                          **
+******************************************************************************
+
+
+Anyone should be able to add an idea down here, so we have a list of ideas
+that we can discuss and choose from - all git time-stamped.
+
+CAUTION.  LAST YEAR THEY KEPT ADDING NEW REQUIREMENTS TO THE BRIEF AS THEY
+WENT ALONG, SO BE READY FOR THAT
+
+*****************************************************************************
+
+BRIEF:	Your central task as a team is to build a fully functioning single
+        page application page...  based around the concept of "serious play."
+        It has to address real-world problem or raise the profile of a 
+        serious issue.
+        examples of single page apps at onepagelove.com
+
+****************************************************************************
+
+ISSUE/IDEA:
+
+1) Plastic/rubbish on beaches    game where crab collects and bins rubbish
+   before the screen gets covered in trash.  
+
+2) Homeless person click & point simulator to understand hardships of homelessness
+	 - like old flash web school/horror games.
+	 - POV on street, options for actions = (1) use money for shelter (2) use money for food etc
+ 
