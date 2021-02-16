@@ -34,4 +34,6 @@ ISSUE/IDEA:
    and how it'd be after accessibility has been factored in (also possible
    to do with hearing issues eg hyperacusis)
     - see https://twitter.com/AutSciPerson/status/1359353595314008065?s=20
- 
+
+4) Model the spread of corona virus with and without restrictions/masks/vaccination could be emojis moving randomly bumping into eachother
+   they turn green when infected, you choose to add someone wearing a mask or not wearing a mask see how it changes the spread.
