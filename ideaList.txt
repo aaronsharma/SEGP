@@ -29,4 +29,9 @@ ISSUE/IDEA:
 2) Homeless person click & point simulator to understand hardships of homelessness
 	 - like old flash web school/horror games.
 	 - POV on street, options for actions = (1) use money for shelter (2) use money for food etc
+
+3) Interactive page that shows what the screen looks like for visually impaired
+   and how it'd be after accessibility has been factored in (also possible
+   to do with hearing issues eg hyperacusis)
+    - see https://twitter.com/AutSciPerson/status/1359353595314008065?s=20
  
