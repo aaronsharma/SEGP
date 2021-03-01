@@ -26,14 +26,24 @@ ISSUE/IDEA:
 1) Plastic/rubbish on beaches    game where crab collects and bins rubbish
    before the screen gets covered in trash.  
 
-2) Homeless person click & point simulator to understand hardships of homelessness
+2) Homeless person click & point simulator to understand hardships of
+   homelessness
 	 - like old flash web school/horror games.
-	 - POV on street, options for actions = (1) use money for shelter (2) use money for food etc
+	 - POV on street, options for actions = (1) use money for shelter
+           (2) use money for food etc
 
 3) Interactive page that shows what the screen looks like for visually impaired
    and how it'd be after accessibility has been factored in (also possible
    to do with hearing issues eg hyperacusis)
     - see https://twitter.com/AutSciPerson/status/1359353595314008065?s=20
 
-4) Model the spread of corona virus with and without restrictions/masks/vaccination could be emojis moving randomly bumping into eachother
-   they turn green when infected, you choose to add someone wearing a mask or not wearing a mask see how it changes the spread.
+4) Model the spread of corona virus with and without
+   restrictions/masks/vaccination could be emojis moving randomly bumping
+   into each other
+   they turn green when infected, you choose to add someone wearing a mask
+   or not wearing a mask see how it changes the spread.
+
+5) A system to encourage cleaning up beaches.  It tracks location, items found,
+   date etc and rewards you with certificates, league tables and bespoke
+   environmental info 
+
