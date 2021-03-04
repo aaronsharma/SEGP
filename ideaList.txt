@@ -47,3 +47,13 @@ ISSUE/IDEA:
    date etc and rewards you with certificates, league tables and bespoke
    environmental info 
 
+6) A heat map for depression/anxiety. Users can share their state and location, 
+   The data cumulates to a heat map of mental wellbeing based on location.
+   Include links for where to seek help but overall just a comforting way to see
+   other people in your area also feel the same.
+
+7) A way to find new music based on location and support local bands while live venues
+   are closed. Allow bands to sign up add a location and share their music. Users would 
+   see a map and be able to scroll around finding bands they might not have heard of from 
+   their local area.
+
