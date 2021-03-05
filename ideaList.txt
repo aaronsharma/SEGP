@@ -57,3 +57,5 @@ ISSUE/IDEA:
    see a map and be able to scroll around finding bands they might not have heard of from 
    their local area.
 
+8) A map that's a little bit like google map which can find restaurant and cafes but not 
+   so much function as google map. Users could upload pictures, write comments and mark them.
