@@ -59,3 +59,8 @@ ISSUE/IDEA:
 
 8) A map that's a little bit like google map which can find restaurant and cafes but not 
    so much function as google map. Users could upload pictures, write comments and mark them.
+
+9) Based on Fenners/Shiruo's ideas - a heat map for things you like, eg sport, hobbies
+   etc.  You can see if there are like minded people nearby - more importantly in current
+   climate local cafes/pubs etc can see this too - and could use that info to hold events
+   to attract people e.g "50 people here like board games, lets have a games night"
