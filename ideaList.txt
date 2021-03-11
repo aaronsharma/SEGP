@@ -64,3 +64,7 @@ ISSUE/IDEA:
    etc.  You can see if there are like minded people nearby - more importantly in current
    climate local cafes/pubs etc can see this too - and could use that info to hold events
    to attract people e.g "50 people here like board games, lets have a games night"
+
+10) Glacial View - app that monitors the computer/device usage and uses that to calculate
+    what damage that would do to the glaciers over time... can you slow (or if you prefer - hasten the
+    end of humanity)...  Can we nudge the user into less device usage? 
