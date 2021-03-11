@@ -55,7 +55,8 @@ ISSUE/IDEA:
 7) A way to find new music based on location and support local bands while live venues
    are closed. Allow bands to sign up add a location and share their music. Users would 
    see a map and be able to scroll around finding bands they might not have heard of from 
-   their local area.
+   their local area. For elements of play a score could be atributed to the number of links
+   a user clicks on/number of bands discovered and a leaderboard included for the top users.
 
 8) A map that's a little bit like google map which can find restaurant and cafes but not 
    so much function as google map. Users could upload pictures, write comments and mark them.
