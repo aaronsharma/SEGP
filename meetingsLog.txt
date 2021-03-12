@@ -36,4 +36,30 @@ This is a record of the Stand-Up Meetings.
 	iv) next meeting to have pros and cons for ideas
 	    these can be done via writing if easier
 
-		
+3) 9/3/21 plan of action discussed during scheduled class
+	
+	A Pros and Cons Google Sheet for each project created
+	Everyone to add to it ahead of meeting on the 12th
+	Using issues etc on GitHub to help project management
+
+4) 12/3/21 discussions on:
+
+	Pros and cons of each project
+	Possibility that decisions will be taken by majority of those in attendance in future
+	Current front-runner is Glacial View for simplicity - project idea isn't
+	evaluated
+	Final decision to be made next Thursday 18th at 11am after lesson when we know more
+	about APIs
+	
+	Glacial View:  enter your power usage (maybe combined eg used laptop 2 hours,
+	5 hours on phone, 1 hour tv etc)... it then generates a score that is represented on a 
+	Y axis graph to show growing/shrinking glacier based on your usage at this rate in a 
+	year/decade/etc.  Can show your historical usage, and maybe compare you to average in a
+	country.  **need to look in to APIs we can use**
+
+	Outstanding To Do: none
+
+	To Do:
+	i) add Google Sheet to github 
+	
+	*** NEXT MEETING 11AM THURSDAY 18th MARCH ***
