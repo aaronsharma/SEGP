@@ -8,7 +8,10 @@
 
 #### Damon in The Martian and therefore love hexadecimal?  Or is it because we 
 
-##### 											         were assigned that desk in class?
+##### 											                         were assigned that desk in class?
+
+
+
 
 
 
@@ -20,21 +23,21 @@
 
 Team (product) name
 
-#### ![](/home/nathes/Desktop/lego head.jpg) 	<u>Aaron Sharma</u> 
+#### ![lego head](https://user-images.githubusercontent.com/61804643/111087464-b9094080-8519-11eb-8fa1-48b680c160bb.jpg) 	<u>Aaron Sharma</u> 
 
 ​								Text about Aaron here
 
-#### ![](/home/nathes/Desktop/lego head.jpg)  	Fenner Richmond
+#### ![lego head](https://user-images.githubusercontent.com/61804643/111087464-b9094080-8519-11eb-8fa1-48b680c160bb.jpg) 	Fenner Richmond
 
 ​								Text about Fenner here
 
-#### ![](/home/nathes/Desktop/lego head.jpg) 	Nathan Cubitt
+#### ![lego head](https://user-images.githubusercontent.com/61804643/111087464-b9094080-8519-11eb-8fa1-48b680c160bb.jpg) 	Nathan Cubitt
 
 ​								Text about Nathan here
 
 
 
-#### ![](/home/nathes/Desktop/lego head.jpg) 	Shiruo Huang
+#### ![lego head](https://user-images.githubusercontent.com/61804643/111087464-b9094080-8519-11eb-8fa1-48b680c160bb.jpg) 	Shiruo Huang
 
 ​								Text about Shiruo here
 
