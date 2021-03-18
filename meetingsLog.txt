@@ -63,3 +63,17 @@ This is a record of the Stand-Up Meetings.
 	i) add Google Sheet to github 
 	
 	*** NEXT MEETING 11AM THURSDAY 18th MARCH ***
+
+5) 18/3/21 discussions on:
+
+	1) Talked with Allison H (TA) regarding scope and viability of Glacier View.  Whilst we 
+	   believe it may be less challenging, it does in fact meet the brief and there is 
+	   potential to expand the tech side with mobile deployment etc.
+
+	Outstanding To Do: upload Google Sheet to github
+
+	To Do:
+	i) notes on data availability/sources etc
+
+	*** DUE TO JAVA ASSIGNMENT NEXT MEETING 11am THURSDAY 25TH MARCH ***
+
