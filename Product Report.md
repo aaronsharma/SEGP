@@ -18,6 +18,8 @@
 <span style='color:red'> 					      What is sure is that some of this text a placeholder to be replaced! </span>
 
 
+nb: git branches admin logs our meetings etc and git branch ideas contains the ideas we've been examining.  Parts of these
+will be rolled into this project report
 
 #### TEAM:
 
