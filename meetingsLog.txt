@@ -77,3 +77,13 @@ This is a record of the Stand-Up Meetings.
 
 	*** DUE TO JAVA ASSIGNMENT NEXT MEETING 11am THURSDAY 25TH MARCH ***
 
+6) 25/03/21 discussions on:
+	
+	1) Talked to Peter B regarding our project idea, keeping the git active, potential sprint timing and
+	   booking a meeting with Allison during easter break.
+	2) Booked a meeting with Allison for the 15th of April.
+
+	To Do:
+	i) Get a working dashboard onto the main/develop branch on github.
+	
+	Next meeting scheduled for 11:00am 06/04/21 after Java extension. 
