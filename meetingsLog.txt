@@ -83,7 +83,27 @@ This is a record of the Stand-Up Meetings.
 	   booking a meeting with Allison during easter break.
 	2) Booked a meeting with Allison for the 15th of April.
 
+	Outstanding To Do: none
+
 	To Do:
 	i) Get a working dashboard onto the main/develop branch on github.
 	
-	Next meeting scheduled for 11:00am 06/04/21 after Java extension. 
+	Next meeting scheduled for 11:00am 06/04/21 after Java extension.
+
+7) 06/04/21 discussions on:
+
+	1) Number of devices we will alow the user to track usage of - and possibility of matched pairs
+	   eg oven versus microwave so that we can offer tips 'if you microwaved more your score
+	   could be better.'
+	2) Do we use actual power usage data (which we have a source for) or set arbitrary numbers (eg oven = 4,
+	   microwave = 2).  the priciple would be the same.
+	3) Do we need to be accurate - it's more of a proof of concept at this moment rather than a lot of
+	   research on actual consumption.  That could be in a later rollout.
+	
+	Outstanding To Do: working dashboard on to main
+
+	To Do:
+	i) new paper prototype
+
+	Next meeting scheduled for 12:00pm 09/04/21
+	Meeting with Allison & Marceli at 10:45am 15/04/21  
