@@ -1,0 +1,12 @@
+how to construct the website now(components, models, styles, events, or pipes that this project need.
+//Users input devices and time
+  Form: for two-way data binding
+  Event: Click and button
+//fetch tartget data through database
+  Server: if database is a form, data could be easily accessed by using index
+//show the changes of glacier
+  Routing&Navigation: display the change in a single-page
+  Animations: improve app and user experience and privide the illution of motion.
+  
+  
+//Styles of Users' input and glacier display interfaces should be beautified.
