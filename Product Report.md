@@ -59,7 +59,7 @@ Team (product) name
 
 - Background literature. Academic research review.
 
-####Gamifying the Environment - Current Games
+#### Gamifying the Environment - Current Games
 
 Using gamification to carry important environmental messages in fun ways that does not preach to the players is a challenge, and it is useful to see how others have approached this process.  While we will focus on the computer game market it is not the sole provider of environmental game soultions.  It is worth considering the wider games market where board games such as Photosynthesis https://www.blueorangegames.com/index.php/games/photosynthesis  and the STEM educational card game GO Extinct! https://www.flinnsci.com/go-extinct/fb2207/ are well worth looking at and playing.
 
