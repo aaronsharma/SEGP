@@ -58,7 +58,30 @@ Team (product) name
 #### Background and Motivation 
 
 - Background literature. Academic research review.
-- State of the art survey. Current industry review.
+
+####Gamifying the Environment - Current Games
+
+Using gamification to carry important environmental messages in fun ways that does not preach to the players is a challenge, and it is useful to see how others have approached this process.  While we will focus on the computer game market it is not the sole provider of environmental game soultions.  It is worth considering the wider games market where board games such as Photosynthesis https://www.blueorangegames.com/index.php/games/photosynthesis  and the STEM educational card game GO Extinct! https://www.flinnsci.com/go-extinct/fb2207/ are well worth looking at and playing.
+
+As ours is a single-page application, we will primarily focus on projects that could be portable to the part of the market we are attempting to reach.  It would be remiss to not mention **Among Ripples**, by Eat Create Sleep https://eatcreatesleep.itch.io/amongripples
+![among](https://user-images.githubusercontent.com/61804643/114318991-5c447a00-9b07-11eb-9c9d-14dbc62e526a.jpeg)
+It's a glorious looking ecosystem management simulator, where the player controls a lake ecosystem.  Developed alongside ecologists to ensure scientific accuracy, its look and scope are beyond our project, but demonstrate the potential that environmental games have.
+
+
+The current largest freeware game is **C-Roads**, from Climate Interactive.  At its core is a sym game where the player represents a country whose environmental policies can be seen affecting the earth https://www.climateinteractive.org/tools/c-roads/  
+
+![C-Roads](https://user-images.githubusercontent.com/61804643/114319048-b0e7f500-9b07-11eb-8d20-2c21e4c75c83.jpg)
+
+C-roads is a serious contender, using MIT research, and all of the modelling and assumptions behind the algorithms are openly available on their website.  here however the focus is on the national or multi-national level, whereas ours will focus on the individual.  In some ways Glacier View and C-roads are bookends of the same genre.
+At this point in the development cycle, we can not attempt to incorporate such a sophisticated model as theirs.  However we can see the advantages in being able to express such sophistication as a draw for the more scientifically orientated user.  Likewise the openness of the algorithms is commendable, and once we move from a relative model it may be wise to follow this path.  What we can take from C-roads is the immediacy of the design, how the graph lines change quickly, giving instance user feedback.
+
+
+On a scale similar to ours is **Forest** https://www.forestapp.cc/
+![forest](https://user-images.githubusercontent.com/61804643/114319026-931a9000-9b07-11eb-8d14-6553b3dc52f0.jpg)
+Here the focus is less environmental and more about focus.  This is an app that gets you to focus your attention on something you want to do by removing the distraction of your phone.  It does this by starting to grow a tree - if you don't use your phone the tree grows, but it dies if you give in to temptation.  Through the use of virtual coins youcan also donate to reforestation work in the real world.
+Similarly to Forest, Glacier View is using the idea of nudging people's actions towards a positive result.  Their tying it to reworld reforestation is a fantastic further step, and we may well consider some form of tangable rreal world effect too.
+
+
 - Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a  worthwhile and important problem and clearly articulate the scope and  challenge of the problem.
 
 
