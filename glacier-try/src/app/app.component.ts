@@ -17,5 +17,14 @@ export class AppComponent {
     console.log(input1)
     console.log(input2)
   }
-
+  /*constructor(public GlacierData:GlacierDataService){
+    let httpUrl = '';
+    axios.getUri.then((res)=>{
+      console.log(res.data)
+    
+    })
+    GlacierData.superStocks().then((res)=>{
+      this.superSrocks = res.
+    })
+  }*/
 }
