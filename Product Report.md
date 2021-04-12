@@ -4,22 +4,30 @@
 
 
 
-### Why Team 16?  Is it numerologic?  Is it because we love Matt 
+Using the United Kingdom as an example:
 
-#### Damon in The Martian and therefore love hexadecimal?  Or is it because we 
+### the AVERAGE household uses 8kWh of electricity a day
+### there are 27.8 MILLION households
 
-##### 											                         were assigned that desk in class?
+### if every household used 0.1kWh less power a day
 
-
-
-
-
-
-<span style='color:red'> 					      What is sure is that some of this text a placeholder to be replaced! </span>
+### in a year it would SAVE equivalent of nearly 600 000 barrels of oil being consumed
 
 
-nb: git branches admin logs our meetings etc and git branch ideas contains the ideas we've been examining.  Parts of these
-will be rolled into this project report
+##### 											                         Sources: Office For National Statistics, MWh to BOE conversion site
+
+
+
+
+
+
+####This is a MSc Computer Science Software Engineering Project for the University of Bristol
+
+
+
+
+nb: git branches admin logs our meetings etc and git branch ideas contains the ideas we've been examining.  Parts of these will be rolled into this project report
+
 
 #### TEAM:
 
@@ -49,6 +57,9 @@ Team (product) name
 
 - Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
 
+![User1](https://user-images.githubusercontent.com/61804643/114400440-dd4c5180-9b99-11eb-903b-b5e60f705dee.jpg)
+
+
 - Project Objectives. The high level goals of the project and the  contribution towards solving the problem. A checklist against which the  team can evaluate their success.
 
 - Video. Short (1-2min) demo video to explain your system (think Kickstarter)
@@ -58,6 +69,8 @@ Team (product) name
 #### Background and Motivation 
 
 - Background literature. Academic research review.
+![User 2](https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg)
+
 
 #### Gamifying the Environment - Current Games
 
@@ -85,6 +98,8 @@ Similarly to Forest, Glacier View is using the idea of nudging people's actions 
 - Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a  worthwhile and important problem and clearly articulate the scope and  challenge of the problem.
 
 
+![User3](https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg)
+
 
 #### System Implementation 
 
@@ -96,6 +111,8 @@ Similarly to Forest, Glacier View is using the idea of nudging people's actions 
 - Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 
 #### 
+![User4](https://user-images.githubusercontent.com/61804643/114400744-2f8d7280-9b9a-11eb-8926-b2f2b3ef0d0f.jpg)
+
 
 #### UX Design 
 
