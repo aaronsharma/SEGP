@@ -1,21 +1,11 @@
-# SEGP
-Software Engineering Group Project
+In Extreme simple interface with no decoration.
+Implemented: 
+1)	Two-way data binding (shown in username)
+2)	Receive data from user
+3)	Root and navigation ( glacier one and two)
 
-#######################################################
-
-
-GLACIER VIEW
-
-An app designed to nudge people's behaviour in a fun way!
-
-By entering specific device usage our app calculates the 
-amount of electricty consumed by the user.  We then display
-that as a Glacier that either melts or grows depending on:
-
-i) usage versus national average (UK for prototype)
-
-ii) individuals historical usage
-
-The app wil give hints at improving the users' score e.g. 
-watching DVD/Blu-ray/tv will score less than streaming 
-due to high environmental use of cloud storage.
+To be done:
+1)	server 
+tried to get access to another website using command” nodemon index.js”, but nodemon seemed not to work well. Tried to solve but failed.
+2)	
+Show different pics while clicking button” glacier one” or “ glacier two”—do help for glaciers showing in upcoming work.
