@@ -107,3 +107,21 @@ This is a record of the Stand-Up Meetings.
 
 	Next meeting scheduled for 12:00pm 09/04/21
 	Meeting with Allison & Marceli at 10:45am 15/04/21  
+	
+	
+8) 09/04/21 dicussions on:
+
+	1) Sprint to start now and ending Weds 14/04/21 ahead of meeting with Allison
+	2) Build a simple graph like representation for then, and improve the look once a working prototype has been devised
+	3) Research elements to be added to product report
+	4) relative versus actual data models
+	5) landing page designs
+	6) new paper prototypes based on discussions above
+	
+	To Do:
+	i) SPRINT SPRINT SPRINT
+	
+	Outstanding To Do: new paper prototype
+	
+	Next meeting scheduled for 1pm Tues 13/04/21
+	Meeting with Allison & Marceli at 10:45am 15/04/21  
