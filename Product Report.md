@@ -17,11 +17,12 @@ Using the United Kingdom as an example:
 ##### 											                         Sources: Office For National Statistics, MWh to BOE conversion site
 
 
+\
+\
+\
 
 
-
-
-####This is a MSc Computer Science Software Engineering Project for the University of Bristol
+This is a MSc Computer Science Software Engineering Project for the University of Bristol
 
 
 
@@ -68,6 +69,8 @@ Team (product) name
 
 #### Background and Motivation 
 
+- \
+- \
 - Background literature. Academic research review.
 ![User 2](https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg)
 
@@ -111,12 +114,27 @@ Similarly to Forest, Glacier View is using the idea of nudging people's actions 
 - Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 
 #### 
+
+
 ![User4](https://user-images.githubusercontent.com/61804643/114400744-2f8d7280-9b9a-11eb-8926-b2f2b3ef0d0f.jpg)
 
 
 #### UX Design 
 
 - Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
+The basic concept of a glacier retreating or expanding depending on the success of the user should be relatively easy to replicate on the computer screen.  The first iteration of the design was determined to be a simple bar graph style graphic.  It would move to the left (i.e. grow) if the user was successful and vice-versa.  It is envisaged that the graph could seemingly animate i.e. redraw itself to display user results over time.
+
+A graph like structure was chosen as it was deemed to be able to demonstrate that all elements of the app were working together.  At it's simplest it could be a single colour graph, but there was scope, as shown below to extend even this simple graphic:
+
+![mixed_graph_2](https://user-images.githubusercontent.com/61804643/114473736-b0755a00-9bec-11eb-960d-8225243c5dbd.jpg)
+
+Here there four options, note only three are displayed and only one would ever have been seen on the screen:
+i) single colour across whole graphic (not displayed)
+ii) single colour for glacier retreating (warm colour choice)
+iii) single colour for glacier expanding (cold colour choice)
+iv) possibility of split colours - warm beyond 8 kWh and cold below it
+
+
 - Identification of interacting users and broader stakeholders.
 - UX approach – design heuristics/approach, design methods (design fiction / heuristics)
 - Understanding of user group (questionnaires / user stories / interviews)
