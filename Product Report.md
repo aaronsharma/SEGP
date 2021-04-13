@@ -76,7 +76,7 @@ Team (product) name
 
 - Background literature. Academic research review.
 
-####The Power Game
+#### The Power Game
 
 The usage of electricity is typically measured in kilo watt hours (kWh) with energy generation being measured in Megawatt hours (MWh) or even Gigawatt hours.  These units of measurement follow the standard lines of 1 GWh = 1000= MWh, and 1 MWh = 1000 kWh, and 1 kWh = 1000 watts, with watts being the usual measurement at the consumer level.  For context 1 kWh (1000 watts) is the equivalent of boiling a kettle ten times, or watching television for seven hours.*
 
@@ -119,6 +119,62 @@ Similarly to Forest, Glacier View is using the idea of nudging people's actions 
 
 
 - Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a  worthwhile and important problem and clearly articulate the scope and  challenge of the problem.
+
+#### The Number Game
+
+At this point in the development cycle it became apparent that the power usage data for each and every device available to the consumer was both unwieldy and complex.  Finding information sources such as The Power Consumption Database and porting their information into a usable format would, it itself, be a full time project.
+
+On the other end, for the user, having the ability to select almost any device manufacturered would be overwhelming and counter productive.  the end user wants snappy fast feedback, and not having to spend time using drop down menus and the like to find a device.
+
+Whilst we may be able to open the scope up at a later date, it was decided that for this round of development, instead of using device accurate data, we would instead use a relative system of numbers that was average for those particular devices.
+Again, to keep the scope small enough to not overwhelm the user, but complex enough to demonstrate the proof of concept we decided to limit the types of devices (see table below);
+
+We had to make some assumptions based on average use.  These are:
+-  Average household electricity use works out at around 8kWh broken down into
+- Cold appliances 63%
+-  Wet appliances 10%
+- Cooking 7%
+-  Lighting 6%
+-  Consumer electronics 4%
+
+As we’re mostly looking at consumer electronics that only gives us 4% of daily use to use as a basis to change people’s energy use.  As such, it made sense to add big ticket items, a washing machine and kettle into the app.
+
+If we remove cold appliances, cooking and lighting from the mix – that’s approximately 75% of the daily average , or 6 kWh,  leaving 2 kWh as our focus of attention. 
+
+To simplify the maths, this 2 kWh will be multiplied by 10 - giving us a target score of 20.  
+
+From that this relative usage table was drawn up, with the devices accorded values that mimic the average for said device and places it within the 20 point score system:
+
+![model_table_1](https://user-images.githubusercontent.com/61804643/114588064-2bd31c00-9c7e-11eb-86dd-ee0c9e7e95f7.png)
+\
+\
+Source cse.org.uk
+\* average use = 1.5 hours so 2kWh * 1.5
+\** average use 5 mins to boil = 3 wWh /12
+\*** rounded up to include routers etc
+\**** averaging out for higher end laptops
+
+
+
+EXAMPLES:
+
+1) Hannah has 5 cups of coffee a day (2.5 x 5 = 12.5). 
+     Plays her PS5 for 5 hours a day on the large tv (5 x 2 x 2 = 20)
+     Uses her phone for about 2 hours (0.25 * 2) = 0.5
+
+TOTAL 33
+Average is 20.  She is above average.
+We could use tips to suggest drinking more water vs coffee.  Maybe play a bit more on the phone than the PS5.
+
+
+2) Dave has 2 cups of tea per day (3 X 2.5 = 7.5)
+    He’s coding Java for 10 hours a day on his laptop (1 X 10 = 10);
+    Unwinds by watching tv for an hour (1 x 2 = 2)
+
+TOTAL 19.5
+Under average – but we could tip him to maybe go for a walk, 10 hours of Java is not good for anyone!
+
+
 
 
 ![User3](https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg)
