@@ -71,8 +71,28 @@ Team (product) name
 
 - \
 - \
-- Background literature. Academic research review.
+
 ![User 2](https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg)
+
+- Background literature. Academic research review.
+
+####The Power Game
+
+The usage of electricity is typically measured in kilo watt hours (kWh) with energy generation being measured in Megawatt hours (MWh) or even Gigawatt hours.  These units of measurement follow the standard lines of 1 GWh = 1000= MWh, and 1 MWh = 1000 kWh, and 1 kWh = 1000 watts, with watts being the usual measurement at the consumer level.  For context 1 kWh (1000 watts) is the equivalent of boiling a kettle ten times, or watching television for seven hours.*
+
+It has been calculated by the Department for Business, Energy & Industrial Strategy that the average household uses approximately 8 kWh of electricity every single day.*  Naturally there is quite a range from low use, small households, to larger high use households, however targetting an average household usage enables us to set a clearly defined target to our users.  You are usually either below or above the average.
+
+The typical usage can be further broken down into demand according to end use*:
+
+![Table_breakdown1](https://user-images.githubusercontent.com/61804643/114583063-1efff980-9c79-11eb-8623-3f07b35eafa6.png)
+
+
+From general consumption is it of course possible to find highly specific power usage data down to the individual device and version number.  Unfortunately, whilst available, this data is usually held by individual manufacturers, and obtaining a comprehensive collection of specifications is more problematic.  However websites such as The Power Consumption Database http://www.tpcdb.com/ have been collating such data into fairly substantial collections (see image below).
+
+![tpcdb](https://user-images.githubusercontent.com/61804643/114583114-2c1ce880-9c79-11eb-96e3-ec42bafde28b.png)
+
+
+* Source: https://www.ovoenergy.com/guides/energy-guides/how-much-electricity-does-a-home-use.html
 
 
 #### Gamifying the Environment - Current Games
