@@ -1,43 +1,22 @@
-<h1>username : {{username}}</h1>
+<div class="interface">
+    <div class="bg">
+      <img src="./assets/images/glacierbg.jpeg" width="99%" alt="">
+    </div>
 
-<div>
-  <label for="">username</label>
-  <input type="text" [(ngModel)]="username">
+    <div class="choose">
+      <span [routerLink]="['/login']" routerLinkActive="router-link-active">login</span>
+      <span [routerLink]="['/visitor']" routerLinkActive="router-link-active">visitor</span> 
+    </div>
 </div>
-<div>
-  <label for="">password</label>
-  <input type="text" [(ngModel)]="password">
-</div>
-
-<button (click)="clickEvent()">Log in</button>
-
-<div>
-  <label for="">Device</label>
-  <input #inputdevice type="text">
-</div>
-
-<div>
-  <label for="">hours</label>
-  <input #inputhrs type="text">
-
-</div>
-
-<button (click)="getContent(inputdevice.value,inputhrs.value)">Log in</button>
-
 
 <style>
   div>span{
-    margin:20px;
+    margin:10px;
     padding: 5px 10px;
-    background-color: skyblue;
+    background-color: transparent;
   }
 </style>
 
-
-<div>
-  <span [routerLink]="['/glacier1']" routerLinkActive="router-link-active">glacier one</span>
-  <span [routerLink]="['/glacier2']" routerLinkActive="router-link-active">glacier two</span> 
-</div>
 
 
 <router-outlet></router-outlet>

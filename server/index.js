@@ -15,6 +15,6 @@ app.get('/api/index',async (req,res)=>{
     res.json(result.data);
 })
 
-app.listen(8000,()=>{
+app.listen(4200,()=>{
     console.log('server start','http://localhost:4200')
 })

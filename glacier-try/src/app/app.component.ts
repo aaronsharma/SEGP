@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,6 +16,7 @@ export class AppComponent {
     console.log(input1)
     console.log(input2)
   }
+
   /*constructor(public GlacierData:GlacierDataService){
     let httpUrl = '';
     axios.getUri.then((res)=>{

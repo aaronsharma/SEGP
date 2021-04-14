@@ -3,21 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule} from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Glacier1Component } from './view/glacier1/glacier1.component';
-import { Glacier2Component } from './view/glacier2/glacier2.component';
-//import axios from 'axios';
-//import {StockListService} from './service/stock-list.service';
+import { UserloginComponent } from './view/userlogin/userlogin.component';
+import { VisitorsComponent } from './view/visitors/visitors.component';
+import { InputdataComponent } from './view/inputdata/inputdata.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    Glacier1Component,
-    Glacier2Component
+    UserloginComponent,
+    VisitorsComponent,
+    InputdataComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
     //StockListService
   ],
   providers: [],

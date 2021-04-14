@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Glacier2Component } from './glacier2.component';
+import { UserloginComponent } from './userlogin.component';
 
-describe('Glacier2Component', () => {
-  let component: Glacier2Component;
-  let fixture: ComponentFixture<Glacier2Component>;
+describe('UserloginComponent', () => {
+  let component: UserloginComponent;
+  let fixture: ComponentFixture<UserloginComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Glacier2Component ]
+      declarations: [ UserloginComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Glacier2Component);
+    fixture = TestBed.createComponent(UserloginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

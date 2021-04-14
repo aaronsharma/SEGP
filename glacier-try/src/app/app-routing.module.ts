@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {Glacier1Component} from './view/glacier1/glacier1.component'
-import {Glacier2Component} from './view/glacier2/glacier2.component'
+import {UserloginComponent} from './view/userlogin/userlogin.component'
+import {VisitorsComponent} from './view/visitors/visitors.component'
 
 const routes: Routes = [
   {
-    path:"glacier1",
-    component:Glacier1Component
+    path:"login",
+    component:UserloginComponent
   },
   {
-    path:"glacier2",
-    component:Glacier2Component
+    path:"visitor",
+    component:VisitorsComponent
   }
 ];
 
