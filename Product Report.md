@@ -85,7 +85,7 @@ Since the early 1900s, many glaciers around the world have melting, a process th
 Human activities are at the root of this increase in the speed of change. Specifically, since the industrial revolution, the growth of carbon dioxide and other greenhouse gas emissions have subsequently raised global temperatures in a process known as the greenhouse effect.  This temperature change is more prominent at the poles, where the retreat of the ice is most pronounced.
 
 <p align="center">
-  <img width="837" height="720" src="https://user-images.githubusercontent.com/61804643/114711346-bcfdcd80-9d26-11eb-83d7-5062ca18d343.png">
+  <img height="360" src="https://user-images.githubusercontent.com/61804643/114711346-bcfdcd80-9d26-11eb-83d7-5062ca18d343.png">
 </p>
 
 <p align="center">
