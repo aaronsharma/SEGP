@@ -1,26 +1,35 @@
 <div class="interface">
   <div class="bg">
-      <img src="./assets/images/glacierbg.jpeg" width="99%" alt="">
+      <img src="./assets/images/glacierbg.jpeg" width="100%" alt="">
   </div>
 
   <h1>Welcome to Glacier View!</h1>
 
   <div  class="datafetch" >
-      <div class="un">
+      <div class="dvc">
           <label for="">Device: </label>
           <input style="background-color:transparent; border:3px,rgb(150, 72, 196);color: antiquewhite;" type="text" [(ngModel)]="Device">
       </div>
-      <div class="pw">
+      <div class="hrs">
           <label for="">Hours : </label>
           <input style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="Hours">
       </div>
-      <button button (click)="clickLinkDB">next</button>
+      <button linkDBbtn (click)="clickLinkDB">next</button>
   </div>
-
 </div>
+
 <style>
-    button{
+  div>span{
+      margin:10px;
+      padding: 5px 10px;
       background-color: transparent;
-      color: aliceblue;
-    }
-  </style>
+  }
+</style>
+<style>
+  button{
+    font-size: 1.3em;
+    border-radius: 8px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+</style>

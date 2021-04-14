@@ -1,7 +1,7 @@
 .interface{
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
     position: absolute;
     width: 1536px;
     height: 870px;
@@ -21,24 +21,29 @@ h1{
     z-index: -1;
 }
 .datafetch{
-    top: 20%;
+    top: 10%;
     position: absolute;
     margin: 3%;
     justify-content: center;
     align-items: center;
-} 
-.un{
+}
+.linkDBbtn{
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.dvc{
     position: relative;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     background:transparent;
     border: none;
 }
-.pw{
+.hrs{
     top: 2%;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     text-align: center;
     background:transparent;

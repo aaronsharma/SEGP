@@ -7,7 +7,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   constructor(private router:Router){  }
-
+  public fontSize : string ="2em";
+  public borderRadius: string = "10px";
   title = 'glacier-try';
   public userchoose:boolean=false;
   public pageswitch:boolean=false;
@@ -19,6 +20,9 @@ export class AppComponent {
   }
   clickBack(){
     this.userchoose=false;
+  }
+  clickRegister(){
+
   }
   clickVisitor(){
     this.pageswitch=true;

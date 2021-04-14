@@ -1,7 +1,7 @@
 .interface{
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
     position: absolute;
     width: 1536px;
     height: 870px;
@@ -10,6 +10,16 @@
     z-index: -2;
 }
 
+h2{
+    font-size: 1em;
+    color: rgb(236, 215, 238);
+    background-color: transparent;
+}
+h3{
+    font-size: 1.2em;
+    color: rgb(230, 206, 231);
+    background-color: transparent;
+}
 .bg{
     position: absolute;
     text-align: center;
@@ -19,22 +29,53 @@
     z-index: -1;
 }
 
+.homepagetext{
+    top: 5%;
+    position: relative;
+    width: 500px;
+    text-align: center;
+}
+
+
+.buttons{
+    top: 25%;
+    position: absolute;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
 .loginbtn{
-    top:20%;
-    background-color:transparent;
-    color: aliceblue;
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.backbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.registrationbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
 }
 
 .visitorbtn{
-    top: 20%;
-    border: rgb(163, 77, 163);
-    margin:10px;
-    padding: 5px 10px;
-    background-color: transparent;
+    top: 10%;
+    margin:20px;
 }
 
 .logincom{
-    top: 20%;
+    top: 10%;
     position: absolute;
     margin: 3%;
     justify-content: center;
@@ -57,9 +98,4 @@
     text-align: center;
     background:transparent;
     border: none;
-}
-
-.log_in{
-    background: transparent;
-    color: aliceblue;
 }
