@@ -7,7 +7,7 @@ var glacierSchema = new Schema({
       type: String,
       required: [true, 'GlacierName is required']
    },
-   startingSize: Float,
+   startingSize: Number,
    user:{
       type: Schema.ObjectId,
       ref:'User'

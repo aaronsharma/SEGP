@@ -14,12 +14,13 @@ export class BarChartComponent implements OnInit {
     scaleShowVerticalLines: false,
     responsive: true
   };
-  public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+  public barChartLabels = ['Glacier'];
   public barChartType = 'bar';
   public barChartLegend = true;
+  public barChartstart = 0;
   public barChartData = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
+    {backgroundColor: 'rgba(0, 0, 255, 0.9)',  data: [100], label: 'Original Size'},
+    {backgroundColor: 'rgba(0, 0, 255, 0.3)',  data: [85], label: 'After Power Usage'}
   ];
 
   ngOnInit() { }
