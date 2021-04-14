@@ -6,12 +6,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'glacier-try';
+  public userchoose:boolean=false;
   username = "";
   password = "";
   clickEvent(){
-    console.log(this.username)
-    console.log(this.password)
+    this.userchoose=true;
   }
+  /*toggleChoose(){
+    this.userchoose = this.userchoose=='log in'
+  }*/
   getContent(input1: any,input2: any){
     console.log(input1)
     console.log(input2)

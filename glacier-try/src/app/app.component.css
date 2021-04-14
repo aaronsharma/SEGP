@@ -19,6 +19,47 @@
     z-index: -1;
 }
 
+.log in to account{
+    background-color:transparent;
+    color: aliceblue;
+}
+
 .choose{
     border: rgb(163, 77, 163);
+    margin:10px;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.logincom{
+    top: 20%;
+    position: absolute;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+} 
+
+.un{
+    position: relative;
+
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    background:transparent;
+    border: none;
+}
+.pw{
+    top: 2%;
+
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background:transparent;
+    border: none;
+}
+
+.log in{
+    background: transparent;
+    color: aliceblue;
 }

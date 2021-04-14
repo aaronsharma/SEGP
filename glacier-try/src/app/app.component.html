@@ -1,21 +1,44 @@
+
+
 <div class="interface">
     <div class="bg">
       <img src="./assets/images/glacierbg.jpeg" width="99%" alt="">
     </div>
 
     <div class="choose">
-      <span [routerLink]="['/login']" routerLinkActive="router-link-active">login</span>
-      <span [routerLink]="['/visitor']" routerLinkActive="router-link-active">visitor</span> 
+      <button (click)="clickEvent()">log in to account</button>
+      <button >browse as a visitor</button>
+    </div>
+
+    
+
+    <div *ngIf="userchoose" class="logincom" >
+       
+      <div class="un">
+          <label for="">username</label>
+          <input style="background-color:transparent; border:3px,rgb(150, 72, 196);color: antiquewhite;" type="text" [(ngModel)]="username">
+      </div>
+
+      <div class="pw">
+          <label for="">password</label>
+          <input style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="password">
+      </div>
+      <button>log in</button>
+    </div>
+
+    <div *ngIf="userchoose">
+      <span [routerLink]="['/{{username}}']" routerLinkActive="router-link-active" ]>log in</span>
+      <style>
+        div>span{
+          margin:10px;
+          padding: 5px 10px;
+          background-color: transparent;
+        }
+      </style>
     </div>
 </div>
 
-<style>
-  div>span{
-    margin:10px;
-    padding: 5px 10px;
-    background-color: transparent;
-  }
-</style>
+
 
 
 
