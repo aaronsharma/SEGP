@@ -4,7 +4,7 @@ import {InputdataComponent} from './view/inputdata/inputdata.component'
 
 const routes: Routes = [
   {
-    path:"getdata",
+    path:"getdata/:name",
     component:InputdataComponent
   }
 ];

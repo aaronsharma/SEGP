@@ -1,12 +1,26 @@
-
-<div>
-    <label for="">Device</label>
-    <input #inputdevice type="text">
+<div class="interface">
+  <div class="bg">
+      <img src="./assets/images/glacierbg.jpeg" width="99%" alt="">
   </div>
-  
-  <div>
-    <label for="">hours</label>
-    <input #inputhrs type="text">
-  
+
+  <h1>Welcome to Glacier View!</h1>
+
+  <div  class="datafetch" >
+      <div class="un">
+          <label for="">Device: </label>
+          <input style="background-color:transparent; border:3px,rgb(150, 72, 196);color: antiquewhite;" type="text" [(ngModel)]="Device">
+      </div>
+      <div class="pw">
+          <label for="">Hours : </label>
+          <input style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="Hours">
+      </div>
+      <button button (click)="clickLinkDB">next</button>
+  </div>
+
 </div>
-  
+<style>
+    button{
+      background-color: transparent;
+      color: aliceblue;
+    }
+  </style>

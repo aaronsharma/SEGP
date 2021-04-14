@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class InputdataComponent implements OnInit {
 
   constructor() { }
-
+  Device = "";
+  Hours="";
   ngOnInit(): void {
+  }
+  clickLinkDB(){
+
   }
 
 }

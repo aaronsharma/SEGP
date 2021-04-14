@@ -2,44 +2,48 @@
 
 <div class="interface">
     <div class="bg">
-      <img src="./assets/images/glacierbg.jpeg" width="99%" alt="">
+        <img src="./assets/images/glacierbg.jpeg" width="99%" alt="">
     </div>
 
-    <div class="choose">
-      <button (click)="clickEvent()">log in to account</button>
-      <button >browse as a visitor</button>
+    <div *ngIf="!userchoose" class="loginbtn">
+        <button  (click)="clickLogin()">log in to account</button>
     </div>
 
+    <div *ngIf="userchoose" class="backbtn">
+        <button  (click)="clickBack()">back</button>
+    </div>
+
+    <div  class="visitorbtn">
+      <button  (click)="clickVisitor()"> browse as a visitor</button>
+    </div>
     
-
     <div *ngIf="userchoose" class="logincom" >
-       
-      <div class="un">
-          <label for="">username</label>
-          <input style="background-color:transparent; border:3px,rgb(150, 72, 196);color: antiquewhite;" type="text" [(ngModel)]="username">
-      </div>
-
-      <div class="pw">
-          <label for="">password</label>
-          <input style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="password">
-      </div>
-      <button>log in</button>
+        <div class="un">
+            <label for="">username: </label>
+            <input style="background-color:transparent; border:3px,rgb(150, 72, 196);color: antiquewhite;" type="text" [(ngModel)]="username">
+        </div>
+        <div class="pw">
+            <label for="">password: </label>
+            <input style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="password">
+        </div>
+        <button button (click)="clickgetData()">log in</button>
     </div>
 
-    <div *ngIf="userchoose">
-      <span [routerLink]="['/{{username}}']" routerLinkActive="router-link-active" ]>log in</span>
-      <style>
-        div>span{
-          margin:10px;
-          padding: 5px 10px;
-          background-color: transparent;
-        }
-      </style>
-    </div>
+
 </div>
 
-
-
-
+<style>
+  div>span{
+      margin:10px;
+      padding: 5px 10px;
+      background-color: transparent;
+  }
+</style>
+<style>
+  button{
+    background-color: transparent;
+    color: aliceblue;
+  }
+</style>
 
 <router-outlet></router-outlet>
