@@ -8,18 +8,11 @@ import {ChartsModule} from 'ng2-charts';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BarChartComponent} from './bar-chart/bar-chart.component';
-import {RadarChartComponent} from './radar-chart/radar-chart.component';
-import {PieChartComponent} from './pie-chart/pie-chart.component';
-import {DoughnutChartComponent} from './doughnut-chart/doughnut-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarChartComponent,
-    RadarChartComponent,
-    PieChartComponent,
-    DoughnutChartComponent,
-
   ],
   imports: [
     BrowserModule,
