@@ -34,7 +34,7 @@ Team (product) name
 
 #### ![lego head](https://user-images.githubusercontent.com/61804643/111087464-b9094080-8519-11eb-8fa1-48b680c160bb.jpg) 	Nathan Cubitt
 
-​								Text about Nathan here
+​								Bringing media industry experience to get the project over the line
 
 
 
