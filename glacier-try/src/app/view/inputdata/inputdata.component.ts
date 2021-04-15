@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-inputdata',
   templateUrl: './inputdata.component.html',
@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputdataComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
   Device = "";
   Hours="";
   ngOnInit(): void {
   }
   clickLinkDB(){
-
+    this.router.navigate(['/chart',this.Device]);
   }
 
 }

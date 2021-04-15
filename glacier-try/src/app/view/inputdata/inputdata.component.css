@@ -28,14 +28,17 @@ h1{
     align-items: center;
 }
 .linkDBbtn{
-    margin: 20px;
-    padding: 5px,10px;
+    margin: 20px;position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .dvc{
     position: relative;
     color: aliceblue;
-    font-size: 17px;
+    font-size: 20px;
+    margin: 10px;
     font-weight: bold;
     background:transparent;
     border: none;
@@ -43,7 +46,8 @@ h1{
 .hrs{
     top: 2%;
     color: aliceblue;
-    font-size: 17px;
+    font-size: 20px;
+    margin: 10px;
     font-weight: bold;
     text-align: center;
     background:transparent;

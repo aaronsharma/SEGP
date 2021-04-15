@@ -1,9 +1,29 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition,
+  // ...
+} from '@angular/animations';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  animations: [
+    trigger('slideMenu', [
+      state('false', style({
+        transform: 'translateX(-250px)'
+      })),
+      state('true', style({
+        transform: 'translateX(0)'
+      })),
+      transition('true <=> false', animate('400ms ease-in-out'))
+    ])
+  ]
 })
 export class AppComponent {
   constructor(private router:Router){  }
