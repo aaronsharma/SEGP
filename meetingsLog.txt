@@ -109,7 +109,7 @@ This is a record of the Stand-Up Meetings.
 	Meeting with Allison & Marceli at 10:45am 15/04/21  
 	
 	
-8) 09/04/21 dicussions on:
+8) 09/04/21 discussions on:
 
 	1) Sprint to start now and ending Weds 14/04/21 ahead of meeting with Allison
 	2) Build a simple graph like representation for then, and improve the look once a working prototype has been devised
@@ -125,3 +125,42 @@ This is a record of the Stand-Up Meetings.
 	
 	Next meeting scheduled for 1pm Tues 13/04/21
 	Meeting with Allison & Marceli at 10:45am 15/04/21  
+
+9) 13/04/21 discussions on
+
+	1) Status of sprint and where we are
+	2) What can be achieved by the 15th
+	
+	To Do:
+	i) SPRINT SPRINT SPRINT
+	
+	meeting With Allison & Marceli at 10:45am 15/04/21
+
+10) 15/04/21 discussions following meeting with Allison and Merceli
+
+	1) connectivity bewteen front and back end
+	2) break report into sections 
+
+	To Do:
+	i) everyone to get to same place in worksheets
+	ii) get a basic version running on github
+	
+	Next meeting 4pm Fri 16/04/21
+
+11) 16/04/21 discussions on
+
+	1) Update on where we are following yesterday
+	2) still working on connectivity
+	3) Project management with Java assignment forthcoming
+	4) Agreement that 1 week extension will be applied for
+	5) Possibility everyone having a sprint next weekend (24/25 April)
+
+	To Do: 
+	i) everyone to get to same place in worksheets
+        ii) get a basic version running on github
+
+	Next Meeting: tbc
+
+
+
+
