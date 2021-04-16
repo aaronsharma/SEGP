@@ -45,11 +45,8 @@ export class AppComponent {
     this.userchoose=false;
   }
   clickRegister(){
-    //this.getData();
+    
   }
-  /*async getData(){
-    let result = await axios.get('http://localhost:4200/api')
-  }*/
   clickVisitor(){
     this.pageswitch=true;
     this.router.navigate(['/getdata',this.visitor]);

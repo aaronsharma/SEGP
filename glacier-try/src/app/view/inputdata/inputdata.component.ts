@@ -1,19 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 //import axios from 'axios';
-import { HttpClient } from "@angular/common/http"
-import { getLocaleDateFormat } from '@angular/common';
+import { HttpClient, HttpParams } from "@angular/common/http"
+
 @Component({
   selector: 'app-inputdata',
   templateUrl: './inputdata.component.html',
   styleUrls: ['./inputdata.component.css']
 })
 export class InputdataComponent implements OnInit {
-
-  constructor(private router:Router, private http:HttpClient) { }
+  public user:any;
+  constructor(private router: ActivatedRoute, private http:HttpClient) {
+    console.log(this);
+    console.log(this.router.params);
+   }
   public barchart:any;
   Device = "";
-  Hours="";
+  Hours:number=0;
 
   clickGetDvc(d:number){
     switch (d) {
@@ -29,9 +32,6 @@ export class InputdataComponent implements OnInit {
       default:
         break;
     }
-    
-    this.getData();
-    //this.router.navigate(['/chart',this.Device]);
   }
    /*async getData(){
    let httpUrl = 'http://localhost:4200//getdata/chart'
@@ -39,13 +39,22 @@ export class InputdataComponent implements OnInit {
     console.log(result.da)
   }*/
   clickLinkDB(){
-      
+    if((this.Hours>0)&&(this.Device!=""))
+      this.getData();
+    //this.router.navigate(['/chart',this.Device]);
   }
   getData(){
     /*let httpUrl = 'https://media.nationalgeographic.org/assets/photos/000/213/21366.jpg'
     this.http.get(httpUrl).subscribe(res=>{ this.barchart = res })*/
   }
+
+  //get user's name thought the link
   ngOnInit(): void {
-    
+    this.router.params.subscribe((params)=>{
+      if(params.name=='visitor')
+        this.user="";
+      else
+      this.user=params.name;
+    });
   }
 }
