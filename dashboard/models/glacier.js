@@ -7,35 +7,19 @@ var glacierSchema = new Schema({
       type: String,
       required: [true, 'GlacierName is required']
    },
-   startingSize: Number,
+   startingSize: {Number,
+      required: [true, 'Starting size is required'],
+      min: [0], 
+      max: [100]
+   },
    user:{
       type: Schema.ObjectId,
       ref:'User'
    },
-   device0:{
+   device:{
       type: Schema.ObjectId,
-      ref:'device0'
+      ref:'device'
    }
-   // device1:{
-   //    type: Schema.ObjectId,
-   //    ref:'device1'
-   // },
-   // device2:{
-   //    type: Schema.ObjectId,
-   //    ref:'device2'
-   // },
-   // device3:{
-   //    type: Schema.ObjectId,
-   //    ref:'device3'
-   // },
-   // device4:{
-   //    type: Schema.ObjectId,
-   //    ref:'device4'
-   // },
-   // device5:{
-   //    type: Schema.ObjectId,
-   //    ref:'device5'
-   // }
 })
 
 const glacier = mongoose.model('glacier', glacierSchema);
