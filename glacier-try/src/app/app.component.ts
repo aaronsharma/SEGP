@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import axios from 'axios';
+import {HttpClientModule} from "@angular/common/http"; 
+
+//import axios from 'axios';
 import {
   trigger,
   state,
@@ -43,11 +45,11 @@ export class AppComponent {
     this.userchoose=false;
   }
   clickRegister(){
-    this.getData();
+    //this.getData();
   }
-  async getData(){
+  /*async getData(){
     let result = await axios.get('http://localhost:4200/api')
-  }
+  }*/
   clickVisitor(){
     this.pageswitch=true;
     this.router.navigate(['/getdata',this.visitor]);

@@ -12,6 +12,7 @@
 
 .nav{
     display: flex;
+    position: fixed;
     width: 1536px;
     height: 38px;
     background-color: rgba(72, 26, 116, 0.74);
@@ -44,35 +45,49 @@ h2{
     z-index: -1;
 }
 .datafetch{
-    top: 20%;
+    display: flex;
+    width: 60%;
+    height: 50%;
+    top: 5%;
     position: absolute;
     margin: 3%;
-    justify-content: center;
     align-items: center;
 }
+
+.dvcchoose{
+    width: 50%;
+    top: 10%;
+    position:absolute;
+    margin: 3%;
+    justify-content: center;
+}
+
+.showdata{
+    width: 50%;
+    left: 40%;
+    position:absolute;
+    margin: 3%;
+    justify-content: center;
+}
+
+.hrs{
+    top: 2%;
+    color: aliceblue;
+    font-size: 40px;
+    margin: 10px;
+    font-weight:bolder;
+    text-align: center;
+    background:transparent;
+    border: none;
+}
+
 .linkDBbtn{
-    margin: 20px;position: absolute;
+    margin: 20px;
+    left: 70%;
+    top: 80%;
+    position: absolute;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.dvc{
-    position: relative;
-    color: aliceblue;
-    font-size: 20px;
-    margin: 10px;
-    font-weight: bold;
-    background:transparent;
-    border: none;
-}
-.hrs{
-    top: 2%;
-    color: aliceblue;
-    font-size: 20px;
-    margin: 10px;
-    font-weight: bold;
-    text-align: center;
-    background:transparent;
-    border: none;
-}

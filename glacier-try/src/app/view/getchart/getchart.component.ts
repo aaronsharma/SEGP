@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import axios from 'axios';
+//import axios from 'axios';
 
 @Component({
   selector: 'app-getchart',
@@ -7,12 +7,13 @@ import axios from 'axios';
   styleUrls: ['./getchart.component.css']
 })
 export class GetchartComponent implements OnInit {
-
-  constructor() { }
-
+  public barchart:any;
+  constructor(){}
   ngOnInit(): void {
+    
   }
-  async getData(){
+
+  /*async getData(){
     let result = await axios.get('http://localhost:4200/')
-  }
+  }*/
 }

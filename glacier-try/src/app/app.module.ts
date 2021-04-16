@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputdataComponent } from './view/inputdata/inputdata.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
-/*import { HttpClientModule } from '@angular/common/http';
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { HttpClientModule } from '@angular/common/http';
+/*import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { GetchartComponent } from './view/getchart/getchart.component';*/
 
 
@@ -14,14 +14,15 @@ import { GetchartComponent } from './view/getchart/getchart.component';*/
   declarations: [
     AppComponent,
     InputdataComponent,
-    /*HttpClientModule,
-    GetchartComponent,*/
+    
+    //GetchartComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule
     //HttpClientInMemoryWebApiModule 
     //StockListService
   ],
