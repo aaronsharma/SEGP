@@ -3,11 +3,17 @@ let axios = require('axios');
 
 let app = express()
 
-app.get('/',(req,res)=>{
-    res.send('apiServer')
+app.use((req,res)=>{
+    res.append('Access-Control-Allow-Origi',"*")
 })
 
-app.get('/api/index',async (req,res)=>{
+app.get('/',(req,res)=>{
+    res.send('apiServer')
+
+    next()
+})
+
+app.get('/api',async (req,res)=>{
     res.append('Access-Control-Allow-Origin',"*")
     res.append('Access-Control-Allow-Content-Type',"*")
     
@@ -18,5 +24,5 @@ app.get('/api/index',async (req,res)=>{
 })
 
 app.listen(4200,()=>{
-    console.log('server start','http://localhost:8080')
+    console.log('server start','http://localhost:4200')
 })

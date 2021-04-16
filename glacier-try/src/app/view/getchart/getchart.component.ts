@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import axios from 'axios';
 
 @Component({
   selector: 'app-getchart',
@@ -11,5 +12,7 @@ export class GetchartComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  async getData(){
+    let result = await axios.get('http://localhost:4200/')
+  }
 }

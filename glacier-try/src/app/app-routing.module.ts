@@ -9,7 +9,7 @@ const routes: Routes = [
     component:InputdataComponent
   },
   {
-    path:"getdata/:name/chart",
+    path:"getdata/:name/chart+device",
     component:GetchartComponent
   }
 ];
