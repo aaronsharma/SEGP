@@ -6,6 +6,8 @@ Implemented:
 Need server to post request and get target data/barchart.
 Get connected with exiting page "https://www.nationalgeographic.org/encyclopedia/glacier/".
 See file 'server/index.js'
+4)replace the input box with 8 buttons to avoid possible error
+5)username could pass from homepage to another page
 
 To be done:
 1)Animation
