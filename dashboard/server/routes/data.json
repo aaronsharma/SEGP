@@ -1,4 +1,4 @@
 {
 	"barChartLabels":["Before","After"],
-	"barChartData":[{"data": [120, 100], "label": "Glacier"}]
+	"barChartData":[{"data": [90, 80], "label": "Glacier"}]
 }

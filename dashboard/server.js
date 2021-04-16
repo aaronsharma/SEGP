@@ -7,18 +7,23 @@ const bodyParser = require('body-parser');
 const db = require('./db');
 // Get our API routes
 const api = require('./server/routes/api');
+const postRoute = require('./server/routes/posts');
+const { post } = require('./server/routes/api');
 
 const app = express();
 
 // Parsers for POST data
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+//app.use(bodyParser.urlencoded({extended: false}));
 
 // Point static path to dist (folder where build files are located)
 app.use(express.static(path.join(__dirname, 'dist/dashboard')));
 
 // Set our api routes
 app.use('/api', api);
+
+// Set posts route
+app.use('/posts', postRoute);
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
@@ -40,3 +45,4 @@ const server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 server.listen(port, () => console.log(`API running on localhost:${port}`));
+

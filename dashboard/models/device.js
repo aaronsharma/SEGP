@@ -1,14 +1,14 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var Schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
-var Schema = new Schema(
+const deviceSchema = new Schema(
   {
-    device_name: {type: String, required: true, maxLength: 100},
+    name: {type: String, required: true, maxLength: 100},
     powerUsage: {type: Number}
   }
 );
 
 
 //Export model
-module.exports = mongoose.model('device', userSchema);
+module.exports = mongoose.model('Device', deviceSchema);
