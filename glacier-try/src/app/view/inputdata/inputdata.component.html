@@ -28,9 +28,11 @@
           <h3>Device: {{Device}}</h3>
           <label for="">Hours : </label>
           <input placeholder="    number only   " style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="Hours">
-      </div>
-
-      <button class="linkDBbtn" (click)="clickLinkDB()">next</button>
+          <button class="linkDBbtn" (click)="clickLinkDB()">show</button>
+      </div>  
+      
+      <img *ngIf="getchart" class="chart" src="./assets/images/example.jpg" width="40%" alt="">
+      
   </div>
   
 </div>
