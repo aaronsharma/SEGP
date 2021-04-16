@@ -2,12 +2,9 @@ In Extreme simple interface with no decoration.
 Implemented: 
 1) page optimization
 2) dynamic routing and page switching
-3) server could work.
-Need server to post request and get target data/barchart.
-Get connected with exiting page "https://www.nationalgeographic.org/encyclopedia/glacier/".
-See file 'server/index.js'
-4)replace the input box with 8 buttons to avoid possible error
-5)username could pass from homepage to another page
+3) server could work(useless though)
+4) replace the input box with 8 buttons to avoid possible error
+5) username could pass from homepage to another page
 
 To be done:
 1)Animation
