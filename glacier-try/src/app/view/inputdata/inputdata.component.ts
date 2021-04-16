@@ -10,7 +10,8 @@ import { HttpClient, HttpParams } from "@angular/common/http"
 })
 export class InputdataComponent implements OnInit {
   public user:any;
-  constructor(private router: ActivatedRoute, private http:HttpClient) {
+  public getchart:boolean=false;
+  constructor(private router: ActivatedRoute,private http:HttpClient) {
     console.log(this);
     console.log(this.router.params);
    }
@@ -33,21 +34,26 @@ export class InputdataComponent implements OnInit {
         break;
     }
   }
+  //tried to get data from webpage but failed
    /*async getData(){
    let httpUrl = 'http://localhost:4200//getdata/chart'
     let result = await axios.get(httpUrl);
     console.log(result.da)
   }*/
   clickLinkDB(){
-    if((this.Hours>0)&&(this.Device!=""))
-      this.getData();
-    //this.router.navigate(['/chart',this.Device]);
+    //only if there are two inputs: device and hours will the server work and show barchart
+    if((this.Hours>0)&&(this.Device!="")){
+      this.getdatafromDB(this.Device,this.Hours);
+      //in inputdata.component.html line 34, only if the 'getchar==true' will the picture shows. 
+      //and I added a pic(not barchart) to see if it functions well, after we get it connected to DB
+      //we could replace it with our barchart 
+      this.getchart=true;
+    }
   }
-  getData(){
-    /*let httpUrl = 'https://media.nationalgeographic.org/assets/photos/000/213/21366.jpg'
-    this.http.get(httpUrl).subscribe(res=>{ this.barchart = res })*/
-  }
+  //unfinished, need to connect with database and get data
+  getdatafromDB(device:string, hrs:number){
 
+  }
   //get user's name thought the link
   ngOnInit(): void {
     this.router.params.subscribe((params)=>{
