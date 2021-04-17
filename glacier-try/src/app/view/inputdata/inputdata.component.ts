@@ -40,6 +40,7 @@ export class InputdataComponent implements OnInit {
     let result = await axios.get(httpUrl);
     console.log(result.da)
   }*/
+  //inputdata.component.html line 31 the button 'show' uses this function
   clickLinkDB(){
     //only if there are two inputs: device and hours will the server work and show barchart
     if((this.Hours>0)&&(this.Device!="")){
