@@ -1,3 +1,9 @@
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg">
+  </p>
+
+
+
 #### System Implementation 
 
 - Stack architecture and system design (e.g. class diagrams, sequence diagrams).
@@ -7,10 +13,7 @@
 - Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 - Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 
-#### 
-<p align="center">
-  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400744-2f8d7280-9b9a-11eb-8926-b2f2b3ef0d0f.jpg">
-</p>                                    
+####                                  
 
 
 #### UX Design 
