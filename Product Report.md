@@ -115,13 +115,13 @@ Abdallah, L.,  El-Shennawy, T.,  Reducing Carbon Dioxide Emissions from Electric
 
 ## For more detail on the project please see:
 
-## [Background & Research](../blob/main/Portfolio/Background%20Research.md)
+## [Background & Research](Portfolio/Background Research.md)
 
-## [System Integration & UX](../blob/main/Portfolio/System%20Integration%20%26%20UX.md)
+## [System Integration & UX](../blob/main/Portfolio/System-Integration-and-UX.md)
 
-## [Sprints & Management](..//blob/main/Portfolio/Sprints%20%26%20Project%20Management.md)
+## [Sprints & Management](../blob/main/Portfolio/Sprints-and-Project-Management.md)
 
-## [Evaluation & Conclusion](../blob/main/Portfolio/Evaluation%20%26%20Conclusion.md)
+## [Evaluation & Conclusion](../blob/main/Portfolio/Evaluation-and-Conclusion.md)
 
-
+Portfolio/Background Research.md
 
