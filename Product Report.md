@@ -115,7 +115,7 @@ Abdallah, L.,  El-Shennawy, T.,  Reducing Carbon Dioxide Emissions from Electric
 
 ## For more detail on the project please see:
 
-## [Background & Research](Portfolio/Background Research.md)
+## [Background & Research](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Background%20Research.md)
 
 ## [System Integration & UX](../blob/main/Portfolio/System-Integration-and-UX.md)
 
