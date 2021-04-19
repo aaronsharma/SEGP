@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400744-2f8d7280-9b9a-11eb-8926-b2f2b3ef0d0f.jpg">
+</p>   
+
 #### Sprints & Project Management 
 
 At the onset of this project the team was investigating various socially important campaigns or messages that could be promoted using a single page app.  During this period extensive use was made of Microsoft Teams as a useful focal point for group meetings. 
