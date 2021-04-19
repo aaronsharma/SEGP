@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg">
+</p>
+
 - Background literature. Academic research review.
 
 #### The Power Game
@@ -106,7 +110,4 @@ TOTAL 19.5
 Under average – but we could tip him to maybe go for a walk, 10 hours of Java is not good for anyone!
 
 
-<p align="center">
-  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg">
-  </p>
 
