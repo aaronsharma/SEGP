@@ -8,7 +8,23 @@
 
 - Stack architecture and system design (e.g. class diagrams, sequence diagrams).
 
+<p align="center">
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/possible_schema.JPG">
+  </p>
+  <p align="center">
+  Picture: Possible Database Schema
+</p>
 
+A simple database schema.
+- user logs in and enters usage in the front end
+- for each device entry it's power usage is looked up in the matrix
+- the sum of that usage is added to usage which is fed to the result with the timestamp
+- the result is then used to generate the daily power usage
+
+
+
+
+/
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/window.JPG">
   </p>
