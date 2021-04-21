@@ -7,8 +7,8 @@ const bodyParser = require('body-parser');
 const db = require('./db');
 // Get our API routes
 const api = require('./server/routes/api');
-const postRoute = require('./server/routes/posts');
-const { post } = require('./server/routes/api');
+const deviceRoute = require('./server/routes/device');
+//const { post } = require('./server/routes/api');
 
 const app = express();
 
@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'dist/dashboard')));
 app.use('/api', api);
 
 // Set posts route
-app.use('/posts', postRoute);
+app.use('/device', deviceRoute);
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
