@@ -46,21 +46,22 @@ Team (product) name
 
 #### Introduction 
 
-Using the United Kingdom as an example:
-
-### the AVERAGE household uses 8kWh of electricity a day
-### there are 27.8 MILLION households
-
-### if every household used 0.1kWh less power a day
-
-### in a year it would SAVE equivalent of nearly 600 000 barrels of oil being consumed
-
-
-##### 											                         Sources: Office For National Statistics, MWh to BOE conversion site
+<p align="center">
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/maincard.JPG">
+</p>
 
 
 
-- Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
+#### Abstract 
+To develop a fun and non-preaching app that engages with the users usage of electricity and gently attempts to nudge the user towards consuming less power.  It should demonstrate that whilst on an individual level these changes are tiny and have very little impact on the user's lifestyle.  However when looked at en masse, the combined numbers of all users can affect some meaningful change.
+
+
+#### Project Objectives
+- Devise a fun single page app
+- Create a realistic model of power usage
+- Develop a database that can manipulate the model
+- Develop a database that can track the users usage over the long term
+- Create fun, instant interactive graphics so the user gets instant gratification and feedback
 
 <p align="center">
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400440-dd4c5180-9b99-11eb-903b-b5e60f705dee.jpg">
@@ -68,7 +69,7 @@ Using the United Kingdom as an example:
 
 
 
-- Project Objectives. The high level goals of the project and the  contribution towards solving the problem. A checklist against which the  team can evaluate their success.
+
 
 - Video. Short (1-2min) demo video to explain your system (think Kickstarter)
 
@@ -100,6 +101,8 @@ The Arctic is now warming twice as fast than anywhere else on earth. The sea ice
 **Approximately 40% of global CO2 emissions are emitted from electricity generation **
 
 One way to help limit future damage is to reduce CO2 emissions, and one way to do that is to decrease our use of electricity.  That is where Glacier View comes in.
+
+**By creating a glacier that represents the electricty power consumption of the individual users, we will use the artifice of demonstrating either the destruction or growth of the ice to give the user a personal interest in modifying their own behaviour.**
 
 
 Sources:
