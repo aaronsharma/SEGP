@@ -22,4 +22,4 @@ due to high environmental use of cloud storage.
 
 ## For more detail on the project please see:
 
-## [Project Report ](https://github.com/aaronsharma/SEGP/blob/main/Product%20Report.md)
+## [Project Report ](https://github.com/aaronsharma/SEGP/blob/main/Project%20Report.md)
