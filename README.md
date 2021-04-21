@@ -19,3 +19,7 @@ ii) individuals historical usage
 The app wil give hints at improving the users' score e.g. 
 watching DVD/Blu-ray/tv will score less than streaming 
 due to high environmental use of cloud storage.
+
+## For more detail on the project please see:
+
+## [Project Report ](https://github.com/aaronsharma/SEGP/blob/main/Product%20Report.md)
