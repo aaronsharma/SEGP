@@ -109,5 +109,14 @@ We could use tips to suggest drinking more water vs coffee.  Maybe play a bit mo
 TOTAL 19.5
 Under average – but we could tip him to maybe go for a walk, 10 hours of Java is not good for anyone!
 
+## Back to:
+
+## [Project Report](https://github.com/aaronsharma/SEGP/blob/main/Project%20Report.md)
+
+
+## Forward to:
+
+## [System Integration & UX](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/System%20Integration%20%26%20UX.md)
+
 
 
