@@ -23,3 +23,13 @@ At this stage some early paper-prototypes were developed to look at the potentia
 - Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
 
 #### 
+
+
+## Back to:
+
+## [System Integration & UX](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/System%20Integration%20%26%20UX.md)
+
+
+## Forward to:
+
+## [Evaluation & Conclusion](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Evaluation%20%26%20Conclusion.md)
