@@ -13,3 +13,8 @@
 - This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)
 - Discussion of Social and Ethical implications of your work.
 - Discussion of future work (in terms of design, development and evaluation)
+
+
+## Back to the beginning:
+
+## [Project Report](https://github.com/aaronsharma/SEGP/blob/main/Project%20Report.md)
