@@ -156,3 +156,14 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
 - Wireframes and interaction flow diagrams for final key subsystems.
 
 #### 
+
+
+
+## Back to:
+
+## [Background & Research](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Background%20Research.md)
+
+
+## Forward to:
+
+## [Sprints & Management](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Sprints%20%26%20Project%20Management.md)
