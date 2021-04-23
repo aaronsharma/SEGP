@@ -23,7 +23,7 @@ A simple database schema.
 
 
 
-
+- Back End - MongoDB - database implementation, the data model that  you developed your back end from (e.g. entity relationship diagrams).
 /
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/window.JPG">
@@ -33,7 +33,15 @@ A simple database schema.
 </p>
 
 
-- Back End - MongoDB - database implementation, the data model that  you developed your back end from (e.g. entity relationship diagrams).
+<p align="center">
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/mongoose_valid.png">
+  </p>
+  <p align="center">
+  Table: Revised power usage matrix with Mongoose Validation variables included
+</p>
+
+Using the Mongoose schems allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be uslikely for anyone to exceed 3 washes.
+
 - Middle Tier - Express, Node, the RESTful API
 - Front End - Angular. Details of implementation.
 - Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
