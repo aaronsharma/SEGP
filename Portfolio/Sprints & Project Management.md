@@ -43,6 +43,41 @@ For more immediate interaction, the team initially used Discord as a means for c
 - Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)
 - Discussion of team roles (specialisation is ok!). A summary of  individual contributions (note: this is for reference, your team will  all receive the same grade!).
 - Documentation of your sprints, including both high level overview,  timeline, and selected highlights that were critical points in the  project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies  for absence etc)
+
+#### Git Hub
+
+We evolved a mixture of fairly sophisticated and yet careful use of the git repo.
+
+<p align="center">
+  <img height="333" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/gitpic.jpg">
+</p>  
+<p align="center">
+  Picture: the github repo as of April 2021
+</p>
+
+  
+
+The sophistication came from the creation of:
+- **Admin branch** which would handle the project administration side of things, meeting logs, briefings etc
+- **Ideas branch** where ideas and concepts could be explored
+
+Neither of these branches would be merged in to anything else, but stand in isolation as in the real world they'd be company level branches, totally removed from any client facing branches.
+
+The careful side is evidenced from each member of the team having their own branch to develop within - and from there to push/merge onto the develop branch.
+
+From there it was a standard pattern of having a build branch for the penultimate step before launching the current working version to main.
+
+It should be noted the **main branch** also holds the project report and the supporting portfolio folder, which contains the contents you are now reading.
+
+When it came to **continuous development** there was some confusion in the group at first. At first it was not certain if the main branch was supposed to contain the project that was being developed in the unit worksheets - and if so, whose project it should be (as we were all working on our own individual projects as part of the unit at that time). Initially, by default, we had the project that Aaron, who created the initial commit/repo was working on.
+Further confusion resulted from the fact that each member was at various stages in the worksheets, and so might undo something another member had worked on.  
+Once we realised that the repo was supposed to have a continuous version that the client could see, we pushed a not fully working version on to Develop - and later replaced that with a version that met the worksheet criteria.
+It may be that the taught element of the unit needs to push more attention on the continuous development aspect, and to offer guidance on how to work on the same taught elements within one repo.
+
+From this confusion however, Shiruo developed the majority of the front end within her branch, with Fenner running the backend development in parallel within his branch. It was then envisaged that these would be merged in Develop before looking at moving to Main.
+
+- Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
+
 - Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
 
 #### 
