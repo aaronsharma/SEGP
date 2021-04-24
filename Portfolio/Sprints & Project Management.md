@@ -19,7 +19,7 @@ In retrospect maybe too much time was spent on this part of the process.  In par
 Eventually it was agreed that a majority decision taken by people at meetings would be implemented, as waiting for a full concensus was causing delay.  
 
 However every member of the group agreed on the Glacier View project as the one to implement.  Whilst it is true that other ideas had generated some excitement from the lecturers/TAs e.g. Breathable, the team decided to take a pragmatic viewpoint.
-Some ideas could be discounted just from the Pros and Cons document [document](https://github.com/aaronsharma/SEGP/blob/ideas/Team%2016%20Pros%20and%20Cons%20-%20Sheet1(2).pdf).  Others had their champions, eg Local Music and the Homeless Sim.  Ultimately the decision process had to take in the following factors:
+Some ideas could be discounted just from the Pros and Cons [document](https://github.com/aaronsharma/SEGP/blob/ideas/Team%2016%20Pros%20and%20Cons%20-%20Sheet1(2).pdf).  Others had their champions, eg Local Music and the Homeless Sim.  Ultimately the decision process had to take in the following factors:
 - The size of the team.  With four people the workload distribution was going to be fairly heavy.
 - The creation of the team, as part of the unit system, meant that we had no self-identifying coders.
 - Geographically we were widespread - not everybody was at Bristol.
