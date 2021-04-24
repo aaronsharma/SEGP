@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Device = require('../../models/Device');
+const Device = require('../../models/device');
 
 //suposed to get back all the posts
 router.get('/', async (req, res) => {
