@@ -8,6 +8,21 @@
 
 #### Conclusion
 
+#### Reflections on Working Practices
+
+From the outset this group has had two fundamental issues, the small size of teh team, and its limited technical depth. Saying that however, we feel that we dreamt big, and our aspirations were sized to match.
+
+Whilst we ultimately had to focus the scope of the chosen project to one that from the outside looked manageable, it can be seen from the planned sprints and stretch goals that this was still a project that we were going to push as hard and as far as possible.
+
+The impact of Covid has previously been discussed within the Project Management section, and to recap here: it limited meetings and group sprint sessions. With electronic communications we were limited to whether or not someone had read the message, and then could they action the message or meet at the time etc.  Comparing this to free movement on the campus, chance meetings, quick chats over coffee breaks etc, it becomes apparent that for group work, with a group that had never met or interacted before, the Covid restrictions were severely damaging.
+
+Looking beyond this, the **technological challenge** was also maybe seriously underestimated.  Not so much the coding, or building of the elements, but of cross-compatibility.
+At times during the first and second sprint we had issues with the docker system on the git repo working for some but not others. Indeed this project had a front end designed on Mac, a back end designed on Windows, with Ubuntu also being used by one of the team.  In restrospect this should have been examined beforehand.  One solution that immediately springs to mind is the use of the **Alpine Linux** OS. Given that the taught component of this course had Alpine as the heart of the docker deployment system, and given that we had to install Alpine on a Virtual Machine for the Software Tools Unit - there was an opportunity for everybody to use their VM Alpine to do all the coding on this project.  That should have led to 100% compatibility, which given issues with node.js modules could have given more time on developing th eproject rather than troubleshooting as to why it was not working.
+
+As to management, with a team of four, any top down management style could be counter-productive. Instead we tried to built a spirit of comradery and unity by regular meetings, making sure everybody had a say in matters, and by holding sprints at the same time - enabling us to reach out and help one another. It was also possible for each of us to explore elements of the project that we were interested in, whether it be front end, back end, design, algorithms etc.
+The lack of numbers however did hamper the depth we could bring  to bare on these challenging aspects. Ideally with a larger group there would be a chance for more than one person to work on front and back end, thereby creating mini-teams who could discuss and spark ideas off of each other, as well as provide more than one approach to any problem. For us, with no self-identifying coder who could maybe be astride one or more of the technical aspects, this meant that those who undertook roles pretty quickly became the groups de facto expert in those fields. Therefore any other group member, whilst being able to look and work on these aspects, couldn't necessarily bring the same knowledge to the issue. A slighhtly larger team would have offset this, and maybe helped lessen the pressure that individuals felt working in realtive technical (if not actual) isolation. We ended up with specialists when we maybe suffered from a lack of a general practioner.
+
+
 - Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).
 - Reflective discussion of the success of the project. How well did  your project fulfil the brief? Were all of your own objectives met
 - This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)
