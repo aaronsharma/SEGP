@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400744-2f8d7280-9b9a-11eb-8926-b2f2b3ef0d0f.jpg">
-</p>   
 
 #### Sprints & Project Management 
 
@@ -27,6 +24,84 @@ Some ideas could be discounted just from the Pros and Cons [document](https://gi
 We therefore took the view that is was better to create a basic project that was self-contained and fairly small in scope, yet could have a big impact.  It was also an idea that once the basic version was working, lended itself to further adaptation and development.  As our confidence and ability gew so to could the scope.
 
 The other ideas, e.g. Breathable were more complex, involving maps, gps positioning, communications etc, any one of which could bog down a small team.   Glacier View built on the workshops that we had been taught as part of the unit, and therefore felt that we could reach a prototype stage sooner, and from thereon in we could develop the look, feel and capabilities of it.
+
+#### Sprints
+
+We planned our development around our four main user stories, each adding a further element that should appeal to that user type.
+
+The **initial sprint** was for Daniel, the environmental scientist who just wanted a fun way to get his message across. This is the type of user who deoesn't want to be pushy, or just wants to do their bit.
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg">
+  </p>
+
+This sprint was first pushed on 9th - 14th April, ahead of a meeting with the TAs.
+It encorporates feedback from the paper prototypes, and a basic front and back end, that will not track usage over time.
+Unfortunately it was not fully completed within that sprint period.
+
+The **second sprint** of 24th April saw the team group together on Teams and through direct communications. At this point the front end and back end where intergrated into the same project, but communications between them were not functioning, so a further sprint was arranged for the 28th April.
+
+#### Stretch Goals
+
+With small team being stretched, it is perhaps better to look at stretch goals - or **future sprints.** These would have targetted the other user stories.
+The **first stretch** goal was for Hannah.
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400440-dd4c5180-9b99-11eb-903b-b5e60f705dee.jpg">
+</p>
+
+Here we have a user who is interested in how their lifestyle impacts on the planet, and would like feedback on how to improve on this. This user would want an account, and to track their usage over time. For such a user we augment the power usage matrix, so that it if certain numbers are reached with individual devices, then lifestle coaching messages will be triggered.
+<p align="center">
+  <img width="590" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/trigger%20table.png">
+</p>  
+<p align="center">
+   Table: Possible trigger scores to activate lifestle messages for Hannah
+  </p>
+
+
+
+These would be stored in the database, and over time we would increase the total number of possible trigger messages so tha tthe user isn't always seeing the same one or two things.
+
+The **second stretch** would be for David.  This is the type of user who wants a lot of data served up to them in useful packages.
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg">
+</p>
+Using the previous example given for Dave, that is :
+
+Dave has 2 cups of tea per day (3 X 2.5 = 7.5) He’s coding Java for 10 hours a day on his laptop (1 X 10 = 10); Unwinds by watching tv for an hour (1 x 2 = 2)
+
+We would break this down by group.  One such possibility is shown in the table below, alongside the collated data and one way of displaying the data.
+
+
+<p align="center">
+  <img src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/dave_data.png">
+</p>  
+<p align="center">
+  Table: Dave's example as broken down into groups
+  </p>
+
+<p align="center">
+  <img src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/dave_pie.png">
+</p>  
+<p align="center">
+  Graphic: an example of how Dave might want to see his daily data displayed
+  </p>
+
+Collating the data into groups would further enhance Hannah's user story, as now we could compare lifestyle elements as well as individual devices. By contrasting for example the totals across her day we might be able to nudge her towards choices that would lower the overall power usage.  However that would involve more devices and group types than we currently have within our system and would be a fairly substantial addition to any algorithm so has not yet been fully conceptualised
+
+For Dave however, we can use time to improve the quality of his data. We could use line charts to show the  weekly, monthly and even annual changes to his consumption.
+We could even track the trend and say that if he continued like this he would save X on power.  Indeed if everyone was like him the country could save X power.
+
+Whilst we could continue with the powe rmetric here, this user may also be interested in **monetarizing** the data. By allowing the data base to track the cost per unit of electricity we can calculate what his bill could be - and also the amount he would save over a year.
+
+
+The **final stretch** goal, for someone who likes to consider themselves alpha, but is absolutely not Jay-Cee, would be a simple chart that ranks users who opted in, by the amount of power they have saved.
+<p align="center">
+  <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400744-2f8d7280-9b9a-11eb-8926-b2f2b3ef0d0f.jpg">
+</p>   
+This adds the final gamification element - the high (in this case, low) score - which enables users to compare themselves against everybody else.
+
+These stretches would have taken us from a simple daily usage app, to one that tracked usage, offered lifestyle advice, gave greater analysis and breakdown of usage wit henhanced advice, looked at financial aspects and finally allowed you to play against other users.
+
+These extra elements would have been accessible by pressing buttons - so that users not interested in those experiences did not have to see them.
 
 #### Communications
 
