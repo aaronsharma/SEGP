@@ -151,9 +151,7 @@ It may be that the taught element of the unit needs to push more attention on th
 
 From this confusion however, Shiruo developed the majority of the front end within her branch, with Fenner running the backend development in parallel within his branch. It was then envisaged that these would be merged in Develop before looking at moving to Main.
 
-- Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
 
-- Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
 
 #### 
 
