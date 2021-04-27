@@ -160,6 +160,13 @@ This is a record of the Stand-Up Meetings.
         ii) get a basic version running on github
 
 	Next Meeting: tbc
+	
+13) 24/04/21 SPRINT SESSION
+
+	1) Arranged via communications during the week and at lectures
+	2) Get front and back end working aka Daniel Sprint
+	
+	Next Sprint: Weds 28/04/21
 
 
 
