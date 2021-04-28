@@ -8,6 +8,7 @@ const db = require('./db');
 // Get our API routes
 const api = require('./server/routes/api');
 const deviceRoute = require('./server/routes/device');
+const userRoute = require('./server/routes/user');
 //const { post } = require('./server/routes/api');
 
 const app = express();
@@ -24,6 +25,9 @@ app.use('/api', api);
 
 // Set posts route
 app.use('/device', deviceRoute);
+
+//set user route
+app.use('/user', userRoute);
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
