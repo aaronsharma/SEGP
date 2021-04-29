@@ -28,6 +28,13 @@ The other ideas, e.g. Breathable were more complex, involving maps, gps position
 #### Sprints
 
 We planned our development around our four main user stories, each adding a further element that should appeal to that user type.
+<p align="center">
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/project%20development%20plan.png">
+  </p>
+  <p align="center">
+  Image: Break down of the four planned development stages, showing how each builds on the other
+  </p>
+
 
 The **initial sprint** was for Daniel, the environmental scientist who just wanted a fun way to get his message across. This is the type of user who deoesn't want to be pushy, or just wants to do their bit.
 <p align="center">
@@ -90,7 +97,7 @@ Collating the data into groups would further enhance Hannah's user story, as now
 For Dave however, we can use time to improve the quality of his data. We could use line charts to show the  weekly, monthly and even annual changes to his consumption.
 We could even track the trend and say that if he continued like this he would save X on power.  Indeed if everyone was like him the country could save X power.
 
-Whilst we could continue with the powe rmetric here, this user may also be interested in **monetarizing** the data. By allowing the data base to track the cost per unit of electricity we can calculate what his bill could be - and also the amount he would save over a year.
+Whilst we could continue with the power metric here, this user may also be interested in **monetarizing** the data. By allowing the data base to track the cost per unit of electricity we can calculate what his bill could be - and also the amount he would save over a year.
 
 
 The **final stretch** goal, for someone who likes to consider themselves alpha, but is absolutely not Jay-Cee, would be a simple chart that ranks users who opted in, by the amount of power they have saved.
