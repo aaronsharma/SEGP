@@ -1,4 +1,4 @@
 {
-	"barChartLabels":["Before","After"],
-	"barChartData":[{"data": [90, 80], "label": "Glacier"}]
+	"barChartLabels":["Your Power Usage","Average Power Usage"],
+	"barChartData":[{"data": [90, 80], "label": "Power Usage"}]
 }
