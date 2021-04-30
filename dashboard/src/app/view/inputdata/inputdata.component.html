@@ -12,27 +12,21 @@
       <h2>Hi,{{user}}</h2>
   </div>
 
-  <div class="datafetch" >
-      <div class="dvcchoose">
-        <button linkDBbtn (click)="clickGetDvc(1)">Wash machine</button>
-        <button linkDBbtn (click)="clickGetDvc(2)">Kettle</button>
-        <button linkDBbtn (click)="clickGetDvc(3)">Television(lcd)</button>
-        <button linkDBbtn (click)="clickGetDvc(4)">Game Console</button>
-        <button linkDBbtn (click)="clickGetDvc(5)">Tablet/hand-held game</button>
-        <button linkDBbtn (click)="clickGetDvc(6)">Mobile phone</button>
-        <button linkDBbtn (click)="clickGetDvc(7)">Laptop PC</button>
-        <button linkDBbtn (click)="clickGetDvc(8)">Desktop PC</button>
-      </div>
-      
+  <div class="datafetch" >      
       <div class="showdata">
           <h3>Device: {{Device}}</h3>
           <label for="">Hours : </label>
-          <input placeholder="    number only   " style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="Hours">
-          <button class="linkDBbtn" (click)="setDeviceUsage(Device,Hours)">save</button>
+          <input [(ngModel)]="Hours" placeholder="    number only   " style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="Hours">
+          <div class="btns">
+            <button class="backbtn" (click)="back( )">back</button>
+            <button class="linkDBbtn" (click)="setDeviceUsage( )">save</button>
+          </div>
+          
+          
       </div>  
-      
-      <img *ngIf="getchart" class="chart" src="./assets/images/example.jpg" width="40%" alt="">
-      
+      <div *ngIf="deviceCount==8" class="results">
+        <app-bar-chart  class="chart" alt=""></app-bar-chart>
+      </div>  
   </div>
   
 </div>
