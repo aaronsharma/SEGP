@@ -82,20 +82,20 @@ h2{
     margin: 25%;
     text-align: center;
 }
-
-.showdata{
-    width: 25%;
-    height: 25%;
-    left: 25%;
-    position:absolute;
-    margin: 2%;
-    justify-content: center;
-}
-.chart{
+.results{
     position: absolute;
     left: 50%;
-    top: 5%;
+    top: 20%;
+    background-color: rgba(243, 225, 242, 0.2);
     justify-content: center;
     vertical-align: middle;
-    
+    width: 600px;
+    height: 300px;
+}
+
+.chart{
+    position: absolute;
+    justify-content: center;
+    vertical-align: middle;
+    width: 600px;
 }
