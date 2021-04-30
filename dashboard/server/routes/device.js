@@ -32,7 +32,7 @@ router.get('/:deviceId', async (req,res) => {
     const device = await Device.findById(req.params.deviceId);
     res.json(device);
     }catch(err){
-        res.json({message:err})
+        res.json({message:err});
     }
 });
 

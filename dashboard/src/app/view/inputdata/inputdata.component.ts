@@ -18,11 +18,20 @@ export class InputdataComponent implements OnInit {
   public barchart:any;
   Device = "";
   Hours:number=0;
+  hours0:number=0;
+  hours1:number=0;
+  hours2:number=0;
+  hours3:number=0;
+  hours4:number=0;
+  hours5:number=0;
+  hours6:number=0;
+  hours7:number=0;
+
 
   clickGetDvc(d:number){
     switch (d) {
       case 0:this.Device='';break;
-      case 1:this.Device='Wash machine';break;
+      case 1:this.Device='Washing machine';break;
       case 2:this.Device='Kettle';break;
       case 3:this.Device='Television(lcd)';break;
       case 4:this.Device='Game Console';break;
@@ -53,8 +62,30 @@ export class InputdataComponent implements OnInit {
   }
   //unfinished, need to connect with database and get data
   getdatafromDB(device:string, hrs:number){
+    
+  }
+
+  setDeviceUsage(device:string, hrs:number){
+    switch(device){
+      case 'Washing machine': this.hours0 = hrs;break;
+      case 'Kettle': this.hours1 = hrs;break;
+      case 'Television(lcd)': this.hours2 = hrs;break;
+      case 'Game Console': this.hours3 = hrs;break;
+      case 'Tablet/hand-held game': this.hours4 = hrs;break;
+      case 'Mobile phone': this.hours5 = hrs;break;
+      case 'Laptop PC': this.hours6 = hrs;break;
+      case 'Desktop PC': this.hours7 = hrs;break;
+      default: break;
+    }
+    this.getchart=true;
+  }
+
+  calcTotalUsage(){
+    const TotalUsage = this.hours0+this.hours1+this.hours2+this.hours3+
+    this.hours4+this.hours5+this.hours6+this.hours7;
 
   }
+
   //get user's name thought the link
   ngOnInit(): void {
     this.router.params.subscribe((params)=>{
