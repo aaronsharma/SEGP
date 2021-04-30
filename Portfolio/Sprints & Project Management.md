@@ -21,7 +21,7 @@ Some ideas could be discounted just from the Pros and Cons [document](https://gi
 - The creation of the team, as part of the unit system, meant that we had no self-identifying coders.
 - Geographically we were widespread - not everybody was at Bristol.
 
-We therefore took the view that is was better to create a basic project that was self-contained and fairly small in scope, yet could have a big impact.  It was also an idea that once the basic version was working, lended itself to further adaptation and development.  As our confidence and ability gew so to could the scope.
+We therefore took the view that is was better to create a basic project that was self-contained and fairly small in scope, yet could have a big impact.  It was also an idea that once the basic version was working, lended itself to further adaptation and development.  As our confidence and ability grew so to could the scope.
 
 The other ideas, e.g. Breathable were more complex, involving maps, gps positioning, communications etc, any one of which could bog down a small team.   Glacier View built on the workshops that we had been taught as part of the unit, and therefore felt that we could reach a prototype stage sooner, and from thereon in we could develop the look, feel and capabilities of it.
 
