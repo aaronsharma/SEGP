@@ -2,7 +2,9 @@
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg">
 </p>
 
-- Background literature. Academic research review.
+**B1 individual power use**
+
+**B2 nudge unit**
 
 #### The Power Game
 
@@ -50,7 +52,7 @@ Here the focus is less environmental and more about focus.  This is an app that 
 Similarly to Forest, Glacier View is using the idea of nudging people's actions towards a positive result.  Their tying it to reworld reforestation is a fantastic further step, and we may well consider some form of tangable rreal world effect too.
 
 
-- Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a  worthwhile and important problem and clearly articulate the scope and  challenge of the problem.
+**B3 Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a  worthwhile and important problem and clearly articulate the scope and  challenge of the problem.**
 
 #### The Number Game
 
