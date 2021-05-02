@@ -122,9 +122,12 @@ Where documents needed joint access, as previously mentioned, Google Sheets and 
 
 For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notificatons prooved too much.  This lead us to the final system employed, a facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
 
-- Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)
-- Discussion of team roles (specialisation is ok!). A summary of  individual contributions (note: this is for reference, your team will  all receive the same grade!).
-- Documentation of your sprints, including both high level overview,  timeline, and selected highlights that were critical points in the  project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies  for absence etc)
+**D1 Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)**
+
+**D2 Discussion of team roles (specialisation is ok!). A summary of  individual contributions (note: this is for reference, your team will  all receive the same grade!).**
+
+**D3 Documentation of your sprints, including both high level overview,  timeline, and selected highlights that were critical points in the  project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies  for absence etc)**
+
 
 #### Git Hub
 
