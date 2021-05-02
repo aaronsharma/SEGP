@@ -160,6 +160,17 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
 </p>
   
   
+  It became apparent that using a bar-chart was a more complicated issue, as it needed to react in the opposite way to that anticapted i.e. a greater device usage value should **shrink** the chart and vice-versa. One solution is to modify the bar-chart so that is has minus figures, allowing it to drop.  Then using the standard 8kWh average equals 20 in our matrix, the algorithm if tweaked thus:
+ 
+ <p align="center">
+  
+  ## 20 - deviceTotal = result
+  
+  </p>
+  
+  
+  now means that someone who uses less than the average eg 10 units gets a result of 20-10 = 10 - the glacier increases.  Someone using more power, e.g. 30 gets a results of 20-30 = -10 and the glacier shrinks.
+  
 
 **C7 Identification of interacting users and broader stakeholders.**
 
