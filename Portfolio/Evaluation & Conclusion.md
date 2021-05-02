@@ -1,8 +1,10 @@
 #### Evaluation 
 
-- Details of how you evaluated your designs (techniques used &  awareness of their limitations). Description of  techniques suitable for your particular design. A timeline of evaluation of your design.
-- Unit testing / Functional testing.
-- User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.
+**E1 Details of how you evaluated your designs (techniques used &  awareness of their limitations). Description of  techniques suitable for your particular design. A timeline of evaluation of your design.**
+
+**E2 Unit testing / Functional testing.**
+
+**E3 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.**
 
 #### 
 
@@ -23,11 +25,15 @@ As to management, with a team of four, any top down management style could be co
 The lack of numbers however did hamper the depth we could bring  to bare on these challenging aspects. Ideally with a larger group there would be a chance for more than one person to work on front and back end, thereby creating mini-teams who could discuss and spark ideas off of each other, as well as provide more than one approach to any problem. For us, with no self-identifying coder who could maybe be astride one or more of the technical aspects, this meant that those who undertook roles pretty quickly became the groups de facto expert in those fields. Therefore any other group member, whilst being able to look and work on these aspects, couldn't necessarily bring the same knowledge to the issue. A slighhtly larger team would have offset this, and maybe helped lessen the pressure that individuals felt working in realtive technical (if not actual) isolation. We ended up with specialists when we maybe suffered from a lack of a general practioner.
 
 
-- Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).
-- Reflective discussion of the success of the project. How well did  your project fulfil the brief? Were all of your own objectives met
-- This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)
-- Discussion of Social and Ethical implications of your work.
-- Discussion of future work (in terms of design, development and evaluation)
+**E4 Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).**
+
+**E5  Reflective discussion of the success of the project. How well did  your project fulfil the brief? Were all of your own objectives met**
+
+**E6  This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)**
+
+**E7 Discussion of Social and Ethical implications of your work.**
+
+**E8 Discussion of future work (in terms of design, development and evaluation)**
 
 
 ## Back to the beginning:
