@@ -6,7 +6,7 @@
 
 #### System Implementation 
 
-- Stack architecture and system design (e.g. class diagrams, sequence diagrams).
+**C1 Stack architecture and system design (e.g. class diagrams, sequence diagrams).**
 
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/possible_schema.JPG">
@@ -23,7 +23,7 @@ A simple database schema.
 
 
 
-- Back End - MongoDB - database implementation, the data model that  you developed your back end from (e.g. entity relationship diagrams).
+**C2 Back End - MongoDB - database implementation, the data model that  you developed your back end from (e.g. entity relationship diagrams).**
 /
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/window.JPG">
@@ -42,10 +42,13 @@ A simple database schema.
 
 Using the Mongoose schems allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be uslikely for anyone to exceed 3 washes.
 
-- Middle Tier - Express, Node, the RESTful API
-- Front End - Angular. Details of implementation.
-- Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
-- Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
+**C3 Middle Tier - Express, Node, the RESTful API**
+
+**C4 Front End - Angular. Details of implementation**
+
+**C5 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!**
+
+**C6 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.**
 
 ####                                  
 
@@ -158,10 +161,13 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
   
   
 
-- Identification of interacting users and broader stakeholders.
-- UX approach – design heuristics/approach, design methods (design fiction / heuristics)
-- Understanding of user group (questionnaires / user stories / interviews)
-- Wireframes and interaction flow diagrams for final key subsystems.
+**C7 Identification of interacting users and broader stakeholders.**
+
+**C8 UX approach – design heuristics/approach, design methods (design fiction / heuristics)**
+
+**C9 Understanding of user group (questionnaires / user stories / interviews)**
+
+**C10 Wireframes and interaction flow diagrams for final key subsystems.**
 
 #### 
 
