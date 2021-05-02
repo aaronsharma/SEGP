@@ -6,7 +6,7 @@
 
 
 
-\
+
 \
 \
 
@@ -71,7 +71,7 @@ To develop a fun and non-preaching app that engages with the users usage of elec
 
 
 
-- Video. Short (1-2min) demo video to explain your system (think Kickstarter)
+**A1 make Video. Short (1-2min) demo video to explain your system (think Kickstarter)**
 
   
 
@@ -82,6 +82,7 @@ To develop a fun and non-preaching app that engages with the users usage of elec
 </p>
 <p align="center">
   Picture: Melting ice-caps from NASA data
+  </p>
 
 Since the early 1900s, many glaciers around the world have melting, a process that has accelerated over recent years, as evident in  the image above, created from NASA imagery.
 Human activities are at the root of this increase in the speed of change. Specifically, since the industrial revolution, the growth of carbon dioxide and other greenhouse gas emissions have subsequently raised global temperatures in a process known as the greenhouse effect.  This temperature change is more prominent at the poles, where the retreat of the ice is most pronounced.
