@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 //import axios from 'axios';
-import { HttpClient, HttpParams } from "@angular/common/http"
+import { HttpClient, HttpParams } from "@angular/common/http";
 
 @Component({
   selector: 'app-inputdata',
@@ -18,7 +18,7 @@ export class InputdataComponent implements OnInit {
   Device = "";
   deviceCount:number=0;
   Hours:number=0;
-
+  TotalUsage:number=0;
   hours0:number=0;
   hours1:number=0;
   hours2:number=0;
@@ -69,8 +69,9 @@ export class InputdataComponent implements OnInit {
     this.Hours=0;
   }
 
+
   calcTotalUsage(){
-    const TotalUsage = this.hours0+this.hours1+this.hours2+this.hours3+
+    this.TotalUsage = this.hours0+this.hours1+this.hours2+this.hours3+
     this.hours4+this.hours5+this.hours6+this.hours7;
 
   }
