@@ -11,9 +11,37 @@ export class DataService {
 
   private REST_API_SERVER = "http://localhost:3000/api";
 
+  private SAVE_FROM_API = "http://localhost:3000/api/save";
+
+  private MONGODB_SERVER = "http://localhost:3000/user"
+
   constructor(private httpClient: HttpClient) { }
 
   public getAll(){
     return this.httpClient.get(this.REST_API_SERVER)
+  }
+
+  public postUser(userName:string, password:string, power_usage: number){
+    return this.httpClient.post(this.REST_API_SERVER,{
+      userName,
+      password,
+      power_usage
+    })
+  }
+
+  public saveUser(userName:string, password:string, power_usage: number){
+    return this.httpClient.post(this.SAVE_FROM_API,{
+      userName,
+      password,
+      power_usage
+    })
+  }
+
+  public postUserToMongo(userName:string, password:string, power_usage: number){
+    return this.httpClient.post(this.MONGODB_SERVER,{
+      userName,
+      password,
+      power_usage
+    })
   }
 }
