@@ -15,7 +15,7 @@ router.get('/', function (req, res) {
 // });
 
 
-router.post('/save', async(req,res) => {
+router.post('/', async(req,res) => {
   const user = new User({
     user_name: req.body.user_name,
     password: req.body.password,

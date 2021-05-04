@@ -21,27 +21,27 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER)
   }
 
-  public postUser(userName:string, password:string, power_usage: number){
+  public postUser(user_name:string, password:string, power_usage: number){
     return this.httpClient.post(this.REST_API_SERVER,{
-      userName,
+      user_name,
       password,
       power_usage
     })
   }
 
-  public saveUser(userName:string, password:string, power_usage: number){
-    return this.httpClient.post(this.SAVE_FROM_API,{
-      userName,
-      password,
-      power_usage
-    })
-  }
+  // public saveUser(userName:string, password:string, power_usage: number){
+  //   return this.httpClient.post(this.SAVE_FROM_API,{
+  //     userName,
+  //     password,
+  //     power_usage
+  //   })
+  // }
 
-  public postUserToMongo(userName:string, password:string, power_usage: number){
-    return this.httpClient.post(this.MONGODB_SERVER,{
-      userName,
-      password,
-      power_usage
-    })
-  }
+  // public postUserToMongo(userName:string, password:string, power_usage: number){
+  //   return this.httpClient.post(this.MONGODB_SERVER,{
+  //     userName,
+  //     password,
+  //     power_usage
+  //   })
+  // }
 }

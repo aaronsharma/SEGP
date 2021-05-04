@@ -82,8 +82,7 @@ export class InputdataComponent implements OnInit {
     this.TotalUsage = +this.hours0 + +this.hours1 + +this.hours2 + +this.hours3 +
     +this.hours4 + +this.hours5 + +this.hours6 + +this.hours7;
     console.log(this.TotalUsage);
-    //this.dataService.postUser?
-    this.dataService.postUserToMongo("visitor", "password", this.TotalUsage);
+    this.dataService.postUser('visitor', 'password', this.TotalUsage);
 
   }
 
