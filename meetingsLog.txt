@@ -168,6 +168,26 @@ This is a record of the Stand-Up Meetings.
 	
 	Next Sprint: Weds 28/04/21
 
+14) 28/04/21 SPRINT SESSION
+
+	Apologies for absence: Nathan (having covid vaccine)
+	1) New front end and back end working, with bar chart
+
+	Next Meeting : Sun 02/05/21
+
+
+15) 02/05/21
+
+	1) Everybody caught up on what happened with Sprint
+	2) Missing sections of report identified and assigned
+	3) Everybody to put in for extension (as per Allison)
+	4) Video will be made in next week
+
+	TO DO:
+	i) complete report
+	
+	Next Meeting: Thur 06/05/21 after class
+
 
 
 
