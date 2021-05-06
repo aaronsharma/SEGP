@@ -4,7 +4,22 @@
 
 **B1 individual power use**
 
-**B2 nudge unit**
+
+#### The Nudge Unit
+
+When we talk about nudging people towards changing their behaviour we are on firmer ground than may be expected.  The use of psychology and behavioural economics to this end has been an important part of both US and UK politics, favoured by both the Cameron and Obama administrations.
+
+
+Conceived in the book, Nudge, written by US economists Richard Thaler and Cass Sunstein, its main proposal was “that instead of ordering people around or leaving them alone to behave in ways damaging to themselves or others, the state can “nudge” them into making better decisions by framing their choices differently.” ( https://www.ft.com/content/571eef16-8d99-11e3-9dbb-00144feab7de )
+
+In the UK the Behavioural Insights Unit (aka the nudge unit), was part of the Government Cabinet Office until being successfully spun off into a private enterprise that is now a multi-national business.
+
+Whilst successes can be measured in specifics, e.g. increasing organ ( https://www.theguardian.com/politics/2018/nov/10/nudge-unit-pushed-way-private-sector-behavioural-insights-team ).  In the Guardian article they talk about “careful design...so that enough marginal consumers drive producers to reformulate their products.”
+
+That is the kind of nudge that Glacier View could be a part of.  By slightly nudging the consumers power usage we also slightly nudge them towards greener technology and living.  Where the consumers go, companies will surely follow.  It is here, that by targetting domestic power usage, we can eventually diverge into changing industrial and commercial mindsets too.
+
+There will of course be early market adopters, e.g. Amazon and its 100,000 electric vehicles and plan to be Carbon Neutral by 2040 https://www.businessinsider.com/amazon-creating-fleet-of-electric-delivery-vehicles-rivian-2020-2?r=US&IR=T  Change is coming, and it’s about nudging people towards the acceptance of the change.
+One thing is for certain, having looked into this, members of our team are changing their electricity usage.  Just one less coffee a day, adds up over 27 million households.
 
 #### The Power Game
 
