@@ -32,6 +32,12 @@ The lack of numbers however did hamper the depth we could bring  to bare on thes
 **E6  This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)**
 
 **E7 Discussion of Social and Ethical implications of your work.**
+####Discussion of Social and Ethical implications of your work
+
+There are few ethical implications or considerations such that a university would apply, to this project.  At its most fundamental level, it would be a single app on a single-user’s computer system, or mobile device etc.
+At the more advanced level there is the option for electricity usage to be tracked over time.  For the user’s benefit this data would be stored on our back-end, however there is no reason not to offer the user the ability to store the information locally.  Of course if they changed devices they would lose their history.
+Storing the data with us, however, is perfectly safe.  The account only requires a unique user name and password.  **The data stored is therefore perfectly anonymised, with no trace back to the end user.**  Even if we offered a rankings table of the best users, only those individuals would know who they were.
+
 
 **E8 Discussion of future work (in terms of design, development and evaluation)**
 
