@@ -26,7 +26,7 @@ how we devised and implemented a git hub structure
 
 At the onset of this project the team was investigating various socially important campaigns or messages that could be promoted using a single page app.  During this period extensive use was made of Microsoft Teams as a useful focal point for group meetings. 
 Initially ideas where logged in an simple  [ideas text](https://github.com/aaronsharma/SEGP/blob/ideas/ideaList.txt) file on the **ideas branch** of the github repo.   At the same time an  **admin branch** was created to hold records of [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt)
-meetings etc, as this was felt to be a good way to keep creative and business aspects apart and easier to manage.
+ etc, as this was felt to be a good way to keep creative and business aspects apart and easier to manage.
 Later Google Sheets was employed to create a pros and cons list for each idea - the advantage Google Sheets gave us was that it was easy to share and edit, and was more private than the university based Microsoft Teams account.
 At this stage some early paper-prototypes were developed to look at the potential of some designs.  
 
