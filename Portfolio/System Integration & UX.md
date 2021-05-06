@@ -24,6 +24,9 @@ A simple database schema.
 
 
 **C2 Back End - MongoDB - database implementation, the data model that  you developed your back end from (e.g. entity relationship diagrams).**
+
+#### Our use of MongoDB, database implementation and the data model  
+
 /
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/window.JPG">
@@ -40,7 +43,11 @@ A simple database schema.
   Table: Revised power usage matrix with Mongoose Validation variables included
 </p>
 
-Using the Mongoose schems allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be uslikely for anyone to exceed 3 washes.
+We set up a Mongo cluster in the cloud from the Mongo website and linked it to our project using environmental variables to supply username and password. These are not provided in this repo for security reasons. The use of a Mongo cluster in the public cloud (in this case AWS) allows us to manage the database remotely from any browser. Mongo unlike SQL enables us to easily change the model and schemas at any time without much hassle. We have changed our model multiple times during development, ultimately landing on the following. 
+We have a **User** schema which contains a username, password (which we will not be using yet but is there for future implementation) a total power usage, which is our custom score based on the user input from the 8 devices and a user score for the 8 devices themselves. In the current prototype we are only making use of the **total power level**. In future the scores for each device can be recorded and used to provide better/more appropriate feedback.
+We also have a schema for **Devices** which contains the device name and power level. We can access this information using the objects ID. This allows us to easily change the devices properties at any time. We can use the objects ID to patch the values similar to how we would update a user’s score once we add user authentication.
+
+Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be uslikely for anyone to exceed 3 washes.
 
 **C3 Middle Tier - Express, Node, the RESTful API**
 
