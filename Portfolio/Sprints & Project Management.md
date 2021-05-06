@@ -1,6 +1,29 @@
 
 #### Sprints & Project Management 
 
+[1. Introduction to Project Management](#1-introduction-to-project-management)
+
+[2. Sprints](#2-sprints)
+the use of User stories in sprints, with a discussion on documentation, timeline and selected highlights
+
+[3. Stretch Goals](#3-stretch-goals)
+how the sprints would have developed over a longer time-scale
+
+[4. Communications](#4-communications)
+the use of communication channels during Covid
+
+[5. Team Roles](#5-team-roles)
+summary of how the project was broken down
+
+[6. Working Methods](6-working-methods)
+use of agile
+
+[7. Git Hub](#7-git-hub)
+how we devised and implemented a git hub structure
+
+
+#### 1. Introduction to Project Management
+
 At the onset of this project the team was investigating various socially important campaigns or messages that could be promoted using a single page app.  During this period extensive use was made of Microsoft Teams as a useful focal point for group meetings. 
 Initially ideas where logged in an simple  [ideas text](https://github.com/aaronsharma/SEGP/blob/ideas/ideaList.txt) file on the **ideas branch** of the github repo.   At the same time an  **admin branch** was created to hold records of [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt)
 meetings etc, as this was felt to be a good way to keep creative and business aspects apart and easier to manage.
@@ -13,7 +36,7 @@ At this stage some early paper-prototypes were developed to look at the potentia
 </p>
 
 In retrospect maybe too much time was spent on this part of the process.  In part this was caused by the small size of the project team, and the difficulty in everybody being available at the same time for discussions.  Whilst the project ideas and concepts were progressing on line (see the ideas branch etc), it was the decision making process that was letting us down.
-Eventually it was agreed that a majority decision taken by people at meetings would be implemented, as waiting for a full concensus was causing delay.  
+Eventually it was agreed that a majority decision taken by people at meetings would be implemented, as waiting for a full consensus  was causing delay.  
 
 However every member of the group agreed on the Glacier View project as the one to implement.  Whilst it is true that other ideas had generated some excitement from the lecturers/TAs e.g. Breathable, the team decided to take a pragmatic viewpoint.
 Some ideas could be discounted just from the Pros and Cons [document](https://github.com/aaronsharma/SEGP/blob/ideas/Team%2016%20Pros%20and%20Cons%20-%20Sheet1(2).pdf).  Others had their champions, eg Local Music and the Homeless Sim.  Ultimately the decision process had to take in the following factors:
@@ -21,11 +44,11 @@ Some ideas could be discounted just from the Pros and Cons [document](https://gi
 - The creation of the team, as part of the unit system, meant that we had no self-identifying coders.
 - Geographically we were widespread - not everybody was at Bristol.
 
-We therefore took the view that is was better to create a basic project that was self-contained and fairly small in scope, yet could have a big impact.  It was also an idea that once the basic version was working, lended itself to further adaptation and development.  As our confidence and ability grew so to could the scope.
+We therefore took the view that is was better to create a basic project that was self-contained and fairly small in scope, yet could have a big impact.  It was also an idea that once the basic version was working, lent itself to further adaptation and development.  As our confidence and ability grew so to could the scope.
 
-The other ideas, e.g. Breathable were more complex, involving maps, gps positioning, communications etc, any one of which could bog down a small team.   Glacier View built on the workshops that we had been taught as part of the unit, and therefore felt that we could reach a prototype stage sooner, and from thereon in we could develop the look, feel and capabilities of it.
+The other ideas, e.g. Breathable were more complex, involving maps, GPS positioning, communications etc, any one of which could bog down a small team.   Glacier View built on the workshops that we had been taught as part of the unit, and therefore felt that we could reach a prototype stage sooner, and from thereon in we could develop the look, feel and capabilities of it.
 
-#### Sprints
+#### 2. Sprints
 
 We planned our development around our four main user stories, each adding a further element that should appeal to that user type.
 <p align="center">
@@ -36,18 +59,20 @@ We planned our development around our four main user stories, each adding a furt
   </p>
 
 
-The **initial sprint** was for Daniel, the environmental scientist who just wanted a fun way to get his message across. This is the type of user who deoesn't want to be pushy, or just wants to do their bit.
+The **initial sprint** was for Daniel, the environmental scientist who just wanted a fun way to get his message across. This is the type of user who doesn't want to be pushy, or just wants to do their bit.
 <p align="center">
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg">
   </p>
 
 This sprint was first pushed on 9th - 14th April, ahead of a meeting with the TAs.
-It encorporates feedback from the paper prototypes, and a basic front and back end, that will not track usage over time.
+It incorporates feedback from the paper prototypes, and a basic front and back end, that will not track usage over time.
 Unfortunately it was not fully completed within that sprint period.
 
 The **second sprint** of 24th April saw the team group together on Teams and through direct communications. At this point the front end and back end where intergrated into the same project, but communications between them were not functioning, so a further sprint was arranged for the 28th April.
 
-#### Stretch Goals
+The **third sprint** of 28th April saw the hooking up of the front and back end, for a working proof of concept, which gives us a solid foundation upon which to build. Unfortunately due to side-effects from the AstraZeneca vaccine Nathan was unable to attend. 
+
+#### 3. Stretch Goals
 
 With small team being stretched, it is perhaps better to look at stretch goals - or **future sprints.** These would have targetted the other user stories.
 The **first stretch** goal was for Hannah.
@@ -55,17 +80,17 @@ The **first stretch** goal was for Hannah.
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400440-dd4c5180-9b99-11eb-903b-b5e60f705dee.jpg">
 </p>
 
-Here we have a user who is interested in how their lifestyle impacts on the planet, and would like feedback on how to improve on this. This user would want an account, and to track their usage over time. For such a user we augment the power usage matrix, so that it if certain numbers are reached with individual devices, then lifestle coaching messages will be triggered.
+Here we have a user who is interested in how their lifestyle impacts on the planet, and would like feedback on how to improve on this. This user would want an account, and to track their usage over time. For such a user we augment the power usage matrix, so that it if certain numbers are reached with individual devices, then lifestyle coaching messages will be triggered.
 <p align="center">
   <img width="590" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/trigger%20table.png">
 </p>  
 <p align="center">
-   Table: Possible trigger scores to activate lifestle messages for Hannah
+   Table: Possible trigger scores to activate lifestyle messages for Hannah
   </p>
 
 
 
-These would be stored in the database, and over time we would increase the total number of possible trigger messages so tha tthe user isn't always seeing the same one or two things.
+These would be stored in the database, and over time we would increase the total number of possible trigger messages so that the user isn't always seeing the same one or two things.
 
 The **second stretch** would be for David.  This is the type of user who wants a lot of data served up to them in useful packages.
 <p align="center">
@@ -97,7 +122,7 @@ Collating the data into groups would further enhance Hannah's user story, as now
 For Dave however, we can use time to improve the quality of his data. We could use line charts to show the  weekly, monthly and even annual changes to his consumption.
 We could even track the trend and say that if he continued like this he would save X on power.  Indeed if everyone was like him the country could save X power.
 
-Whilst we could continue with the power metric here, this user may also be interested in **monetarizing** the data. By allowing the data base to track the cost per unit of electricity we can calculate what his bill could be - and also the amount he would save over a year.
+Whilst we could continue with the power metric here, this user may also be interested in **monetizing** the data. By allowing the data base to track the cost per unit of electricity we can calculate what his bill could be - and also the amount he would save over a year.
 
 
 The **final stretch** goal, for someone who likes to consider themselves alpha, but is absolutely not Jay-Cee, would be a simple chart that ranks users who opted in, by the amount of power they have saved.
@@ -110,26 +135,39 @@ These stretches would have taken us from a simple daily usage app, to one that t
 
 These extra elements would have been accessible by pressing buttons - so that users not interested in those experiences did not have to see them.
 
-#### Communications
+#### 4. Communications
 
-Of greatest impact, caused by the Covid restrictions in force throughout the country, was the geographical spread of the team members.  Communicatios were good, but having everybody available at the same time did prove somewhat harder.  In the previous pre-Covid year, Nathan had been part of the same unit.  Then communications were greatly enhanced and easier - you would see team members almost daily, could discuss elements of the projects in beaks between lectures, and when it came to sprints and brainstorming, we would book rooms within the university so we had a focal point where we could all meet and work together. Arguably this made the whole process easier.
+Of greatest impact, caused by the Covid restrictions in force throughout the country, was the geographical spread of the team members.  Communications were good, but having everybody available at the same time did prove somewhat harder.  In the previous pre-Covid year, Nathan had been part of the same unit.  Then communications were greatly enhanced and easier - you would see team members almost daily, could discuss elements of the projects in beaks between lectures, and when it came to sprints and brainstorming, we would book rooms within the university so we had a focal point where we could all meet and work together. Arguably this made the whole process easier.
 
 In lieu of this we had to exploit as fully as possible the online alternatives.
-The group made most use of Microsoft Teams, as this was povided by the university and made an easy to use central meeting place. However as the Teams environment was available to view for anyone on the unit, we did not use that for sending files.  Here email was the priority, with the files also being stored on the Github. As previously discussed we had an Admin and Ideas branches on the repo for these purposes.
+The group made most use of Microsoft Teams, as this was provided by the university and made an easy to use central meeting place. However as the Teams environment was available to view for anyone on the unit, we did not use that for sending files.  Here email was the priority, with the files also being stored on the Github. As previously discussed we had an Admin and Ideas branches on the repo for these purposes.
 Email was preferable as it was direct and wouldn't involve each team member needing to git pull.
 
 Where documents needed joint access, as previously mentioned, Google Sheets and Docs were used, with the final versions being stored on the repo.
 
-For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notificatons prooved too much.  This lead us to the final system employed, a facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
+For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notifications proved too much.  This lead us to the final system employed, a facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
 
 **D1 Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)**
 
 **D2 Discussion of team roles (specialisation is ok!). A summary of  individual contributions (note: this is for reference, your team will  all receive the same grade!).**
+#### 5 .Team Roles
+
+With a small team it was essential that the project was broken down into manageable sections, so a degree of specialisation was required. However, every member had input across the board, because by it's very nature, the project was somewhat holistic with every element feeding off and contributing to, other aspects.
+Broadly speaking however the roles within the teams were:
+
+- **Aaron: role**
+- **Fenner: role**
+- **Nathan: Project management**
+Nathan created the admin and ideas ranches to keep those elements separate from client facing branches. Part of this was an early adoption of a [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt) log. Management mainly consisted on keeping everybody informed of decisions and plans and attempting a schedule.
+He also took lead on research, algorithm design, writing and creating multi-media images/videos etc.
+- **Shiruo: role**
 
 **D3 Documentation of your sprints, including both high level overview,  timeline, and selected highlights that were critical points in the  project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies  for absence etc)**
 
+#### 6. Working Methods
+**D1 Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)**
 
-#### Git Hub
+#### 7. Git Hub
 
 We evolved a mixture of fairly sophisticated and yet careful use of the git repo.
 
