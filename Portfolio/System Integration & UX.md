@@ -44,6 +44,7 @@ A simple database schema.
 </p>
 
 We set up a Mongo cluster in the cloud from the Mongo website and linked it to our project using environmental variables to supply username and password. These are not provided in this repo for security reasons. The use of a Mongo cluster in the public cloud (in this case AWS) allows us to manage the database remotely from any browser. Mongo unlike SQL enables us to easily change the model and schemas at any time without much hassle. We have changed our model multiple times during development, ultimately landing on the following. 
+
 We have a **User** schema which contains a username, password (which we will not be using yet but is there for future implementation) a total power usage, which is our custom score based on the user input from the 8 devices and a user score for the 8 devices themselves. In the current prototype we are only making use of the **total power level**. In future the scores for each device can be recorded and used to provide better/more appropriate feedback.
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/exampleUserInDb.JPG">
