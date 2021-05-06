@@ -16,7 +16,7 @@ i) usage versus national average (UK for prototype)
 
 ii) individuals historical usage
 
-The app wil give hints at improving the users' score e.g. 
+The app will give hints at improving the users' score e.g. 
 watching DVD/Blu-ray/tv will score less than streaming 
 due to high environmental use of cloud storage.
 
