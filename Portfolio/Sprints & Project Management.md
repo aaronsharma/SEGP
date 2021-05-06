@@ -160,7 +160,8 @@ Broadly speaking however the roles within the teams were:
 - **Nathan: Project management**
 Nathan created the admin and ideas ranches to keep those elements separate from client facing branches. Part of this was an early adoption of a [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt) log. Management mainly consisted on keeping everybody informed of decisions and plans and attempting a schedule.
 He also took lead on research, algorithm design, writing and creating multi-media images/videos etc.
-- **Shiruo: role**
+- **Shiruo: Front-end development**
+Shiruo was responsible for front-end development. The first part was the preliminary design and development of front-end. The second part was modifing the front-end interface and components function according to the requirements of project leader and back-end developer in the middle of project. The final work was to help the combination of front and back end codes.
 
 **D3 Documentation of your sprints, including both high level overview,  timeline, and selected highlights that were critical points in the  project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies  for absence etc)**
 
