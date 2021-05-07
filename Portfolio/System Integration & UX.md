@@ -58,7 +58,7 @@ Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereb
 
 **C3 Middle Tier - Express, Node, the RESTful API**
 
-**C4 Front End - Angular. Details of implementation**
+**C4 Front End - Angular. UI implementation (e.g. development of components, like format, navigation and router)**
 
 **C5 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!**
 
