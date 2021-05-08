@@ -64,7 +64,13 @@ Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereb
 
 **C6 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.**
 
-####                                  
+#### Deployment details, Docker, continuous integration and deployment
+
+We used docker to avoid the headaches of getting our application running on everyone’s individual system. This was useful since we were not all running the same operating system. Using a Docker container allows us, with the help of a Dockerfile, to standardize the runtime environment for our app across all our different platforms. Meaning we did not have to worry about everyone having all the necessary dependencies installed to run the app, as the Dockerfile included in the project dashboard takes care of this.
+
+Using Docker didn’t come without it’s own issues however. Getting it all working in the first place was very time consuming and this would be an area we would look to improve on in future. We spent a lot of time troubleshooting individual problems which really slowed down our early development, as we could not collaborate fully until everyone was able to run the app on their individual device. In pre-covid times this would have been less of an issue as we could have had meetings in person, and all cooperated around one machine, but this was just not possible for us in early 2021. 
+
+For example, a thinkpad X230 running Ubuntu 18.04 LTS  would constantly use the docker cache, and would need to be forced to rebuild using a system of trashing the caches with either ‘docker system prune –all –volumes’ or ‘docker-compose build –no—cache.’  This could lead to very long rebuild times for team members with limited, e.g. non fibre, broadband connections.  In retrospect using the university lab systems through remote access would have been preferable to solve this problem, as at least the rebuild would have benefited from the university’s connection speeds.
 
 
 #### UX Design 
