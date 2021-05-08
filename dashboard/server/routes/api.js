@@ -10,5 +10,23 @@ router.get('/', function (req, res) {
   res.send(JSON.stringify(data));
 });
 
+// router.post('/', function (req, res) {
+  
+// });
+
+
+router.post('/', async(req,res) => {
+  const user = new User({
+    user_name: req.body.user_name,
+    password: req.body.password,
+    powerUsage: req.body.powerUsage,
+});
+  try{
+    const savedUser = await user.save()
+        res.json(savedUser);
+    } catch(err) {
+        res.json({ message: err});
+    }
+})
 
 module.exports = router;

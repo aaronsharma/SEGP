@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 //import axios from 'axios';
-import { HttpClient, HttpParams } from "@angular/common/http"
+import { HttpClient, HttpParams } from "@angular/common/http";
+import { DataService } from '../../data.service';
+
 
 @Component({
   selector: 'app-inputdata',
@@ -10,7 +12,7 @@ import { HttpClient, HttpParams } from "@angular/common/http"
 })
 export class InputdataComponent implements OnInit {
   public user:any;
-  constructor(private router: ActivatedRoute,private http:HttpClient) {
+  constructor(private router: ActivatedRoute,private http:HttpClient,private dataService: DataService) {
     console.log(this);
     console.log(this.router.params);
    }
@@ -18,7 +20,7 @@ export class InputdataComponent implements OnInit {
   Device = "";
   deviceCount:number=0;
   Hours:number=0;
-
+  TotalUsage:number=0;
   hours0:number=0;
   hours1:number=0;
   hours2:number=0;
@@ -66,16 +68,25 @@ export class InputdataComponent implements OnInit {
     }
     if(this.deviceCount<8)
       this.deviceCount++;
+      console.log('increment device');
     this.Hours=0;
+    if(this.deviceCount==8){
+      this.calcTotalUsage();
+      console.log('calc total usage');
+    }
   }
+
+
 
   calcTotalUsage(){
-    const TotalUsage = this.hours0+this.hours1+this.hours2+this.hours3+
-    this.hours4+this.hours5+this.hours6+this.hours7;
+    this.TotalUsage = 20 - (+this.hours0 + +this.hours1 + +this.hours2 + +this.hours3 +
+    +this.hours4 + +this.hours5 + +this.hours6 + +this.hours7);
+    console.log(this.TotalUsage);
+    this.dataService.postUser('visitor', 'password', this.TotalUsage);
 
   }
 
-  //get user's name thought the link
+  
   ngOnInit(): void {
     this.clickGetDvc();
     this.router.params.subscribe((params)=>{
