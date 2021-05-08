@@ -156,7 +156,8 @@ With a small team it was essential that the project was broken down into managea
 Broadly speaking however the roles within the teams were:
 
 - **Aaron: role**
-- **Fenner: role**
+- **Fenner: Back-end development**
+-Fenner was responsible for getting the dashboard up and running integrating Docker and MongoDB. After this Fenner’s role shifted to merging front and back end with assistance and communication from the front-end developer. Finally to instructing and helping to implement changes to the front-end, that needed to be made to simplify the UI and improve the flow of the site as a whole.
 - **Nathan: Project management**
 Nathan created the admin and ideas ranches to keep those elements separate from client facing branches. Part of this was an early adoption of a [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt) log. Management mainly consisted on keeping everybody informed of decisions and plans and attempting a schedule.
 He also took lead on research, algorithm design, writing and creating multi-media images/videos etc.
