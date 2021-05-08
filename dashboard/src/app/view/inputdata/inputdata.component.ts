@@ -79,8 +79,8 @@ export class InputdataComponent implements OnInit {
 
 
   calcTotalUsage(){
-    this.TotalUsage = +this.hours0 + +this.hours1 + +this.hours2 + +this.hours3 +
-    +this.hours4 + +this.hours5 + +this.hours6 + +this.hours7;
+    this.TotalUsage = 20 - (+this.hours0 + +this.hours1 + +this.hours2 + +this.hours3 +
+    +this.hours4 + +this.hours5 + +this.hours6 + +this.hours7);
     console.log(this.TotalUsage);
     this.dataService.postUser('visitor', 'password', this.TotalUsage);
 
