@@ -62,8 +62,6 @@ Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereb
 
 **C5 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!**
 
-**C6 Deployment details (including Docker), include how you have been achieving continuous integration and deployment.**
-
 #### Deployment details, Docker, continuous integration and deployment
 
 We used docker to avoid the headaches of getting our application running on everyone’s individual system. This was useful since we were not all running the same operating system. Using a Docker container allows us, with the help of a Dockerfile, to standardize the runtime environment for our app across all our different platforms. Meaning we did not have to worry about everyone having all the necessary dependencies installed to run the app, as the Dockerfile included in the project dashboard takes care of this.
