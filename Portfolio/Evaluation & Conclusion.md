@@ -3,6 +3,7 @@
 **E1 Details of how you evaluated your designs (techniques used &  awareness of their limitations). Description of  techniques suitable for your particular design. A timeline of evaluation of your design.**
 
 **E2 Unit testing / Functional testing.**
+
 Since we only have a prototype there is not much testing we can do. However we have included a route for database testing purposes at localhost:3000/user where a get request will show all User objects in the database. Using Postman or an alternative piece of software one is also able to add a User by sending a Post request or update/delete/get a specific user using a patch/delete/get request at /user/:userId. This was only included to test saving, updating and deleting data in the database and would be removed on full deployment.
 
 **E3 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.**
