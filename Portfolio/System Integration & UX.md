@@ -58,7 +58,7 @@ Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereb
 
 **C3 Middle Tier - Express, Node, the RESTful API**
 
-When it came to linking the front and back-end together the modular nature of Angular and Express made this much simpler than it could have been. Fenner was able to import Shirou’s User interface and Input-data component into the dashboard with no trouble. Our only issue that took some time to resolve was how we would pass the data between components and how we would send the user input to the database. We ended up using a method in our data service to send a post request to our API which would then save the data to the database.  At the time of writing this is not working but we cannot figure out why. So, for now the Bar-chart shows temporary values to demonstrate how the website would work once this is integrated.
+When it came to linking the front and back-end together the modular nature of Angular and Express made this much simpler than it could have been. Fenner was able to import Shiruo’s User interface and Input-data component into the dashboard with no trouble. Our only issue that took some time to resolve was how we would pass the data between components and how we would send the user input to the database. We ended up using a method in our data service to send a post request to our API which would then save the data to the database.  At the time of writing this is not working but we cannot figure out why. So, for now the Bar-chart shows temporary values to demonstrate how the website would work once this is integrated.
 
 **C4 Front End - Angular. UI implementation (e.g. development of components, like format, navigation and router)**
 
