@@ -24,6 +24,10 @@ The evaluation itself was on a laptop, so in some respects that technological re
 
 For back-end/Database testing we have included a route at localhost:3000/user where a get request will show all User objects in the database. Using Postman or an alternative piece of software one is also able to add a User by sending a Post request. Using the route /user/:userId where Id is the Id of the specific User object one is able to update, delete or get a specific user using a patch, delete or get request respectively. This was only included to test saving, updating and deleting data in the database and would be removed on full deployment.
 
+<p align="center">
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Postman.JPG">
+</p>
+
 **E3 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.**
 
 #### 
