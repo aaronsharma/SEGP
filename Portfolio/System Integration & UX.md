@@ -70,7 +70,7 @@ When it came to linking the front and back-end together the modular nature of An
 
 The initial thought of homepage was a simple but well-functioned one that enabled the users to choose to log in or not. And to get start with a web, a extreme simple interface with no decorations was implemented: 
 <p align="center">
-  <img wight="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Picture1.png">
+  <img wight="400" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Picture1.png">
 </p>
 It realized the two-way data binding function (as username shows), therefore the machine could get the input of users and use it for afterwards routes. Also, it got route and navigation working (show as glacier one and two). 
 In the first web version, the layout and router were optimized with background picture and log-in buttons added and page switching working. Also, the input page was done to get devices and hours: 
