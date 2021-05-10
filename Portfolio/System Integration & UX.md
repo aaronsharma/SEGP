@@ -77,7 +77,7 @@ In the first web version, the layout and router were optimized with background p
 <p align="center">
   <img width="500"  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/1.gif">
 </p>
-In version 2, homepage and routers were optimized and back button was added for better user experience. Also, the device input text box was replaced by eight buttons to avoid possible input error.
+In version 2, homepage and routers were optimized: words about this page and a 'back' button were added for better user experience. In the input page, the input text box of device was replaced by eight buttons to avoid possible input error.
 <p align="center">
   <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/2.gif">
 </p>
@@ -85,7 +85,10 @@ The following gif shows how the input page layout was improved and it was prepar
 <p align="center">
   <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/3.gif">
 </p>
-In final version, the input format was adapted to what back-end needed. More important, it got connect to back-end and showed the bar chart finally.
+<i>
+  Input layout improved
+ </i>
+In final version, the input format was adapted to what back-end needed -- allowing multi-input of device-hours by adding 'save' button. Then a 'back' button was added in case users want to modify their previous input. More important, it got connect to back-end and showed the bar chart finally.
 <p align="center">
   <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/4.gif">
 </p>
