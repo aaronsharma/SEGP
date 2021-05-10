@@ -75,19 +75,19 @@ The initial thought of homepage was a simple but well-functioned one that enable
 It realized the two-way data binding function (as username shows), therefore the machine could get the input of users and use it for afterwards routes. Also, it got route and navigation working (show as glacier one and two). 
 In the first web version, the layout and router were optimized with background picture and log-in buttons added and page switching working. Also, the input page was done to get devices and hours: 
 <p align="center">
-  <img wight="500"  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/1.gif">
+  <img width="500"  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/1.gif">
 </p>
 In version 2, homepage and routers were optimized and back button was added for better user experience. Also, the device input text box was replaced by eight buttons to avoid possible input error.
 <p align="center">
-  <img size=50% src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/2.gif">
+  <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/2.gif">
 </p>
 The following gif shows how the input page layout was improved and it was prepared to get connect to database once it was done: 
 <p align="center">
-  <img wight="500"  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/3.gif">
+  <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/3.gif">
 </p>
 In final version, the input format was adapted to what back-end needed. More important, it got connect to back-end and showed the bar chart finally.
 <p align="center">
-  <img wight="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/4.gif">
+  <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/4.gif">
 </p>
 **C5 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!**
 
