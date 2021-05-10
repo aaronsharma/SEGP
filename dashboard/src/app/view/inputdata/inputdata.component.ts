@@ -96,4 +96,5 @@ export class InputdataComponent implements OnInit {
       this.user=params.name;
     });
   }
+  
 }
