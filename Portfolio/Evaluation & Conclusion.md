@@ -62,11 +62,24 @@ As to management, with a team of four, any top down management style could be co
 The lack of numbers however did hamper the depth we could bring  to bare on these challenging aspects. Ideally with a larger group there would be a chance for more than one person to work on front and back end, thereby creating mini-teams who could discuss and spark ideas off of each other, as well as provide more than one approach to any problem. For us, with no self-identifying coder who could maybe be astride one or more of the technical aspects, this meant that those who undertook roles pretty quickly became the groups de facto expert in those fields. Therefore any other group member, whilst being able to look and work on these aspects, couldn't necessarily bring the same knowledge to the issue. A slightly larger team would have offset this, and maybe helped lessen the pressure that individuals felt working in relative technical (if not actual) isolation. We ended up with specialists when we maybe suffered from a lack of a general practitioner.
 
 
-**E4 Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).**
+**E4 add  Agile to the section above (etc).**
 
-**E5  Reflective discussion of the success of the project. How well did  your project fulfil the brief? Were all of your own objectives met**
+**E5  Reflective discussion of the success of the project.**
 
-**E6  This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)**
+How is success for a project like this measured?  A lot depends on your metric for success. Looking back on this project we became a functioning team, we pushed and developed ideas based on feedback, we improved the look and feel of the design, adapted our algorithms, anticipated user types and user stories, devised ER and no-SQL database schemas. It was a positive, fun experience. Given that none of us had worked together, or even knew each other, before this, we bonded as a team and as friends.
+Looking over the Project Objectives as stated at the start of this project
+
+#### Project Objectives
+- Devise a fun single page app - TICK
+- Create a realistic model of power usage - TICK
+- Develop a database that can manipulate the model - TICK
+- Develop a database that can track the users usage over the long term -TICK
+- Create fun, instant interactive graphics so the user gets instant gratification and feedback -on paper, TICK!
+
+This project pretty much meets all its objectives. Yes the project itself is very much in demo form, and whilst we did develop database schema that would work, we just couldn't hook it up even with the help of uber TA Marceli. Yet we were tantalisingly close, and we had well established plans for development. It shouldn't have taken too much time to have solved these issues. What is certain, is that if we could have met up (an impracticality with one of teh team living with a shielder, and so unable to meet in person indoors - this time of year not being condusive to working outside) we would have achieved all the objectives.
+We were one decent sprint, probably over a couple of days, away from completion. Unfortunately we never managed a sprint of more than a day, due to demands from elsewhere on the course. All of us had required extensions on other coding units (including longer extensions due to extenuating circumstances) and this fed in to the scheduling of this project. A sprint over a couple of days, with no other units requiring our time, would have been ideal. It is maybe the hardest part of applying Agile to university - in the real world we would have been solely focussed on this project.
+Looking at where we have come from, and what we have learned as a team, by our measure we are a success. We modelled, designed, applied, coded and never became so entrenched in a viewpoint that we couldn't pivot or adapt. We may not save the world this time - but with the skillsets we aquired, who isn't to say we won't in the future! 
+
 
 #### Discussion of Social and Ethical implications of your work
 
