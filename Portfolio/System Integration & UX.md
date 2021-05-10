@@ -62,6 +62,8 @@ In order for our users to be able to interact with our website, we required a to
 
 In contrast to the 'classic' LAMP stack, where a Apache HTTP server is used as a webserver, our team decided to implement Node.js, which is a Javascript runtime event model for our backend. With Node.js we were able to build a scalable network application, which can handle concurrent connections. We opted to choose the Express.js  framework for Node.js, as it allowed us to develop a Node.js web application incredibly fast and easily, with the implementation defined in a server.js configuration file in our project.
 
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/express.png">
+
 When it came to linking the front and back-end together the modular nature of Angular and Express made this much simpler than it could have been. Fenner was able to import Shiruo’s User interface and Input-data component into the dashboard with no trouble. Our only issue that took some time to resolve was how we would pass the data between components and how we would send the user input to the database. We ended up using a method in our data service to send a post request to our API which would then save the data to the database.  At the time of writing this is not working but we cannot figure out why. So, for now the Bar-chart shows temporary values to demonstrate how the website would work once this is integrated.
 
 **C4 Front End - Angular. UI implementation (e.g. development of components, like format, navigation and router)**
