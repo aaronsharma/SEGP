@@ -79,7 +79,7 @@ In the first web version, the layout and router were optimized with background p
 </p>
 In version 2, homepage and routers were optimized and back button was added for better user experience. Also, the device input text box was replaced by eight buttons to avoid possible input error.
 <p align="center">
-  <img wight="500"  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/2.gif">
+  <img size=50% src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/2.gif">
 </p>
 The following gif shows how the input page layout was improved and it was prepared to get connect to database once it was done: 
 <p align="center">
