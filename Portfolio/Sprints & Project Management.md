@@ -148,6 +148,28 @@ Where documents needed joint access, as previously mentioned, Google Sheets and 
 For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notifications proved too much.  This lead us to the final system employed, a facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
 
 **D1 Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)**
+When we began the process of developing our web application, we had to gather our bearings and decide on the best course of action. How would we proceed to work? The choice of how we would execute our idea, was between the Waterfall model and the AGILE methodology. The Waterfall model was the first Process Model, its 'USP' is its simplicity, one phase must be completed before the next phase can begin, with no overlapping allowed.
+
+We decided quite quickly that this method would not be for us, as its lack of flexibility and linearity would for us, impair productivity and could lead to a backlog of tasks to be completed at the very end. Therefore, we concluded the most sensible method of production would be following the AGILE manifesto.
+
+  <img src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Agile.png">
+
+
+The AGILE methodology calls for :
+
+1. Individuals and interactions over processes and tools.
+
+2)Working Software over comprehensive documentation.
+
+3)Customer Collaboration over contract negotiation.
+
+4)Responding to Change over following a plan.
+
+Our group believed that the AGILE methodology would allow us to produce the best version of our Web App, due to its integrated testing and reviewing processes,  which run alongside development. This allowed us to change and tweak different aspects of our application alongside development. Had we chosen the Waterfall method, there would have been no room for reiteration as we would not have had a working web app till the end of development.  This flexibility allowed us to constantly tweak and change our ideas until we were pleased with the result. An example of the benefit this re-iterative process allowed us, was that initially our user results were displayed via a Y-axis bar chart; however, during development, we were able to identify that this would not allow us to display the users results quite how we wanted, and so we were able to change this during development to display the users results in the form of an X-axis bar chart.
+
+We implemented the AGILE methodology with the help of the Kanban methodology, which uses a board to track all tasks to be done. Instead of a physical board, our team used a google sheets page, with tasks being listed in a sensible fashion. Members of our team were assigned tasks, the task could either be in two states: to be done, and completed. This methodology relied upon full transparency between members of our real-time work and allowed us to visualize and strategically complete our sprints.
+
+In light of covid, we had to think of the most suitable method to communicate and discuss our project, as we would have no actual time together to collaborate. Our first channel of communication was the standard 'desk' in the SEGP module Microsoft Teams channel. This was a suitable 'hub' for us to come back to for important meetings, however, the formality and lack of flexibility meant we had to find another avenue for communication. We decided upon creating a Discord Server, the benefit of this would be that the Discord Server would be up all day, and any team member could join or leave the 'voice-call' aspect of the server at any time. Any communication deemed to be 'urgent or important would be emailed as well; this would be so that each member would 100% see the message in their emails; whereas some members may not have checked teams or discord that day. This trifecta of communication channels meant that we were able to communicate important bits of information quickly and easily, without sacrificing the ability to have a 'base of operations where we could reconvene and have scheduled team meetings.
 
 **D2 Discussion of team roles (specialisation is ok!). A summary of  individual contributions (note: this is for reference, your team will  all receive the same grade!).**
 #### 5 .Team Roles
@@ -155,7 +177,8 @@ For more immediate interaction, the team initially used Discord as a means for c
 With a small team it was essential that the project was broken down into manageable sections, so a degree of specialisation was required. However, every member had input across the board, because by it's very nature, the project was somewhat holistic with every element feeding off and contributing to, other aspects.
 Broadly speaking however the roles within the teams were:
 
-- **Aaron: role**
+- **Aaron: Creative**
+- Aaron was initially responsible for creating and maintaining the Github respository, aswell as the Discord Server for communciation. During the development phase, this role was shifted to a more creative aspect, with tasks being the initial sketch ups of the UI, the paper prototype production and finally the creation of the logo.
 - **Fenner: Back-end development**
 -Fenner was responsible for getting the dashboard up and running integrating Docker and MongoDB. After this Fenner’s role shifted to merging front and back end with assistance and communication from the front-end developer. Finally to instructing and helping to implement changes to the front-end, that needed to be made to simplify the UI and improve the flow of the site as a whole.
 - **Nathan: Project management**
