@@ -28,9 +28,23 @@ For back-end/Database testing we have included a route at localhost:3000/user wh
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Postman.JPG">
 </p>
 
-**E3 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.**
+#### User acceptance testing
 
-#### 
+Given the Covid restrictions and the time scale, we couldn’t push the app out as far as we would have liked with regards to user testing and acceptance.  
+Amongst those who did try our demo of the app, there was a general positive response, although as previously discussed, this could in part be because of familiarity between the users and the project team.
+
+One bit of feedback that we did manage to address was to do with the layout when inputting power usage. Our original design had a list of devices on the left for the user to select and a box in the middle to input usage, only once each device had been input the Bar-chart/glacier would show on the right. However as remarked by one user this could be made a lot simpler by only showing one device at a time and having the user input their score before moving on to the next device. This way no device gets missed and the screen is less cluttered. This design would also work better for mobile users where horizontal screen space is limited. 
+
+Another interesting aspect that was brought up, was that the initial display of the glacier was confusing.  This was because we used the 20-deviceTotal = result formula so that the glacier could shrink or grow if the user used more or less electricity than the average.  We therefore set the initial state as 0 (20 – 20 which is the average score) which is where the confusion arose as a large power usage would result in the bar chart growing into the negative where in reality you can’t have a negative glacier.
+
+To correct this, we considered changing the equation to previous total +(20-deviceTotal), with the previous total defaulting to a positive integer on the first run, i.e. 20. That would mean that the glacier would start on 20, and then be affected by the users electricity consumption.  
+
+For example Daniel starts on 20, and uses 10 units of power.  His glacier grows by 10 to 30 (20 +(20-10).  Next time Daniel logs in his initial glacier size would then be 30 and depending on his usage would shrink or grow again. Encouraging users to keep coming back and growing their glaciers or to come back with better results and buck the trend of their shrinking glacier. For now however we are still using 20 - device total for our demo, which shows how the result would look if the user score is 8, so the glacier would grow by 12 compared to the average.
+
+Indeed, one of the lecturers was keen on seeing a total transformation over time, and this modification from user feedback fits that bill. Unfortunately, it would need some way of changing scale, and would only apply to users who choose to create an account.  To avoid this confusion over the graphical display for non-account holders, we may have to abandon the graph method entirely (as discussed in future developments).
+
+
+
 
 #### Conclusion
 
