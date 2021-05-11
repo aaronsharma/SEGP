@@ -7,21 +7,41 @@
 
 
 
-\
-\
+
+
 
 
 This is a MSc Computer Science Software Engineering Project for the University of Bristol
 
 
+[1. The Team](#1-the-team)
+
+[2. Introduction](#2-introduction)
+
+[3. Abstract](#3-abstract)
+
+[4. Project Objectives](#4-project-objectives)
+
+[5. Video Package](#5-video-package)
+  a short video demo of our project
+  
+[6. General Background and Motivation](#6-general-background-and-motivation)
+
+#### Additional Chapters:
 
 
-nb: git branches admin logs our meetings etc and git branch ideas contains the ideas we've been examining.  Parts of these will be rolled into this project report
+#### [Background & Research](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Background%20Research.md)
+
+#### [System Integration & UX](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/System%20Integration%20%26%20UX.md)
+
+#### [Sprints & Management](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Sprints%20%26%20Project%20Management.md)
+
+#### [Evaluation & Conclusion](https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Evaluation%20%26%20Conclusion.md)
 
 
-#### TEAM:
+### 1. THE TEAM:
 
-Team (product) name
+Team Glacier View are:
 
 #### ![lego head](https://user-images.githubusercontent.com/61804643/111087464-b9094080-8519-11eb-8fa1-48b680c160bb.jpg) 	<u>Aaron Sharma</u> 
 
@@ -44,7 +64,7 @@ Team (product) name
 
 
 
-#### Introduction 
+### 2. Introduction 
 
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/maincard.JPG">
@@ -52,11 +72,11 @@ Team (product) name
 
 
 
-#### Abstract 
+### 3. Abstract 
 To develop a fun and non-preaching app that engages with the users usage of electricity and gently attempts to nudge the user towards consuming less power.  It should demonstrate that whilst on an individual level these changes are tiny and have very little impact on the user's lifestyle.  However when looked at en masse, the combined numbers of all users can affect some meaningful change.
 
 
-#### Project Objectives
+### 4. Project Objectives
 - Devise a fun single page app
 - Create a realistic model of power usage
 - Develop a database that can manipulate the model
@@ -71,11 +91,11 @@ To develop a fun and non-preaching app that engages with the users usage of elec
 
 
 
-**A1 make Video. Short (1-2min) demo video to explain your system (think Kickstarter)**
+### 5. Video Package
 
   
 
-#### Background and Motivation 
+### 6. General Background and Motivation 
 
 <p align="center">
   <img width="613" height="344" src="https://user-images.githubusercontent.com/61804643/114712132-a6a44180-9d27-11eb-886f-95ca56d90864.png">
