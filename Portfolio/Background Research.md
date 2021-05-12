@@ -1,3 +1,8 @@
+
+## Background & Research
+
+
+
 <p align="center">
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg">
 </p>
@@ -66,8 +71,18 @@ On a scale similar to ours is **Forest** https://www.forestapp.cc/
 Here the focus is less environmental and more about focus.  This is an app that gets you to focus your attention on something you want to do by removing the distraction of your phone.  It does this by starting to grow a tree - if you don't use your phone the tree grows, but it dies if you give in to temptation.  Through the use of virtual coins youcan also donate to reforestation work in the real world.
 Similarly to Forest, Glacier View is using the idea of nudging people's actions towards a positive result.  Their tying it to reworld reforestation is a fantastic further step, and we may well consider some form of tangable rreal world effect too.
 
+#### Relating Our Project To The Problem
 
-**B3 Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a  worthwhile and important problem and clearly articulate the scope and  challenge of the problem.**
+As discussed in the introductory General Background and Motivation here, [Project Report](https://github.com/aaronsharma/SEGP/blob/main/Project%20Report.md) **approximately 40% of global CO2 emissions are emitted from electricity generation and this contributes to the greenhouse effect and therefore, growing global temperatures and loss of the ice sheets.**
+
+It would be sheer chutzpah to claim that our project can solve such a problem, and that is why we have examined the principles behind nudging the public behaviour.  By using the simple and appealing graphic of a growing or shrinking glacier, we can demonstrate the individual effect of each users power consumption, and through that, hopefully make them think about their behaviour.
+
+Remember there are 27.8 million households. If one member of each household drank just 1 less hot drink a day that would be 27.8 million * 0.25kWh = 69500 less kilo watt hours required per day.  Over a year that is  24742000 fewer kWh of elecrity required - or approximately 25 GWh.
+According to this 2012 [report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/267585/Sub-national_electricity_consumption_factsheet_2012.pdf) from the Department of Energy and Climate Change, London annually consumes 40 000 GWh.  So everybody drinking one less cup of tea a day over a year would be the equivalent of powering London for about 6 hours!  That is the scale of the problem.
+
+Of course using renewable energy, better battery design, etc all these elements will bring about a greater change. Yet with the ever increasing sales of gadgets and devices, any impact we can bring on to overall consumer device usage will help.  As we develop our algorithms to responde to the users lifestyle, we may affect greater change.
+What we would like to think is **that having read this report, you will think twice before that next cuppa, you may play on your phone instead of your console, or may go for a walk instead of watching tv for an hour. That is the power of the nudge, that is how we can dream to bring change.**
+
 
 #### The Number Game
 
