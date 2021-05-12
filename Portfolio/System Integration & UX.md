@@ -230,6 +230,11 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
 
 **C10 Wireframes and interaction flow diagrams for final key subsystems.**
 
+<p align="center">
+  <img width="900" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/flowchart.png">
+</p>
+
+
 #### 
 
 
