@@ -191,6 +191,14 @@ Our group believed that the AGILE methodology would allow us to produce the best
 
 We implemented the AGILE methodology with the help of the Kanban methodology, which uses a board to track all tasks to be done. Instead of a physical board, our team used a google sheets page, with tasks being listed in a sensible fashion. Members of our team were assigned tasks, the task could either be in two states: to be done, and completed. This methodology relied upon full transparency between members of our real-time work and allowed us to visualize and strategically complete our sprints.
 
+<p align="center">
+  <img src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/kanban.JPG">
+</p>   
+<p align="center">
+  Picture: example of the Google Sheets Kanban used for the project write up
+</p>
+
+
 In light of covid, we had to think of the most suitable method to communicate and discuss our project, as we would have no actual time together to collaborate. Our first channel of communication was the standard 'desk' in the SEGP module Microsoft Teams channel. This was a suitable 'hub' for us to come back to for important meetings, however, the formality and lack of flexibility meant we had to find another avenue for communication. We decided upon creating a Discord Server, the benefit of this would be that the Discord Server would be up all day, and any team member could join or leave the 'voice-call' aspect of the server at any time. Any communication deemed to be 'urgent or important would be emailed as well; this would be so that each member would 100% see the message in their emails; whereas some members may not have checked teams or discord that day. This trifecta of communication channels meant that we were able to communicate important bits of information quickly and easily, without sacrificing the ability to have a 'base of operations where we could reconvene and have scheduled team meetings.
 
 #### 7. Git Hub
