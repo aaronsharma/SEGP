@@ -1,3 +1,0 @@
-docker image name
-sha256:3a2d1701ef78bbec03d07e5071f3d0d07995381ec584d3ab052f00eee79d8bea - old one
-Successfully built 785ed6dc8dae81ed8d1a1bdbf9f53774781dbf8ef18dfe3051acab20bff8e190 - new one
