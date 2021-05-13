@@ -126,14 +126,12 @@ One way to help limit future damage is to reduce CO2 emissions, and one way to d
 **By creating a glacier that represents the electricty power consumption of the individual users, we will use the artifice of demonstrating either the destruction or growth of the ice to give the user a personal interest in modifying their own behaviour.**
 
 
-Sources:
-Glaciers melting https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting  accessed 13/4/2021
-NASA graphic https://geoawesomeness.com/wp-content/uploads/2016/10/NASA-Arctic-Ice-Cap-Melt.jpg accessed 12/4/2021
-Texas weather  https://www.bbc.co.uk/news/av/world-us-canada-56090016 accessed 14/4/2021
-Coral Extinction   https://www.nationalgeographic.com/science/article/scientists-work-to-save-coral-reefs-climate-change-marine-parks  accessed 10/4/2021
-Reducing Carbon Dioxide Emissions from Electricity Sector Using Smart Electric Grid Applications
-Journal of Engineering
-Abdallah, L.,  El-Shennawy, T.,  Reducing Carbon Dioxide Emissions from Electricity Sector Using Smart Electric Grid Applications, in Journal of Engineering 2013 https://doi.org/10.1155/2013/845051  accessed 12/04/2021
+Sources:<br/>
+Glaciers melting https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting  accessed 13/4/2021<br/>
+NASA graphic https://geoawesomeness.com/wp-content/uploads/2016/10/NASA-Arctic-Ice-Cap-Melt.jpg accessed 12/4/2021<br/>
+Texas weather  https://www.bbc.co.uk/news/av/world-us-canada-56090016 accessed 14/4/2021<br/>
+Coral Extinction   https://www.nationalgeographic.com/science/article/scientists-work-to-save-coral-reefs-climate-change-marine-parks  accessed 10/4/2021<br/>
+Abdallah, L.,  El-Shennawy, T.,  Reducing Carbon Dioxide Emissions from Electricity Sector Using Smart Electric Grid Applications, in Journal of Engineering 2013 <br/>https://doi.org/10.1155/2013/845051  accessed 12/04/2021<br/>
 
 
 
