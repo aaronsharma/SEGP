@@ -93,7 +93,7 @@ To develop a fun and non-preaching app that engages with the users usage of elec
 
 ### 5. Video Package
 
-  
+  https://github.com/aaronsharma/SEGP/blob/shiruo/grp_video.mp4
 
 ### 6. General Background and Motivation 
 
