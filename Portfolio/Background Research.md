@@ -1,5 +1,17 @@
 
 ## Background & Research
+[1. Individual Power Use](#1-individual-power-use) <br/>
+[2. The Nudge Unit](#2-the-nudge-unit)<br/>
+a discussion about changing people's behaviours<br/>
+[3. The Power Game](#3-the-power-game)<br/>
+how power usage is quantitfied<br/>
+[ 4. Gamifying the Environment](#4-gamifying-the-environment)<br/>
+how other companies have developed environmental games<br/>
+[5. Relating Our Project To The Problem](#5-relating-our-project-to-the-problem)<br/>
+the scope of the problem and what we hope to achieve<br/>
+[6. The Number Game](#6-the-number-game)<br/>
+modelling the problem with user examples<br/>
+
 
 
 
@@ -7,10 +19,11 @@
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400575-040a8800-9b9a-11eb-8bef-4da19288ec15.jpg">
 </p>
 
+#### 1. Individual Power Use
 **B1 individual power use**
 
 
-#### The Nudge Unit
+#### 2. The Nudge Unit
 
 When we talk about nudging people towards changing their behaviour we are on firmer ground than may be expected.  The use of psychology and behavioural economics to this end has been an important part of both US and UK politics, favoured by both the Cameron and Obama administrations.
 
@@ -26,7 +39,7 @@ That is the kind of nudge that Glacier View could be a part of.  By slightly nud
 There will of course be early market adopters, e.g. Amazon and its [100,000 electric vehicles](https://www.businessinsider.com/amazon-creating-fleet-of-electric-delivery-vehicles-rivian-2020-2?r=US&IR=T) and plan to be Carbon Neutral by 2040   Change is coming, and it’s about nudging people towards the acceptance of the change.
 One thing is for certain, having looked into this, members of our team are changing their electricity usage.  Just one less coffee a day, adds up over 27 million households.
 
-#### The Power Game
+#### 3. The Power Game
 
 The usage of electricity is typically measured in kilo watt hours (kWh) with energy generation being measured in Megawatt hours (MWh) or even Gigawatt hours.  These units of measurement follow the standard lines of 1 GWh = 1000= MWh, and 1 MWh = 1000 kWh, and 1 kWh = 1000 watts, with watts being the usual measurement at the consumer level.  For context 1 kWh (1000 watts) is the equivalent of boiling a kettle ten times, or watching television for seven hours.*
 
@@ -47,7 +60,7 @@ From general consumption is it of course possible to find highly specific power 
 * Source: https://www.ovoenergy.com/guides/energy-guides/how-much-electricity-does-a-home-use.html
 
 
-#### Gamifying the Environment - Current Games
+#### 4. Gamifying the Environment
 
 Using gamification to carry important environmental messages in fun ways that does not preach to the players is a challenge, and it is useful to see how others have approached this process.  While we will focus on the computer game market it is not the sole provider of environmental game soultions.  It is worth considering the wider games market where board games such as Photosynthesis https://www.blueorangegames.com/index.php/games/photosynthesis  and the STEM educational card game GO Extinct! https://www.flinnsci.com/go-extinct/fb2207/ are well worth looking at and playing.
 
@@ -71,7 +84,7 @@ On a scale similar to ours is **Forest** https://www.forestapp.cc/
 Here the focus is less environmental and more about focus.  This is an app that gets you to focus your attention on something you want to do by removing the distraction of your phone.  It does this by starting to grow a tree - if you don't use your phone the tree grows, but it dies if you give in to temptation.  Through the use of virtual coins youcan also donate to reforestation work in the real world.
 Similarly to Forest, Glacier View is using the idea of nudging people's actions towards a positive result.  Their tying it to reworld reforestation is a fantastic further step, and we may well consider some form of tangable rreal world effect too.
 
-#### Relating Our Project To The Problem
+#### 5. Relating Our Project To The Problem
 
 As discussed in the introductory General Background and Motivation here, [Project Report](https://github.com/aaronsharma/SEGP/blob/main/Project%20Report.md) **approximately 40% of global CO2 emissions are emitted from electricity generation and this contributes to the greenhouse effect and therefore, growing global temperatures and loss of the ice sheets.**
 
@@ -84,7 +97,7 @@ Of course using renewable energy, better battery design, etc all these elements 
 What we would like to think is **that having read this report, you will think twice before that next cuppa, you may play on your phone instead of your console, or may go for a walk instead of watching tv for an hour. That is the power of the nudge, that is how we can dream to bring change.**
 
 
-#### The Number Game
+#### 6. The Number Game
 
 At this point in the development cycle it became apparent that the power usage data for each and every device available to the consumer was both unwieldy and complex.  Finding information sources such as The Power Consumption Database and porting their information into a usable format would, it itself, be a full time project.
 
