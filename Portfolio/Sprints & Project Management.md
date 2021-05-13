@@ -147,45 +147,41 @@ Where documents needed joint access, as previously mentioned, Google Sheets and 
 
 For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notifications proved too much.  This lead us to the final system employed, a facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
 
-**D1 Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)**
 
 
-**D2 Discussion of team roles (specialisation is ok!). A summary of  individual contributions (note: this is for reference, your team will  all receive the same grade!).**
 #### 5 .Team Roles
 
 With a small team it was essential that the project was broken down into manageable sections, so a degree of specialisation was required. However, every member had input across the board, because by it's very nature, the project was somewhat holistic with every element feeding off and contributing to, other aspects.
 Broadly speaking however the roles within the teams were:
 
-- **Aaron: Creative**
-- Aaron was initially responsible for creating and maintaining the Github respository, aswell as the Discord Server for communciation. During the development phase, this role was shifted to a more creative aspect, with tasks being the initial sketch ups of the UI, the paper prototype production and finally the creation of the logo.
-- **Fenner: Back-end development**
--Fenner was responsible for getting the dashboard up and running integrating Docker and MongoDB. After this Fenner’s role shifted to merging front and back end with assistance and communication from the front-end developer. Finally to instructing and helping to implement changes to the front-end, that needed to be made to simplify the UI and improve the flow of the site as a whole.
-- **Nathan: Project management**
-Nathan created the admin and ideas ranches to keep those elements separate from client facing branches. Part of this was an early adoption of a [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt) log. Management mainly consisted on keeping everybody informed of decisions and plans and attempting a schedule.
-He also took lead on research, algorithm design, writing and creating multi-media images/videos etc.
-- **Shiruo: Front-end development**
-Shiruo was responsible for front-end development. The first part was the preliminary design and development of front-end. The second part was modifing the front-end interface and components function according to the requirements of project leader and back-end developer in the middle of project. The final work was to help the combination of front and back end codes.
+- **Aaron: Creative**<br/>
+Aaron was initially responsible for creating and maintaining the Github respository, aswell as the Discord Server for communciation. During the development phase, this role was shifted to a more creative aspect, with tasks being the initial sketch ups of the UI, the paper prototype production and finally the creation of the logo.
+- **Fenner: Back-end development**<br/>
+Fenner was responsible for getting the dashboard up and running integrating Docker and MongoDB. After this Fenner’s role shifted to merging front and back end with assistance and communication from the front-end developer. Finally to instructing and helping to implement changes to the front-end, that needed to be made to simplify the UI and improve the flow of the site as a whole.
+- **Nathan: Project management**<br/>
+Nathan created the admin and ideas ranches to keep those elements separate from client facing branches. Part of this was an early adoption of a [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt) log. Management mainly consisted on keeping everybody informed of decisions and plans and attempting a schedule. He also took lead on research, algorithm design, writing and creating multi-media images, and non Glacier View paper prototypes.
+- **Shiruo: Front-end development**<br/>
+Shiruo was responsible for front-end development. The first part was the preliminary design and development of front-end. The second part was modifing the front-end interface and components function according to the requirements of project leader and back-end developer in the middle of project. The final work was to help the combination of front and back end codes. She planned and executed the project [video package](https://github.com/aaronsharma/SEGP/blob/shiruo/grp_video.mp4).
 
-**D3 Documentation of your sprints, including both high level overview,  timeline, and selected highlights that were critical points in the  project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies  for absence etc)**
 
 #### 6. Working Methods
-**D1 Group working methods used (for instance did your team choose a  particular style of agile? what communication channels did you use?)**
 When we began the process of developing our web application, we had to gather our bearings and decide on the best course of action. How would we proceed to work? The choice of how we would execute our idea, was between the Waterfall model and the AGILE methodology. The Waterfall model was the first Process Model, its 'USP' is its simplicity, one phase must be completed before the next phase can begin, with no overlapping allowed.
 
 We decided quite quickly that this method would not be for us, as its lack of flexibility and linearity would for us, impair productivity and could lead to a backlog of tasks to be completed at the very end. Therefore, we concluded the most sensible method of production would be following the AGILE manifesto.
-
+<p align="center">
   <img src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Agile.png">
+ </p>
 
 
 The AGILE methodology calls for :
 
-1. Individuals and interactions over processes and tools.
+1) Individuals and interactions over processes and tools.
 
-2)Working Software over comprehensive documentation.
+2) Working Software over comprehensive documentation.
 
-3)Customer Collaboration over contract negotiation.
+3) Customer Collaboration over contract negotiation.
 
-4)Responding to Change over following a plan.
+4) Responding to Change over following a plan.
 
 Our group believed that the AGILE methodology would allow us to produce the best version of our Web App, due to its integrated testing and reviewing processes,  which run alongside development. This allowed us to change and tweak different aspects of our application alongside development. Had we chosen the Waterfall method, there would have been no room for reiteration as we would not have had a working web app till the end of development.  This flexibility allowed us to constantly tweak and change our ideas until we were pleased with the result. An example of the benefit this re-iterative process allowed us, was that initially our user results were displayed via a Y-axis bar chart; however, during development, we were able to identify that this would not allow us to display the users results quite how we wanted, and so we were able to change this during development to display the users results in the form of an X-axis bar chart.
 
