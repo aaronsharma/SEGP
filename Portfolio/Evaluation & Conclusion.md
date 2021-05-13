@@ -118,7 +118,9 @@ Of course, we would hope that our lasting social impact would be some reduction 
 
 #### 7. Discussion of future work
 
-**E8 Discussion of future work (in terms of design, development and evaluation)**
+As the future work, the conponents and database could be optimized to improve users’ experience. 
+The first is about the undone tasks: first is the construction of database which contains information of user registration and log-in, by adding user system, it could be a more mature websites. Second is the user log, which should be contained in the user database. It will tell what current user have input and searched, and presen it in the page once someone log in, in this way the user could know if he or she has improved his or her lifestyle and done good for the environment. Third, one part about advice will be added to help the users know what to do and how to help reduce ice melting, for example, if one has been occupied with phones for a long time, the web will ask this user to go outside for a walk.
+As for the evaluation, once the system is imrpoved it should activate button 'registration' and log-in function. After entering the data-fetch page, the page should tell the user's search history, and give advice once new data is input.
 
 
 ## Back to the beginning:
