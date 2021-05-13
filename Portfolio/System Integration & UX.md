@@ -35,7 +35,7 @@
 #### 1. Stack architecture and system design
 
 <p align="center">
-  <img width=700 src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/datachart.png">
+  <img width=850 src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/datachart.png">
   </p>
   <p align="center">
   Picture: Database Schema
