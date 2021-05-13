@@ -20,8 +20,23 @@ modelling the problem with user examples<br/>
 </p>
 
 #### 1. Individual Power Use
-**B1 individual power use**
 
+Given the scale of climate change, and the vast reductions required in greenhouse gas emissions, why focus on the individual?  Can attention to the micro scale be worthwhile?
+
+The answer is a surprising yes.  In a 2011 report for Defra, the Energy Saving Trust observed:
+
+“Domestic energy use in the UK accounts for over a quarter of the total CO2 emissions of the country. We need ...to ensure that the residential sector plays its part in helping to achieve the government’s goals: a 34 per cent reduction in greenhouse gas emissions by 2020; 50 per cent by the mid-2020s; and the ambitious 80 per cent reduction by 2050. We need evidence to assess the potential for the UK’s households to lower their energy usage, discover where the potential for big savings lie, help people save money on energy bills and lead more environmentally friendly lifestyles; but ideally without a material reduction in their comfort or perceived quality of life.” (pages 4 and 5 https://www.energysavingtrust.org.uk/sites/default/files/reports/PoweringthenationreportCO332.pdf ).
+
+That last sentence is the focus of Glacier View – to help people lead more environmentally friendly lifestyles without material reduction.  Our fun little app will try and steer users away from big ticket power usage items.
+The Energy Saving Trust found that people watched television for 6 hours a day – if we can switch just one hour of that viewing to a tablet or mobile screen, we would see a substantial reduction on the micro level.
+
+Our idea will primarily focus on consumer electronics/computing – a field that according to EST report uses one quarter of the domestic power usage.  For now we target that one quarter of one quarter of all Carbon Dioxide emissions.  The app can well be expanded into the whole domestic power consumption area.
+
+Of course it would need many thousands or millions of people to uptake this kind of activity change, for the results to be observed at the macro level.  
+That change will come, and it may be ideas like Glacier View that help nudge the population towards this.
+
+
+Most importantly, it lays bare the magnitude of the task required to ensure UK citizens reduce their energy use and contribute to the emergence of a low-carbon future.
 
 #### 2. The Nudge Unit
 
