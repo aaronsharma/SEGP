@@ -118,7 +118,7 @@ Of course, we would hope that our lasting social impact would be some reduction 
 
 #### 7. Discussion of future work
 
-As the future work, the conponents and database could be optimized to improve users’ experience. 
+In the future work, the conponents and database could be optimized to improve users’ experience. 
 
 The first is about the undone tasks: first is the construction of database which contains information of user registration and log-in, by adding user system, it could be a more mature websites. Second is the user log, which should be contained in the user database. It will tell what current user have input and searched, and presen it in the page once someone log in, in this way the user could know if he or she has improved his or her lifestyle and done good for the environment. Third, one part about advice will be added to help the users know what to do and how to help reduce ice melting, for example, if one has been occupied with phones for a long time, the web will ask this user to go outside for a walk.
 And for further design, the layout could be improved to be equiped with more functions such as enable users to view different glaciers and to be informed with current melting speed of every glacier. Moreover, links of news and videos such as the glaciers' melting trends and common sense of meltin glaciers( how a glacier melts and which part of it melts fastest for example).
