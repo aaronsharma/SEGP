@@ -1,10 +1,38 @@
+## System Integration & UX
+
+#### System Implementation 
+
+[1. Stack architecture and system design](#1-stack-architecture-and-system-design)
+
+[2. MongoDB database implementation and the data model](#2-mongodb-database-implementation-and-the-data-model)
+
+[3. Using Express with Node and the RESTful API](#3-using-express-with-node-and-the-restful-api)
+
+[4. Front End UI implementation with Angular](#4-front-end-ui-implementation-with-angular)
+
+[5. Continuous Integration and Deployment with Docker](#5-continuous-integration-and-deployment-with-docker)
+
+#### UX Design 
+
+[6. Design Process and Early prototyping](#6-design-process-and-early-prototyping)
+
+[7. Paper Prototype Issues](#7-paper-prototype-issues)
+
+[8. Identifying and Understanding Users and Broader Stakeholders](#8-identifying-and-understanding-users-and-broader-stakeholders)
+
+[9. Creating the UX](#9-creating-the-ux)
+
+[10. Wireframes and Interaction Flow Diagrams for Final Key Subsystems](#10-wireframes-and-interaction-flow-diagrams-for-final-key-subsystems)
+
+
+
+<br/>
 <p align="center">
   <img width="474" height="296" src="https://user-images.githubusercontent.com/61804643/114400683-1edcfc80-9b9a-11eb-8a4f-2057cc993592.jpg">
   </p>
 
 
-
-#### System Implementation 
+#### 1. Stack architecture and system design
 
 **C1 Stack architecture and system design (e.g. class diagrams, sequence diagrams).**
 
@@ -23,11 +51,13 @@ A simple database schema.
 
 
 
-**C2 Back End - MongoDB - database implementation, the data model that  you developed your back end from (e.g. entity relationship diagrams).**
 
-#### Our use of MongoDB, database implementation and the data model  
+#### 2. MongoDB database implementation and the data model
+<br/>
+<br/>
 
-/
+
+
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/window.JPG">
   </p>
@@ -46,17 +76,19 @@ A simple database schema.
 We set up a Mongo cluster in the cloud from the Mongo website and linked it to our project using environmental variables to supply username and password. These are not provided in this repo for security reasons. The use of a Mongo cluster in the public cloud (in this case AWS) allows us to manage the database remotely from any browser. Mongo unlike SQL enables us to easily change the model and schemas at any time without much hassle. We have changed our model multiple times during development, ultimately landing on the following. 
 
 We have a **User** schema which contains a username, password (which we will not be using yet but is there for future implementation) a total power usage, which is our custom score based on the user input from the 8 devices and a user score for the 8 devices themselves. In the current prototype we are only making use of the **total power level**. In future the scores for each device can be recorded and used to provide better/more appropriate feedback.
+
 <p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/exampleUserInDb.JPG">
   </p>
   <p align="center">
   Picture: Example of User in Database
 </p>
+
 We also have a schema for **Devices** which contains the device name and power level. We can access this information using the objects ID. This allows us to easily change the devices properties at any time. We can use the objects ID to patch the values similar to how we would update a user’s score once we add user authentication.
 
 Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be uslikely for anyone to exceed 3 washes.
 
-**C3 Middle Tier - Express, Node, the RESTful API**
+#### 3. Using Express with Node and the RESTful API
 
 In order for our users to be able to interact with our website, we required a tool to allow communication between the user and our back-end. This was facilitated with the implementation of a RESTful Appication Program Interface (API). A RESTful API implements a method to allow HTTP requests to access and manipulate data.We deliberated over choosing to use an alternative to the standard RESTful API, with the option of GraphQL looking appealing. The difference between the two being that in the REST architecture, the client issues a http request and data is recieved in the form of a http response. Whereas, GraphQL is a query language, and the client requests data with queries.  However, we felt that the REST architecture provided powerful advantages in the form of simplicity and ease of error handling.
 
@@ -67,7 +99,8 @@ In contrast to the 'classic' LAMP stack, where a Apache HTTP server is used as a
 
 When it came to linking the front and back-end together the modular nature of Angular and Express made this much simpler than it could have been. Fenner was able to import Shiruo’s User interface and Input-data component into the dashboard with no trouble. Our only issue that took some time to resolve was how we would pass the data between components and how we would send the user input to the database. We ended up using a method in our data service to send a post request to our API which would then save the data to the database.  At the time of writing this is not working but we cannot figure out why. So, for now the Bar-chart shows temporary values to demonstrate how the website would work once this is integrated.
 
-**C4 Front End - Angular. UI implementation (e.g. development of components, like format, navigation and router)**
+
+#### 4. Front End UI implementation with Angular
 
 The initial thought of homepage was a simple but well-functioned one that enabled the users to choose to log in or not. And to get start with a web, a extreme simple interface with no decorations was implemented: 
 <p align="center">
@@ -93,9 +126,9 @@ In final version, the input format was adapted to what back-end needed -- allowi
 <p align="center">
   <img width="500" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/4.gif">
 </p>
-**C5 Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!**
 
-#### Deployment details, Docker, continuous integration and deployment
+
+#### 5. Continuous Integration and Deployment with Docker
 
 We used docker to avoid the headaches of getting our application running on everyone’s individual system. This was useful since we were not all running the same operating system. Using a Docker container allows us, with the help of a Dockerfile, to standardize the runtime environment for our app across all our different platforms. Meaning we did not have to worry about everyone having all the necessary dependencies installed to run the app, as the Dockerfile included in the project dashboard takes care of this.
 
@@ -106,7 +139,8 @@ For example, a thinkpad X230 running Ubuntu 18.04 LTS  would constantly use the 
 
 #### UX Design 
 
-- Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
+#### 6. Design Process and Early prototyping
+
 The basic concept of a glacier retreating or expanding depending on the success of the user should be relatively easy to replicate on the computer screen.  The first iteration of the design was determined to be a simple bar graph style graphic.  It would move to the left (i.e. grow) if the user was successful and vice-versa.  It is envisaged that the graph could seemingly animate i.e. redraw itself to display user results over time.
 
 A graph like structure was chosen as it was deemed to be able to demonstrate that all elements of the app were working together.  At it's simplest it could be a single colour graph, but there was scope, as shown below to extend even this simple graphic:
@@ -171,12 +205,12 @@ ii) the main difference between using the app for fun and having an account was 
 This raises further system design questions - do we allow the user to change the date e.g. enter data for yesterday?  Or is it solely one day at a time?
 
 
-#### Paper Prototype Issues
+#### 7. Paper Prototype Issues
 
 It should be noted that Covid had a massive impact on the quantity and quality of tests that could be run.  With the developers limited to their household bubbles there was maybe a lack in the age ranges of people tested.  Further, it is highly unlikely that subjects, knowing the developers personally, would engage in the process without some positive bias.
 Outside of Covid the paper prototypes could have been tested within the wider University campus, as well as within family units - extending the quantity and age ranges quite substantially.  Likewise, testing in public spaces and therefore attracting the greatest possible feedback was unavailable to use.  Whilst the use of social media was considered, the burn out and widespread national apathy created by the various lockdowns meant we negated this idea. 
 
-#### Identifying and Understanding Users and Broader Stakeholders
+#### 8. Identifying and Understanding Users and Broader Stakeholders
 
 The selection process for identifying user groups and creating their stories was fairly robust. With environmental activism prevalent in the news with [Extinction Rebellion](https://www.bbc.co.uk/news/uk-scotland-glasgow-west-56941041), the [HS2 underground occupation](https://news.sky.com/story/hs2-swampys-teenage-son-leaves-euston-tunnels-after-22-days-underground-12220724) and of course [Greta Thunberg](https://en.wikipedia.org/wiki/Greta_Thunberg) we wanted to reach beyond the usual media portrayal, whilst still appealing to those at the frontline of the protests. Not only that but we wanted to make sure that our user stories encompassed a reasonably wide self-identified gender and ethnicity. We also decided to represent an atypical user, who is in no way at all based on any particular popular television presenter!
 We also wanted to represent a wide range of interest, from the environmentally curious to someone who wanted lots of data, from the fun part time user to the full time serious number cruncher.
@@ -187,7 +221,7 @@ As we were limited due to governmnet and universit yrestrictions to how we could
 With our multi-national team, and age ranges, we certainly covered the bases of our user story group, although not as a direct one to one mapping. However we did have feedback to from self-identifying male, female, with a mix of ethnicities and ages.
 
 
-#### Creating the UX
+#### 9. Creating the UX
 
 Once a crude prototype demonstrates that all the elements of the MEAN app are working the user facing aspects will have a major overhaul.  Early concept designs for the landing page and a results page are shown below. 
 
@@ -235,10 +269,7 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
 
 
 
-**C8 UX approach – design heuristics/approach, design methods (design fiction / heuristics)**
-
-
-**C10 Wireframes and interaction flow diagrams for final key subsystems.**
+#### 10. Wireframes and Interaction Flow Diagrams for Final Key Subsystems
 
 <p align="center">
   <img width="700" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/flowchart.png">
