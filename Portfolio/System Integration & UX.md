@@ -34,13 +34,11 @@
 
 #### 1. Stack architecture and system design
 
-**C1 Stack architecture and system design (e.g. class diagrams, sequence diagrams).**
-
 <p align="center">
-  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/possible_schema.JPG">
+  <img width=700 src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/datachart.png">
   </p>
   <p align="center">
-  Picture: Possible Database Schema
+  Picture: Database Schema
 </p>
 
 A simple database schema.
@@ -48,9 +46,6 @@ A simple database schema.
 - for each device entry it's power usage is looked up in the matrix
 - the sum of that usage is added to usage which is fed to the result with the timestamp
 - the result is then used to generate the daily power usage
-
-
-
 
 #### 2. MongoDB database implementation and the data model
 <br/>
