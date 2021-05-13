@@ -1,6 +1,28 @@
-#### Evaluation 
+## Evaluation 
 
-#### Evaluation of designs
+[1. Evaluation of designs](#1-evaluation-of-designs)
+
+[2. Unit testing and Functional testing.](#2-unit-testing-and-functional-testing)
+
+[3. User acceptance testing](#3-user-acceptance-testing)
+
+#### Conclusion
+
+[4. Reflections on Working Practices](#4-reflections-on-working-practices)
+
+[5. Reflective discussion of the success of the project](#5-reflective-discussion-of-the-success-of-the-project)
+
+[6. Discussion of Social and Ethical implications](#6-discussion-of-social-and-ethical-implications)
+
+[7. Discussion of future work](#7-discussion-of-future-work)
+
+
+
+
+
+
+
+#### 1. Evaluation of designs
 
 The design of the app is a constant ongoing process, which has not yet evolved into a final locked version.
 Currently there are two principal points in which the design was evaluated, during paper-prototyping and with user acceptance testing (discussed in more details below). However throughout the entire development cycle, there would be tweaks and changes to the design. Whilst sometimes this took us away from the initial design (e.g. horizontal graph design) that was usually to accommodate faster development which in turn raised more design options and sometimes problems (See user acceptance).
@@ -20,7 +42,7 @@ The User acceptance feedback, as discussed in detail below, in turn brings on ne
 The evaluation itself was on a laptop, so in some respects that technological requirement hampers the value of the process - but if seen as a Beta/additional prototype stage, it was in fact very valuable as it identifies and fixes some core user confusion in the current model.
 
 
-#### Unit testing / Functional testing.
+#### 2. Unit testing and Functional testing
 
 For back-end/Database testing we have included a route at localhost:3000/user where a get request will show all User objects in the database. Using Postman or an alternative piece of software one is also able to add a User by sending a Post request. Using the route /user/:userId where Id is the Id of the specific User object one is able to update, delete or get a specific user using a patch, delete or get request respectively. This was only included to test saving, updating and deleting data in the database and would be removed on full deployment.
 
@@ -28,7 +50,7 @@ For back-end/Database testing we have included a route at localhost:3000/user wh
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Postman.JPG">
 </p>
 
-#### User acceptance testing
+#### 3. User acceptance testing
 
 Given the Covid restrictions and the time scale, we couldn’t push the app out as far as we would have liked with regards to user testing and acceptance. Amongst those who did try our demo of the app, there was a general positive response, although as previously discussed, this could in part be because of familiarity between the users and the project team.
 
@@ -45,9 +67,9 @@ Indeed, one of the lecturers was keen on seeing a total transformation over time
 
 
 
-#### Conclusion
+## Conclusion
 
-#### Reflections on Working Practices
+#### 4. Reflections on Working Practices
 
 From the outset this group has had two fundamental issues, the small size of the team, and its limited technical depth. Saying that however, we feel that we dreamt big, and our aspirations were sized to match.
 
@@ -64,7 +86,7 @@ The lack of numbers however did hamper the depth we could bring  to bare on thes
 
 **E4 add  Agile to the section above (etc).**
 
-**E5  Reflective discussion of the success of the project.**
+#### 5. Reflective discussion of the success of the project
 
 How is success for a project like this measured?  A lot depends on your metric for success. Looking back on this project we became a functioning team, we pushed and developed ideas based on feedback, we improved the look and feel of the design, adapted our algorithms, anticipated user types and user stories, devised ER and no-SQL database schemas. It was a positive, fun experience. Given that none of us had worked together, or even knew each other, before this, we bonded as a team and as friends.
 Looking over the Project Objectives as stated at the start of this project
@@ -81,7 +103,7 @@ We were one decent sprint, probably over a couple of days, away from completion.
 Looking at where we have come from, and what we have learned as a team, by our measure we are a success. We modelled, designed, applied, coded and never became so entrenched in a viewpoint that we couldn't pivot or adapt. We may not save the world this time - but with the skillsets we aquired, who isn't to say we won't in the future! 
 
 
-#### Discussion of Social and Ethical implications of your work
+#### 6. Discussion of Social and Ethical implications
 
 There are few ethical implications or considerations such that a university would apply, to this project.  At its most fundamental level, it would be a single app on a single-user’s computer system, or mobile device etc.
 At the more advanced level there is the option for electricity usage to be tracked over time.  For the user’s benefit this data would be stored on our back-end, however there is no reason not to offer the user the ability to store the information locally.  Of course if they changed devices they would lose their history.
@@ -93,6 +115,8 @@ It may be that **the most ethical implication of our work is born out of the wor
 The strong ethical stance that we follow, should limit any negative impact or social implications.  By being open with the algorithms, our methodology and biases are there to be seen. Our stated aim would be to nudge users into a greener future without a material reduction in their comfort or perceived quality of life.  We hope to do this is a fun, light-hearted way, without any of the lectures or doomsaying associated with the nanny state.
 
 Of course, we would hope that our lasting social impact would be some reduction in our user’s electricity consumption.
+
+#### 7. Discussion of future work
 
 **E8 Discussion of future work (in terms of design, development and evaluation)**
 
