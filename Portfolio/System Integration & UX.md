@@ -61,8 +61,9 @@ Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereb
 In order for our users to be able to interact with our website, we required a tool to allow communication between the user and our back-end. This was facilitated with the implementation of a RESTful Appication Program Interface (API). A RESTful API implements a method to allow HTTP requests to access and manipulate data.We deliberated over choosing to use an alternative to the standard RESTful API, with the option of GraphQL looking appealing. The difference between the two being that in the REST architecture, the client issues a http request and data is recieved in the form of a http response. Whereas, GraphQL is a query language, and the client requests data with queries.  However, we felt that the REST architecture provided powerful advantages in the form of simplicity and ease of error handling.
 
 In contrast to the 'classic' LAMP stack, where a Apache HTTP server is used as a webserver, our team decided to implement Node.js, which is a Javascript runtime event model for our backend. With Node.js we were able to build a scalable network application, which can handle concurrent connections. We opted to choose the Express.js  framework for Node.js, as it allowed us to develop a Node.js web application incredibly fast and easily, with the implementation defined in a server.js configuration file in our project.
-
+<p align="center">
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/express.png">
+  </p>
 
 When it came to linking the front and back-end together the modular nature of Angular and Express made this much simpler than it could have been. Fenner was able to import Shiruo’s User interface and Input-data component into the dashboard with no trouble. Our only issue that took some time to resolve was how we would pass the data between components and how we would send the user input to the database. We ended up using a method in our data service to send a post request to our API which would then save the data to the database.  At the time of writing this is not working but we cannot figure out why. So, for now the Bar-chart shows temporary values to demonstrate how the website would work once this is integrated.
 
@@ -175,6 +176,16 @@ This raises further system design questions - do we allow the user to change the
 It should be noted that Covid had a massive impact on the quantity and quality of tests that could be run.  With the developers limited to their household bubbles there was maybe a lack in the age ranges of people tested.  Further, it is highly unlikely that subjects, knowing the developers personally, would engage in the process without some positive bias.
 Outside of Covid the paper prototypes could have been tested within the wider University campus, as well as within family units - extending the quantity and age ranges quite substantially.  Likewise, testing in public spaces and therefore attracting the greatest possible feedback was unavailable to use.  Whilst the use of social media was considered, the burn out and widespread national apathy created by the various lockdowns meant we negated this idea. 
 
+#### Identifying and Understanding Users and Broader Stakeholders
+
+The selection process for identifying user groups and creating their stories was fairly robust. With environmental activism prevalent in the news with [Extinction Rebellion](https://www.bbc.co.uk/news/uk-scotland-glasgow-west-56941041), the [HS2 underground occupation](https://news.sky.com/story/hs2-swampys-teenage-son-leaves-euston-tunnels-after-22-days-underground-12220724) and of course [Greta Thunberg](https://en.wikipedia.org/wiki/Greta_Thunberg) we wanted to reach beyond the usual media portrayal, whilst still appealing to those at the frontline of the protests. Not only that but we wanted to make sure that our user stories encompassed a reasonably wide self-identified gender and ethnicity. We also decided to represent an atypical user, who is in no way at all based on any particular popular television presenter!
+We also wanted to represent a wide range of interest, from the environmentally curious to someone who wanted lots of data, from the fun part time user to the full time serious number cruncher.
+With all this in mind, we created Hannah, Daniel, Dave and not Jay-Cee.  
+In retrospect it may have been good to have increased the upper range of the user stories, but that would almost certainly have meant extending our research and contacts with the older age groups who are more vulnerable to Covid. A wider gender distribution would have been a priority as well.
+
+As we were limited due to governmnet and universit yrestrictions to how we could approach and interact with others, our broader user group and our understanding of them, was on an informal basis; basically restricted to friends, fa,ily and housemates. As these sort of relationships could already be under some strain, we had users play with the paper-prototypes and comment on the front end design as it occured. We didn't use a formal questionnaire, for the reasons given, and instead had free-ranging conversations that we would then, as a group, discuss on line and at meetings.
+With our multi-national team, and age ranges, we certainly covered the bases of our user story group, although not as a direct one to one mapping. However we did have feedback to from self-identifying male, female, with a mix of ethnicities and ages.
+
 
 #### Creating the UX
 
@@ -222,11 +233,10 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
   now means that someone who uses less than the average eg 10 units gets a result of 20-10 = 10 - the glacier increases.  Someone using more power, e.g. 30 gets a results of 20-30 = -10 and the glacier shrinks.
   
 
-**C7 Identification of interacting users and broader stakeholders.**
+
 
 **C8 UX approach – design heuristics/approach, design methods (design fiction / heuristics)**
 
-**C9 Understanding of user group (questionnaires / user stories / interviews)**
 
 **C10 Wireframes and interaction flow diagrams for final key subsystems.**
 
