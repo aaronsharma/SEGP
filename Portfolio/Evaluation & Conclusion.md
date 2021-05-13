@@ -118,13 +118,31 @@ Of course, we would hope that our lasting social impact would be some reduction 
 
 #### 7. Discussion of future work
 
-In the future work, the conponents and database could be optimized to improve users’ experience. 
+In many ways it could be said that future work in terms of design and evaluation would be about undoing the damage that Covid caused to the project. In both cases it is mostly about getting various iterations out to diverse user groups and getting detailed user feedback.
 
-The first is about the undone tasks: first is the construction of database which contains information of user registration and log-in, by adding user system, it could be a more mature websites. Second is the user log, which should be contained in the user database. It will tell what current user have input and searched, and presen it in the page once someone log in, in this way the user could know if he or she has improved his or her lifestyle and done good for the environment. Third, one part about advice will be added to help the users know what to do and how to help reduce ice melting, for example, if one has been occupied with phones for a long time, the web will ask this user to go outside for a walk.
-And for further design, the layout could be improved to be equiped with more functions such as enable users to view different glaciers and to be informed with current melting speed of every glacier. Moreover, links of news and videos such as the glaciers' melting trends and common sense of meltin glaciers( how a glacier melts and which part of it melts fastest for example).
+In the first instance widening our User stories to include a much broader spectrum of people. Whilst Hannah’s age was never determined, it is obvious that we should look towards young users, maybe even pre-teen. “45 per cent of young Britons aged between 18 and 24 say the environment is the second most pressing issue facing the country at the moment” ( https://www.dazeddigital.com/life-culture/article/44801/1/official-young-people-more-concerned-environment-climate-change ) there is no reason to believe that this concern isn’t felt in younger people too - some 89% of youth respondents say young people can make a difference on climate change. [UNEP, 2008] ( https://unacov.uk/what-is-the-un-doing-about-climate-change/ ).
 
-As for the evaluation, once the system is imrpoved it should activate button 'registration' and log-in function. After entering the data-fetch page, the page should tell the user's search history, and give advice once new data is input.
+Getting design feedback from a much wider, younger age group will help bring focus on the kind of data they require. Maybe the app doesn’t have enough ‘serious fun’ aspects – and maybe mini-games could be introduced – maybe a new generation should be exposed
+<p align="center">
+<img width="700" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/horace_goes_skiing.png">
+</p>
 
+to Horace Goes Skiing – down the glacier the users themselves are creating!
+We would also like to get design and evaluation feedback from older, retired, users. The design may need tweaking to appeal to them, or to enable them to engage with it fully. It may be that we find that younger people want the full range of information available, that is, they are all Dave’s, whereas older people may prefer a simplified combined result – the Daniels in our stories.
+
+It is in broadening out the age range for beta-testers that the design and evaluation of Glacier View will reach its maximum potential.
+
+Future development, whilst contingent on the design and evaluation feedback, has at this stage, some obvious avenues for us to explore.
+
+To begin with the app is a rather crude instrument. We could expand the number of devices that we track, and group them into more meaningful data sets. Within each device type there is, in reality, a wide range of power consumptions. The Energy Saving Trust report demonstrates this, as for example, over a year different television types consume varying amount of power - CRT 118 kWh, LCD – flat screen199kWh and Plasma flat screens 658kWh ( https://www.energysavingtrust.org.uk/sites/default/files/reports/PoweringthenationreportCO332.pdf )
+
+Indeed the next step may well involve using the data and device breakdowns in this report to expand our range and to tighten out algorithms to be more accurate and to give the user a much more indepth report.
+
+A further expansion would be on graphics. For speed of development we looked at using chart.js and the built in graphs that this afforded us. A future development would be to look at creating a more useful, custom designed graphic to display the ebb and flow of the user’s glacier. This could both improve how the data is presented and also improve the fun aspect of the app.
+
+Graphics may also be further enhanced following design and evaluation feedback. It may be that icons representing devices may be easier for some user groups and broaden the appeal. On the other hand that may also limit the amount of devices that could be represented on screen. Certainly for the initial eight devices, this is something that could be looked at.
+
+Finally implementing the ‘not Jay-Cee’ user story, and creating a league/ranking table of users so you can compare your savings or usage over time, would enhance the serious fun aspect of the app, and may well broaden its appeal and longevity.
 
 ## Back to the beginning:
 
