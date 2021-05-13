@@ -137,7 +137,7 @@ Using Docker didn’t come without it’s own issues however. Getting it all wor
 For example, a thinkpad X230 running Ubuntu 18.04 LTS  would constantly use the docker cache, and would need to be forced to rebuild using a system of trashing the caches with either ‘docker system prune –all –volumes’ or ‘docker-compose build –no—cache.’  This could lead to very long rebuild times for team members with limited, e.g. non fibre, broadband connections.  In retrospect using the university lab systems through remote access would have been preferable to solve this problem, as at least the rebuild would have benefited from the university’s connection speeds.
 
 
-#### UX Design 
+## UX Design 
 
 #### 6. Design Process and Early prototyping
 
