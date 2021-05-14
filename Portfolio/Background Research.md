@@ -1,10 +1,11 @@
 
-## Background & Research
+# Background & Research
 [1. Individual Power Use](#1-individual-power-use) <br/>
+research into domestic power consumption
 [2. The Nudge Unit](#2-the-nudge-unit)<br/>
 a discussion about changing people's behaviours<br/>
 [3. The Power Game](#3-the-power-game)<br/>
-how power usage is quantitfied<br/>
+how power usage is quantified<br/>
 [ 4. Gamifying the Environment](#4-gamifying-the-environment)<br/>
 how other companies have developed environmental games<br/>
 [5. Relating Our Project To The Problem](#5-relating-our-project-to-the-problem)<br/>
@@ -23,11 +24,11 @@ modelling the problem with user examples<br/>
 
 Given the scale of climate change, and the vast reductions required in greenhouse gas emissions, why focus on the individual?  Can attention to the micro scale be worthwhile?
 
-The answer is a surprising yes.  In a 2011 report for Defra, the Energy Saving Trust observed:
+The answer is a surprising yes.  In a 2011 report for the Department for Environment,Food & Rural Affairs, the Energy Saving Trust observed:
 
 “Domestic energy use in the UK accounts for over a quarter of the total CO2 emissions of the country. We need ...to ensure that the residential sector plays its part in helping to achieve the government’s goals: a 34 per cent reduction in greenhouse gas emissions by 2020; 50 per cent by the mid-2020s; and the ambitious 80 per cent reduction by 2050. We need evidence to assess the potential for the UK’s households to lower their energy usage, discover where the potential for big savings lie, help people save money on energy bills and lead more environmentally friendly lifestyles; but ideally without a material reduction in their comfort or perceived quality of life.” (pages 4 and 5 https://www.energysavingtrust.org.uk/sites/default/files/reports/PoweringthenationreportCO332.pdf ).
 
-That last sentence is the focus of Glacier View – to help people lead more environmentally friendly lifestyles without material reduction.  Our fun little app will try and steer users away from big ticket power usage items.
+**That last sentence is the focus of Glacier View – to help people lead more environmentally friendly lifestyles without material reduction.**  Our fun little app will try and steer users away from big ticket power usage items.
 The Energy Saving Trust found that people watched television for 6 hours a day – if we can switch just one hour of that viewing to a tablet or mobile screen, we would see a substantial reduction on the micro level.
 
 Our idea will primarily focus on consumer electronics/computing – a field that according to EST report uses one quarter of the domestic power usage.  For now we target that one quarter of one quarter of all Carbon Dioxide emissions.  The app can well be expanded into the whole domestic power consumption area.
@@ -77,7 +78,7 @@ From general consumption is it of course possible to find highly specific power 
 
 #### 4. Gamifying the Environment
 
-Using gamification to carry important environmental messages in fun ways that does not preach to the players is a challenge, and it is useful to see how others have approached this process.  While we will focus on the computer game market it is not the sole provider of environmental game soultions.  It is worth considering the wider games market where board games such as Photosynthesis https://www.blueorangegames.com/index.php/games/photosynthesis  and the STEM educational card game GO Extinct! https://www.flinnsci.com/go-extinct/fb2207/ are well worth looking at and playing.
+Using gamification to carry important environmental messages in fun ways that does not preach to the players is a challenge, and it is useful to see how others have approached this process.  While we will focus on the computer game market it is not the sole provider of environmental game solutions.  It is worth considering the wider games market where board games such as Photosynthesis https://www.blueorangegames.com/index.php/games/photosynthesis  and the STEM educational card game GO Extinct! https://www.flinnsci.com/go-extinct/fb2207/ are well worth looking at and playing.
 
 As ours is a single-page application, we will primarily focus on projects that could be portable to the part of the market we are attempting to reach.  It would be remiss to not mention **Among Ripples**, by Eat Create Sleep https://eatcreatesleep.itch.io/amongripples
 ![among](https://user-images.githubusercontent.com/61804643/114318991-5c447a00-9b07-11eb-9c9d-14dbc62e526a.jpeg)
@@ -97,7 +98,7 @@ At this point in the development cycle, we can not attempt to incorporate such a
 On a scale similar to ours is **Forest** https://www.forestapp.cc/
 ![forest](https://user-images.githubusercontent.com/61804643/114319026-931a9000-9b07-11eb-8d14-6553b3dc52f0.jpg)
 Here the focus is less environmental and more about focus.  This is an app that gets you to focus your attention on something you want to do by removing the distraction of your phone.  It does this by starting to grow a tree - if you don't use your phone the tree grows, but it dies if you give in to temptation.  Through the use of virtual coins youcan also donate to reforestation work in the real world.
-Similarly to Forest, Glacier View is using the idea of nudging people's actions towards a positive result.  Their tying it to reworld reforestation is a fantastic further step, and we may well consider some form of tangable rreal world effect too.
+Similarly to Forest, Glacier View is using the idea of nudging people's actions towards a positive result.  Their tying it to real world reforestation is a fantastic further step, and we may well consider some form of tangible real world effect too.
 
 #### 5. Relating Our Project To The Problem
 
@@ -105,10 +106,10 @@ As discussed in the introductory General Background and Motivation here, [Projec
 
 It would be sheer chutzpah to claim that our project can solve such a problem, and that is why we have examined the principles behind nudging the public behaviour.  By using the simple and appealing graphic of a growing or shrinking glacier, we can demonstrate the individual effect of each users power consumption, and through that, hopefully make them think about their behaviour.
 
-Remember there are 27.8 million households. If one member of each household drank just 1 less hot drink a day that would be 27.8 million * 0.25kWh = 69500 less kilo watt hours required per day.  Over a year that is  24742000 fewer kWh of elecrity required - or approximately 25 GWh.
+Remember there are 27.8 million households. If one member of each household drank just 1 less hot drink a day that would be 27.8 million * 0.25kWh = 69500 less kilo watt hours required per day.  Over a year that is  24742000 fewer kWh of electricity required - or approximately 25 GWh.
 According to this 2012 [report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/267585/Sub-national_electricity_consumption_factsheet_2012.pdf) from the Department of Energy and Climate Change, London annually consumes 40 000 GWh.  So everybody drinking one less cup of tea a day over a year would be the equivalent of powering London for about 6 hours!  That is the scale of the problem.
 
-Of course using renewable energy, better battery design, etc all these elements will bring about a greater change. Yet with the ever increasing sales of gadgets and devices, any impact we can bring on to overall consumer device usage will help.  As we develop our algorithms to responde to the users lifestyle, we may affect greater change.
+Of course using renewable energy, better battery design, etc all these elements will bring about a greater change. Yet with the ever increasing sales of gadgets and devices, any impact we can bring on to overall consumer device usage will help.  As we develop our algorithms to respond to the users lifestyle, we may affect greater change.
 What we would like to think is **that having read this report, you will think twice before that next cuppa, you may play on your phone instead of your console, or may go for a walk instead of watching tv for an hour. That is the power of the nudge, that is how we can dream to bring change.**
 
 
@@ -116,7 +117,7 @@ What we would like to think is **that having read this report, you will think tw
 
 At this point in the development cycle it became apparent that the power usage data for each and every device available to the consumer was both unwieldy and complex.  Finding information sources such as The Power Consumption Database and porting their information into a usable format would, it itself, be a full time project.
 
-On the other end, for the user, having the ability to select almost any device manufacturered would be overwhelming and counter productive.  the end user wants snappy fast feedback, and not having to spend time using drop down menus and the like to find a device.
+On the other end, for the user, having the ability to select almost any device manufactured  would be overwhelming and counter productive.  the end user wants snappy fast feedback, and not having to spend time using drop down menus and the like to find a device.
 
 Whilst we may be able to open the scope up at a later date, it was decided that for this round of development, instead of using device accurate data, we would instead use a relative system of numbers that was average for those particular devices.
 Again, to keep the scope small enough to not overwhelm the user, but complex enough to demonstrate the proof of concept we decided to limit the types of devices (see table below);
