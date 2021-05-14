@@ -83,10 +83,10 @@ At times during the first and second sprint we had issues with the docker system
 As to management, with a team of four, any top down management style could be counter-productive. Instead we tried to built a spirit of comradery and unity by regular meetings, making sure everybody had a say in matters, and by holding sprints at the same time - enabling us to reach out and help one another. It was also possible for each of us to explore elements of the project that we were interested in, whether it be front end, back end, design, algorithms etc.
 The lack of numbers however did hamper the depth we could bring  to bare on these challenging aspects. Ideally with a larger group there would be a chance for more than one person to work on front and back end, thereby creating mini-teams who could discuss and spark ideas off of each other, as well as provide more than one approach to any problem. For us, with no self-identifying coder who could maybe be astride one or more of the technical aspects, this meant that those who undertook roles pretty quickly became the groups de facto expert in those fields. Therefore any other group member, whilst being able to look and work on these aspects, couldn't necessarily bring the same knowledge to the issue. A slightly larger team would have offset this, and maybe helped lessen the pressure that individuals felt working in relative technical (if not actual) isolation. We ended up with specialists when we maybe suffered from a lack of a general practitioner.
 
-Our team also identified the most efficient way to work together; with the utilisation of the Agile methodology for our Software Engineering Group Project. Instead of pipelining the workflow section by section, we decided to tackle the project from all angles. To help us do this, we created a Kanban board inspired to-do list on Google Sheets; this focused our attention due to the benefits gained by visualising the tasks left to do. This allowed us to proceed with increased focus with more efficiency.
-<p align="right">
+
+ur team also identified the most efficient way to work together; with the utilisation of the Agile methodology for our Software Engineering Group Project. Instead of pipelining the workflow section by section, we decided to tackle the project from all angles. To help us do this, we created a Kanban board inspired to-do list on Google Sheets; this focused our attention due to the benefits gained by visualising the tasks left to do. This allowed us to proceed with increased focus with more efficiency.
   <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Agiletodo.png">
-</p>
+
 
 #### 5. Reflective discussion of the success of the project
 
