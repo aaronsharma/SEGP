@@ -85,7 +85,7 @@ The lack of numbers however did hamper the depth we could bring  to bare on thes
 
 
 ur team also identified the most efficient way to work together; with the utilisation of the Agile methodology for our Software Engineering Group Project. Instead of pipelining the workflow section by section, we decided to tackle the project from all angles. To help us do this, we created a Kanban board inspired to-do list on Google Sheets; this focused our attention due to the benefits gained by visualising the tasks left to do. This allowed us to proceed with increased focus with more efficiency.
-  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Agiletodo.png">
+<p align="center"><img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/Agiletodo.png"></p>
 
 
 #### 5. Reflective discussion of the success of the project
