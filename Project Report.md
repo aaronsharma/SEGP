@@ -93,6 +93,10 @@ To develop a fun and non-preaching app that engages with the users usage of elec
 
 ### 5. Video Package
 
+As this is a student project, there is footage in this video that, in the business world, would be licenced.  As we could not afford to do that at this level, we have placed the video within the repo rather than use an embedded link to You Tube or Vimeo etc. Whilst this does make playback more awkward (i.e. you will need to download it to your computer) it does remove the possibility of it being withdrawn for copyright violations from a video service provider.  Should any copyright owner object to this video we shall of course, along with any other copyrighted material, remove it from this project.<br/>
+
+The video may be found here: <br/>
+
   https://github.com/aaronsharma/SEGP/blob/shiruo/grp_video.mp4
 
 ### 6. General Background and Motivation 
@@ -123,7 +127,7 @@ The Arctic is now warming twice as fast than anywhere else on earth. The sea ice
 
 One way to help limit future damage is to reduce CO2 emissions, and one way to do that is to decrease our use of electricity.  That is where Glacier View comes in.
 
-**By creating a glacier that represents the electricty power consumption of the individual users, we will use the artifice of demonstrating either the destruction or growth of the ice to give the user a personal interest in modifying their own behaviour.**
+**By creating a glacier that represents the electricity power consumption of the individual users, we will use the artifice of demonstrating either the destruction or growth of the ice to give the user a personal interest in modifying their own behaviour.**
 
 
 Sources:<br/>
