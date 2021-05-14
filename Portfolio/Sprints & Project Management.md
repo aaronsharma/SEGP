@@ -1,5 +1,5 @@
 
-#### Sprints & Project Management 
+# Sprints & Project Management 
 
 [1. Introduction to Project Management](#1-introduction-to-project-management)
 
@@ -131,7 +131,7 @@ The **final stretch** goal, for someone who likes to consider themselves alpha, 
 </p>   
 This adds the final gamification element - the high (in this case, low) score - which enables users to compare themselves against everybody else.
 
-These stretches would have taken us from a simple daily usage app, to one that tracked usage, offered lifestyle advice, gave greater analysis and breakdown of usage wit henhanced advice, looked at financial aspects and finally allowed you to play against other users.
+These stretches would have taken us from a simple daily usage app, to one that tracked usage, offered lifestyle advice, gave greater analysis and breakdown of usage with enhanced advice, looked at financial aspects and finally allowed you to play against other users.
 
 These extra elements would have been accessible by pressing buttons - so that users not interested in those experiences did not have to see them.
 
@@ -145,7 +145,7 @@ Email was preferable as it was direct and wouldn't involve each team member need
 
 Where documents needed joint access, as previously mentioned, Google Sheets and Docs were used, with the final versions being stored on the repo.
 
-For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notifications proved too much.  This lead us to the final system employed, a facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
+For more immediate interaction, the team initially used Discord as a means for communication.  It has the advantage of working on mobile platforms and informing the user that there was a message. It had also been popular with this years' cohort as a means of quickly disseminating information. Unfortunately this proved to be its downfall, as the daily quantity of notifications proved too much.  This lead us to the final system employed, a Facebook messenger group.  Private and with more manageable notifications this proved to be more successful in getting fast and urgent communications across.
 
 
 
@@ -155,13 +155,13 @@ With a small team it was essential that the project was broken down into managea
 Broadly speaking however the roles within the teams were:
 
 - **Aaron: Creative**<br/>
-Aaron was initially responsible for creating and maintaining the Github respository, aswell as the Discord Server for communciation. During the development phase, this role was shifted to a more creative aspect, with tasks being the initial sketch ups of the UI, the paper prototype production and finally the creation of the logo.
+Aaron was initially responsible for creating and maintaining the Github repository, as well as the Discord Server for communication. During the development phase, this role was shifted to a more creative aspect, with tasks being the initial sketch ups of the UI, the paper prototype production and finally the creation of the logo.
 - **Fenner: Back-end development**<br/>
 Fenner was responsible for getting the dashboard up and running integrating Docker and MongoDB. After this Fenner’s role shifted to merging front and back end with assistance and communication from the front-end developer. Finally to instructing and helping to implement changes to the front-end, that needed to be made to simplify the UI and improve the flow of the site as a whole.
 - **Nathan: Project management**<br/>
 Nathan created the admin and ideas ranches to keep those elements separate from client facing branches. Part of this was an early adoption of a [meetings ](https://github.com/aaronsharma/SEGP/blob/admin/meetingsLog.txt) log. Management mainly consisted on keeping everybody informed of decisions and plans and attempting a schedule. He also took lead on research, algorithm design, writing and creating multi-media images, and non Glacier View paper prototypes.
 - **Shiruo: Front-end development**<br/>
-Shiruo was responsible for front-end development. The first part was the preliminary design and development of front-end. The second part was modifing the front-end interface and components function according to the requirements of project leader and back-end developer in the middle of project. The final work was to help the combination of front and back end codes. She planned and executed the project [video package](https://github.com/aaronsharma/SEGP/blob/shiruo/grp_video.mp4).
+Shiruo was responsible for front-end development. The first part was the preliminary design and development of front-end. The second part was modifying the front-end interface and components function according to the requirements of project leader and back-end developer in the middle of project. The final work was to help the combination of front and back end codes. She planned and executed the project [video package](https://github.com/aaronsharma/SEGP/blob/shiruo/grp_video.mp4).
 
 
 #### 6. Working Methods
