@@ -1,4 +1,4 @@
-## Evaluation 
+# Evaluation 
 
 [1. Evaluation of designs](#1-evaluation-of-designs)
 
@@ -6,7 +6,7 @@
 
 [3. User acceptance testing](#3-user-acceptance-testing)
 
-#### Conclusion
+### Conclusion
 
 [4. Reflections on Working Practices](#4-reflections-on-working-practices)
 
@@ -80,11 +80,9 @@ The impact of Covid has previously been discussed within the Project Management 
 Looking beyond this, the **technological challenge** was also maybe seriously underestimated.  Not so much the coding, or building of the elements, but of cross-compatibility.
 At times during the first and second sprint we had issues with the docker system on the git repo working for some but not others. Indeed this project had a front end designed on Mac, a back end designed on Windows, with Ubuntu also being used by one of the team.  In retrospect this should have been examined beforehand.  One solution that immediately springs to mind is the use of the **Alpine Linux** OS. Given that the taught component of this course had Alpine as the heart of the docker deployment system, and given that we had to install Alpine on a Virtual Machine for the Software Tools Unit - there was an opportunity for everybody to use their VM Alpine to do all the coding on this project.  That should have led to 100% compatibility, which given issues with node.js modules could have given more time on developing the project rather than troubleshooting as to why it was not working.
 
-As to management, with a team of four, any top down management style could be counter-productive. Instead we tried to built a spirit of comradery and unity by regular meetings, making sure everybody had a say in matters, and by holding sprints at the same time - enabling us to reach out and help one another. It was also possible for each of us to explore elements of the project that we were interested in, whether it be front end, back end, design, algorithms etc.
+As to management, with a team of four, any top down management style could be counter-productive. Instead we tried to built a spirit of camaraderie and unity by regular meetings, making sure everybody had a say in matters, and by holding sprints at the same time - enabling us to reach out and help one another. It was also possible for each of us to explore elements of the project that we were interested in, whether it be front end, back end, design, algorithms etc.
 The lack of numbers however did hamper the depth we could bring  to bare on these challenging aspects. Ideally with a larger group there would be a chance for more than one person to work on front and back end, thereby creating mini-teams who could discuss and spark ideas off of each other, as well as provide more than one approach to any problem. For us, with no self-identifying coder who could maybe be astride one or more of the technical aspects, this meant that those who undertook roles pretty quickly became the groups de facto expert in those fields. Therefore any other group member, whilst being able to look and work on these aspects, couldn't necessarily bring the same knowledge to the issue. A slightly larger team would have offset this, and maybe helped lessen the pressure that individuals felt working in relative technical (if not actual) isolation. We ended up with specialists when we maybe suffered from a lack of a general practitioner.
 
-
-**E4 add  Agile to the section above (etc).**
 
 #### 5. Reflective discussion of the success of the project
 
@@ -98,9 +96,9 @@ Looking over the Project Objectives as stated at the start of this project
 - Develop a database that can track the users usage over the long term -TICK
 - Create fun, instant interactive graphics so the user gets instant gratification and feedback -on paper, TICK!
 
-This project pretty much meets all its objectives. Yes the project itself is very much in demo form, and whilst we did develop database schema that would work, we just couldn't hook it up even with the help of uber TA Marceli. Yet we were tantalisingly close, and we had well established plans for development. It shouldn't have taken too much time to have solved these issues. What is certain, is that if we could have met up (an impracticality with one of teh team living with a shielder, and so unable to meet in person indoors - this time of year not being condusive to working outside) we would have achieved all the objectives.
+This project pretty much meets all its objectives. Yes the project itself is very much in demo form, and whilst we did develop database schema that would work, we just couldn't hook it up even with the help of uber TA Marceli. Yet we were tantalisingly close, and we had well established plans for development. It shouldn't have taken too much time to have solved these issues. What is certain, is that if we could have met up (an impracticality with one of the team living with a shielder, and so unable to meet in person indoors - this time of year not being conducive to working outside) we would have achieved all the objectives.
 We were one decent sprint, probably over a couple of days, away from completion. Unfortunately we never managed a sprint of more than a day, due to demands from elsewhere on the course. All of us had required extensions on other coding units (including longer extensions due to extenuating circumstances) and this fed in to the scheduling of this project. A sprint over a couple of days, with no other units requiring our time, would have been ideal. It is maybe the hardest part of applying Agile to university - in the real world we would have been solely focussed on this project.
-Looking at where we have come from, and what we have learned as a team, by our measure we are a success. We modelled, designed, applied, coded and never became so entrenched in a viewpoint that we couldn't pivot or adapt. We may not save the world this time - but with the skillsets we aquired, who isn't to say we won't in the future! 
+Looking at where we have come from, and what we have learned as a team, by our measure we are a success. We modelled, designed, applied, coded and never became so entrenched in a viewpoint that we couldn't pivot or adapt. We may not save the world this time - but with the skill sets we acquired, who isn't to say we won't in the future! 
 
 
 #### 6. Discussion of Social and Ethical implications
@@ -112,7 +110,7 @@ Storing the data with us, however, is perfectly safe.  The account only requires
 It may be, however, that the data could be of use to NGO or governments looking at nudging behaviour.  It may be an area that we could expand into – for example we may be able to demonstrate that our users saved x amount of kWh per year, and look at what kind of nudge messages affected the biggest change in behaviour.  **At this present time, such data collection is not part of our system.**
 
 It may be that **the most ethical implication of our work is born out of the work of Climate Interactive** with their C-Roads open source simulation. Their idea of publishing the algorithms and built in conceptualisations behind the system so that anyone can inspect them, is one that we should emulate.  It would bring inspection to our system, and demonstrate that the nudges employed were of altruistic nature with no other agenda.  Likewise, should we as suggested above, collect the data from users, we would make this abundantly clear in all our documentation. 
-The strong ethical stance that we follow, should limit any negative impact or social implications.  By being open with the algorithms, our methodology and biases are there to be seen. Our stated aim would be to nudge users into a greener future without a material reduction in their comfort or perceived quality of life.  We hope to do this is a fun, light-hearted way, without any of the lectures or doomsaying associated with the nanny state.
+The strong ethical stance that we follow, should limit any negative impact or social implications.  By being open with the algorithms, our methodology and biases are there to be seen. Our stated aim would be to nudge users into a greener future without a material reduction in their comfort or perceived quality of life.  We hope to do this is a fun, light-hearted way, without any of the lectures or doom-saying associated with the nanny state.
 
 Of course, we would hope that our lasting social impact would be some reduction in our user’s electricity consumption.
 
@@ -120,11 +118,11 @@ Of course, we would hope that our lasting social impact would be some reduction 
 
 In many ways it could be said that future work in terms of design and evaluation would be about undoing the damage that Covid caused to the project. In both cases it is mostly about getting various iterations out to diverse user groups and getting detailed user feedback.
 
-In the first instance widening our User stories to include a much broader spectrum of people. Whilst Hannah’s age was never determined, it is obvious that we should look towards young users, maybe even pre-teen. “45 per cent of young Britons aged between 18 and 24 say the environment is the second most pressing issue facing the country at the moment” ( https://www.dazeddigital.com/life-culture/article/44801/1/official-young-people-more-concerned-environment-climate-change ) there is no reason to believe that this concern isn’t felt in younger people too - some 89% of youth respondents say young people can make a difference on climate change. [UNEP, 2008] ( https://unacov.uk/what-is-the-un-doing-about-climate-change/ ).
+In the first instance widening our User stories to include a much broader spectrum of people. Whilst Hannah’s age was never determined, it is obvious that we should look towards young users, maybe even pre-teen. “45 per cent of young Britons aged between 18 and 24 say the environment is the second most pressing issue facing the country at the moment”[dazeddigital.com]( https://www.dazeddigital.com/life-culture/article/44801/1/official-young-people-more-concerned-environment-climate-change ) There is no reason to believe that this concern isn’t felt in younger people too - some 89% of youth respondents say young people can make a difference on climate change. [UNEP, 2008]( https://unacov.uk/what-is-the-un-doing-about-climate-change/ ).
 
 Getting design feedback from a much wider, younger age group will help bring focus on the kind of data they require. Maybe the app doesn’t have enough ‘serious fun’ aspects – and maybe mini-games could be introduced – maybe a new generation should be exposed
 <p align="center">
-<img width="700" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/horace_goes_skiing.png">
+<img height="545" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/horace_goes_skiing.png">
 </p>
 
 to Horace Goes Skiing – down the glacier the users themselves are creating!
@@ -134,9 +132,9 @@ It is in broadening out the age range for beta-testers that the design and evalu
 
 Future development, whilst contingent on the design and evaluation feedback, has at this stage, some obvious avenues for us to explore.
 
-To begin with the app is a rather crude instrument. We could expand the number of devices that we track, and group them into more meaningful data sets. Within each device type there is, in reality, a wide range of power consumptions. The Energy Saving Trust report demonstrates this, as for example, over a year different television types consume varying amount of power - CRT 118 kWh, LCD – flat screen199kWh and Plasma flat screens 658kWh ( https://www.energysavingtrust.org.uk/sites/default/files/reports/PoweringthenationreportCO332.pdf )
+To begin with the app is a rather crude instrument. We could expand the number of devices that we track, and group them into more meaningful data sets. Within each device type there is, in reality, a wide range of power consumptions. The Energy Saving Trust [report]( https://www.energysavingtrust.org.uk/sites/default/files/reports/PoweringthenationreportCO332.pdf ) demonstrates this, as for example, over a year different television types consume varying amount of power - CRT 118 kWh, LCD – flat screen199kWh and Plasma flat screens 658kWh 
 
-Indeed the next step may well involve using the data and device breakdowns in this report to expand our range and to tighten out algorithms to be more accurate and to give the user a much more indepth report.
+Indeed the next step may well involve using the data and device breakdowns in this report to expand our range and to tighten out algorithms to be more accurate and to give the user a much more in-depth report.
 
 A further expansion would be on graphics. For speed of development we looked at using chart.js and the built in graphs that this afforded us. A future development would be to look at creating a more useful, custom designed graphic to display the ebb and flow of the user’s glacier. This could both improve how the data is presented and also improve the fun aspect of the app.
 
