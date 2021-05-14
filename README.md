@@ -1,6 +1,9 @@
 # SEGP - TEAM 16
 Software Engineering Group Project
 ###########################################################
+<p align="center">
+  <img  src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/GLACIER-logo.png">
+</p>
 GLACIER
 
 
