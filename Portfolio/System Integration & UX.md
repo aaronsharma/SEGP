@@ -1,6 +1,6 @@
-## System Integration & UX
+# System Integration & UX
 
-#### System Implementation 
+### System Implementation 
 
 [1. Stack architecture and system design](#1-stack-architecture-and-system-design)
 
@@ -12,7 +12,7 @@
 
 [5. Continuous Integration and Deployment with Docker](#5-continuous-integration-and-deployment-with-docker)
 
-#### UX Design 
+### UX Design 
 
 [6. Design Process and Early prototyping](#6-design-process-and-early-prototyping)
 
@@ -41,7 +41,7 @@
   Picture: Database Schema
 </p>
 
-A simple database schema.
+We started off we the above, simple database schema where:
 - user logs in and enters usage in the front end
 - for each device entry it's power usage is looked up in the matrix
 - the sum of that usage is added to usage which is fed to the result with the timestamp
@@ -81,11 +81,11 @@ We have a **User** schema which contains a username, password (which we will not
 
 We also have a schema for **Devices** which contains the device name and power level. We can access this information using the objects ID. This allows us to easily change the devices properties at any time. We can use the objects ID to patch the values similar to how we would update a user’s score once we add user authentication.
 
-Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be uslikely for anyone to exceed 3 washes.
+Using the Mongoose schemas allowed us to incorporate Mongoose validation, whereby we can set limits to the values that the user can enter. The table above includes this date.  On the whole it is based on 24 hour usage as being the maximum.  For the kettle we settled on 1 drink per hour over 24 hours, which is excessive even by programmer standards.  the washing machine was similarly restricted to 10 washes per day.  It's unlikely that this could be exceeded, due to several factors i) wash cycle often takes 90 minutes anyway, ii) availability of space to dry all this washing and iii) loading/unloading times have to be factored in.  In reality it would be unlikely for anyone to exceed 3 washes in a day.
 
 #### 3. Using Express with Node and the RESTful API
 
-In order for our users to be able to interact with our website, we required a tool to allow communication between the user and our back-end. This was facilitated with the implementation of a RESTful Appication Program Interface (API). A RESTful API implements a method to allow HTTP requests to access and manipulate data.We deliberated over choosing to use an alternative to the standard RESTful API, with the option of GraphQL looking appealing. The difference between the two being that in the REST architecture, the client issues a http request and data is recieved in the form of a http response. Whereas, GraphQL is a query language, and the client requests data with queries.  However, we felt that the REST architecture provided powerful advantages in the form of simplicity and ease of error handling.
+In order for our users to be able to interact with our website, we required a tool to allow communication between the user and our back-end. This was facilitated with the implementation of a RESTful Appication Program Interface (API). A RESTful API implements a method to allow HTTP requests to access and manipulate data. We deliberated over choosing to use an alternative to the standard RESTful API, with the option of GraphQL looking appealing. The difference between the two being that in the REST architecture, the client issues a http request and data is received in the form of a http response. Whereas, GraphQL is a query language, and the client requests data with queries.  However, we felt that the REST architecture provided powerful advantages in the form of simplicity and ease of error handling.
 
 In contrast to the 'classic' LAMP stack, where a Apache HTTP server is used as a webserver, our team decided to implement Node.js, which is a Javascript runtime event model for our backend. With Node.js we were able to build a scalable network application, which can handle concurrent connections. We opted to choose the Express.js  framework for Node.js, as it allowed us to develop a Node.js web application incredibly fast and easily, with the implementation defined in a server.js configuration file in our project.
 <p align="center">
@@ -129,7 +129,7 @@ We used docker to avoid the headaches of getting our application running on ever
 
 Using Docker didn’t come without it’s own issues however. Getting it all working in the first place was very time consuming and this would be an area we would look to improve on in future. We spent a lot of time troubleshooting individual problems which really slowed down our early development, as we could not collaborate fully until everyone was able to run the app on their individual device. In pre-covid times this would have been less of an issue as we could have had meetings in person, and all cooperated around one machine, but this was just not possible for us in early 2021. 
 
-For example, a thinkpad X230 running Ubuntu 18.04 LTS  would constantly use the docker cache, and would need to be forced to rebuild using a system of trashing the caches with either ‘docker system prune –all –volumes’ or ‘docker-compose build –no—cache.’  This could lead to very long rebuild times for team members with limited, e.g. non fibre, broadband connections.  In retrospect using the university lab systems through remote access would have been preferable to solve this problem, as at least the rebuild would have benefited from the university’s connection speeds.
+For example, a Thinkpad X230 running Ubuntu 18.04 LTS  would constantly use the docker cache, and would need to be forced to rebuild using a system of trashing the caches with either ‘docker system prune –all –volumes’ or ‘docker-compose build –no—cache.’  This could lead to very long rebuild times for team members with limited, e.g. non fibre, broadband connections.  In retrospect using the university lab systems through remote access would have been preferable to solve this problem, as at least the rebuild would have benefited from the university’s connection speeds.
 
 
 ## UX Design 
@@ -167,7 +167,7 @@ i) drop down menus were unpopular
 ii) more detailed information gets in the way of the immediacy of the result.  Maybe it could be something you opt in to see
 
 
-Following this feedback a faster, less polished paper prototype was created so we could get results backk quicker with less effort.  It removes the drop down menus and the detailed results screen.  Below are two animated gifs of it in action.  It is intended as a computer screen and the users finger represents a mouse cursor.  It is envisaged that data is entered by a mechanical keyboard.  This prototype does look like a tablet or phone with a sliding screen - however this was designed for filming purposes.  Under Covid restrictions there was a limit to how many people could film and operate the paper prototype.  This sliding mechanism allowed the subject to control the display whilst the developer could film the result.  Note these gifs are extracts from the session
+Following this feedback a faster, less polished paper prototype was created so we could get results back quicker with less effort.  It removes the drop down menus and the detailed results screen.  Below are two animated gifs of it in action.  It is intended as a computer screen and the users finger represents a mouse cursor.  It is envisaged that data is entered by a mechanical keyboard.  This prototype does look like a tablet or phone with a sliding screen - however this was designed for filming purposes.  Under Covid restrictions there was a limit to how many people could film and operate the paper prototype.  This sliding mechanism allowed the subject to control the display whilst the developer could film the result.  Note these gifs are extracts from the session
 
 
 <p align="center">
@@ -212,7 +212,7 @@ We also wanted to represent a wide range of interest, from the environmentally c
 With all this in mind, we created Hannah, Daniel, Dave and not Jay-Cee.  
 In retrospect it may have been good to have increased the upper range of the user stories, but that would almost certainly have meant extending our research and contacts with the older age groups who are more vulnerable to Covid. A wider gender distribution would have been a priority as well.
 
-As we were limited due to governmnet and universit yrestrictions to how we could approach and interact with others, our broader user group and our understanding of them, was on an informal basis; basically restricted to friends, fa,ily and housemates. As these sort of relationships could already be under some strain, we had users play with the paper-prototypes and comment on the front end design as it occured. We didn't use a formal questionnaire, for the reasons given, and instead had free-ranging conversations that we would then, as a group, discuss on line and at meetings.
+As we were limited due to government and university restrictions to how we could approach and interact with others, our broader user group and our understanding of them, was on an informal basis; basically restricted to friends, family and housemates. As these sort of relationships could already be under some strain, we had users play with the paper-prototypes and comment on the front end design as it occurred. We didn't use a formal questionnaire, for the reasons given, and instead had free-ranging conversations that we would then, as a group, discuss on line and at meetings.
 With our multi-national team, and age ranges, we certainly covered the bases of our user story group, although not as a direct one to one mapping. However we did have feedback to from self-identifying male, female, with a mix of ethnicities and ages.
 
 
@@ -250,7 +250,7 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
 </p>
   
   
-  It became apparent that using a bar-chart was a more complicated issue, as it needed to react in the opposite way to that anticapted i.e. a greater device usage value should **shrink** the chart and vice-versa. One solution is to modify the bar-chart so that is has minus figures, allowing it to drop.  Then using the standard 8kWh average equals 20 in our matrix, the algorithm if tweaked thus:
+  It became apparent that using a bar-chart was a more complicated issue, as it needed to react in the opposite way to that anticipated i.e. a greater device usage value should **shrink** the chart and vice-versa. One solution is to modify the bar-chart so that is has minus figures, allowing it to drop.  Then using the standard 8kWh average equals 20 in our matrix, the algorithm if tweaked thus:
  
  <p align="center">
   
@@ -259,7 +259,7 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
   </p>
   
   
-  now means that someone who uses less than the average eg 10 units gets a result of 20-10 = 10 - the glacier increases.  Someone using more power, e.g. 30 gets a results of 20-30 = -10 and the glacier shrinks.
+  Now means that someone who uses less than the average e.g. 10 units gets a result of 20-10 = 10 - the glacier increases.  Someone using more power, e.g. 30 gets a results of 20-30 = -10 and the glacier shrinks.
   
 
 
@@ -269,7 +269,8 @@ Once a crude prototype demonstrates that all the elements of the MEAN app are wo
 <p align="center">
   <img width="700" src="https://github.com/aaronsharma/SEGP/blob/main/Portfolio/Media/flowchart.png">
 </p>
-
+<p align="center">
+  Picture: Key Subsystems in graphic form
 
 #### 
 
