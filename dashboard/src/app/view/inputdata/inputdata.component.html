@@ -1,0 +1,59 @@
+<div class="interface">
+  <div class="bg">
+      <img src="./assets/images/glacierbg.jpeg" width="100%" alt="">
+  </div>
+
+  <div class="nav">
+    <div class="logo">
+      <img class="icon" src="./assets/images/Earth.png" height="90%" alt="">
+      <h1>Glacier View</h1>
+    </div>
+      
+      <h2>Hi,{{user}}</h2>
+  </div>
+
+  <div class="datafetch" >      
+      <div class="showdata">
+          <h3>Device: {{Device}}</h3>
+          <label for="">Hours : </label>
+          <input [(ngModel)]="Hours" placeholder="    number only   " style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="Hours">
+          <div class="btns">
+            <button class="backbtn" (click)="back( )">back</button>
+            <button class="linkDBbtn" (click)="setDeviceUsage( )">save</button>
+          </div>
+          
+          
+      </div>  
+      <div *ngIf="deviceCount==8" class="results">
+        <app-bar-chart  class="chart" alt=""></app-bar-chart>
+      </div>  
+  </div>
+  
+</div>
+
+<style>
+  div>span{
+      margin:10px;
+      padding: 5px 10px;
+      background-color: transparent;
+  }
+</style>
+
+<style>
+  label{
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+</style>
+
+<style>
+  button{
+    font-size: 1.3em;
+    margin: 5px;
+    width: 250px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+</style>

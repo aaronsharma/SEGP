@@ -1,0 +1,4 @@
+{
+	"barChartLabels":["Your Power Usage","Average Power Usage"],
+	"barChartData":[{"data": [12, 0], "label": "Power Usage"}]
+}

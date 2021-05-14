@@ -1,0 +1,101 @@
+.interface{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    position: absolute;
+    width: 1536px;
+    height: 870px;
+    background-color: rgba(201, 102, 226, 0.863);
+    color: rgba(250, 250, 250, 0.863);
+    z-index: -2;
+}
+
+h2{
+    font-size: 1em;
+    color: rgb(236, 215, 238);
+    background-color: transparent;
+}
+h3{
+    font-size: 1.2em;
+    color: rgb(241, 235, 241);
+    background-color: transparent;
+}
+.bg{
+    position: absolute;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: rgb(68, 209, 209);
+    z-index: -1;
+}
+
+.homepagetext{
+    top: 5%;
+    position: relative;
+    width: 500px;
+    text-align: center;
+}
+
+
+.buttons{
+    top: 25%;
+    position: absolute;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.loginbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.backbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.registrationbtn{
+    top:10%;
+    margin: 20px;
+    padding: 5px,10px;
+}
+
+.visitorbtn{
+    top: 10%;
+    margin:20px;
+}
+
+.logincom{
+    top: 10%;
+    position: absolute;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+} 
+
+.un{
+    position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    background:transparent;
+    border: none;
+}
+.pw{
+    top: 2%;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background:transparent;
+    border: none;
+}

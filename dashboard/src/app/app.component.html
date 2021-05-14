@@ -1,0 +1,63 @@
+<!-- <div class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/bar-chart">Glacier view</a>
+        </li>
+    </ul>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div> -->
+
+
+<div class="interface">
+    <div class="bg">
+        <img src="./assets/images/glacierbg.jpeg" width="100%" alt="">
+    </div>
+
+    <div class="homepagetext">
+      <h1>Welcome to Glacier View</h1>
+      <h2 *ngIf="!userchoose">By entering specific device usage, you could know the amount of comsumed electricty. And you can see it as a melting or growing glacier.</h2>
+      <h3 *ngIf="!userchoose">Have Fun!</h3>
+    </div>
+    
+    <div class="buttons">
+      <button *ngIf="!userchoose" class="loginbtn" (click)="clickLogin()">log in to account</button>
+      <button *ngIf="userchoose" class="backbtn" (click)="clickBack()">back</button>
+      <button class="registrationbtn" (click)="clickRegister()">register</button>
+      <button class="visitorbtn" (click)="clickVisitor()">browse as a visitor</button>
+    </div>
+
+    <div *ngIf="userchoose" class="logincom" >
+      
+        <div class="un">
+            <label for="">username: </label>
+            <input style="background-color:transparent; border:3px,rgb(150, 72, 196);color: antiquewhite;" type="text" [(ngModel)]="username">
+        </div>
+        <div class="pw">
+            <label for="">password: </label>
+            <input style="background-color:transparent; border:3px,rgb(150, 72, 196); color: antiquewhite;"type="text" [(ngModel)]="password">
+        </div>
+        <button class="accountbtn" (click)="clickgetData()">log in</button>
+    </div>
+
+    
+</div>
+
+<style>
+  div>span{
+      margin:10px;
+      padding: 5px 10px;
+      background-color: transparent;
+  }
+</style>
+<style>
+  button{
+    font-size: 1.3em;
+    border-radius: 8px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+</style>
+
+<router-outlet></router-outlet>
